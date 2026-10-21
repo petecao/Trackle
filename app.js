@@ -666,7 +666,10 @@
       emojiBoard += rowEmojis.join("") + "\n";
     });
 
-    emojiBoard += "\nPlay at: https://gametora.com/umamusume/racetracks";
+    const playUrl = window.location.origin.includes("localhost") 
+      ? "https://petecao.github.io/Trackle/" 
+      : window.location.href.split("?")[0];
+    emojiBoard += `\nPlay at: ${playUrl}`;
 
     navigator.clipboard.writeText(emojiBoard).then(() => {
       btnShareResult.textContent = "✅ Copied to Clipboard!";
