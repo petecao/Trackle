@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRACKLE — Uma Musume Course & Distance Guesser</title>
+  <meta name="description" content="Guess the secret Uma Musume racetrack + distance course in 6 attempts! Attribute grid game with daily and unlimited practice modes.">
+  <link rel="icon" href="icons/tokyo_thumb.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Confetti Celebration Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Navigation Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-group">
+        <img src="icons/tokyo_thumb.png" alt="Trackle Logo" class="logo-icon" id="header-logo-icon">
+        <div class="logo-text">
+          <h1>TRACKLE</h1>
+          <span class="subtitle">Track & Distance Course Guesser</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Game Type Selector (Course vs Race) -->
+        <div class="game-type-toggle">
+          <button type="button" class="game-type-btn active" id="btn-game-course" title="Guess Track + Distance">
+            <span>🏁</span> Course
+          </button>
+          <button type="button" class="game-type-btn" id="btn-game-race" title="Guess Race Name">
+            <span>🏆</span> Race
+          </button>
+        </div>
+
+        <!-- Daily vs Practice Mode Switcher -->
+        <div class="mode-toggle">
+          <button type="button" class="mode-btn active" id="btn-mode-daily" title="Play today's daily puzzle">
+            <span>📅</span> Daily
+          </button>
+          <button type="button" class="mode-btn" id="btn-mode-practice" title="Play unlimited random rounds">
+            <span>🎲</span> Practice
+          </button>
+        </div>
+
+        <!-- Help Button -->
+        <button type="button" class="icon-btn" id="btn-help" title="How to play">❓</button>
+
+        <!-- Stats Button -->
+        <button type="button" class="icon-btn" id="btn-stats" title="View Statistics">📊</button>
+
+        <!-- Audio Toggle Button -->
+        <button type="button" class="icon-btn" id="btn-sound" title="Toggle Sound">🔊</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Game Content -->
+  <main class="main-content">
+    <!-- Status & Info Banner -->
+    <div class="game-status-banner">
+      <div class="status-badge" id="game-mode-label">
+        <span class="dot"></span>
+        <span id="mode-text">Daily Course</span>
+      </div>
+      <div class="status-counter" id="guess-counter-display">
+        Guess: <span id="current-guess-num">1</span> of <span>6</span>
+      </div>
+    </div>
+
+    <!-- Search Input Section -->
+    <section class="search-section">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="track-input" 
+          placeholder="Search course (e.g. 'Niigata 2000 Outer', 'Hanshin 3200', 'Tokyo 2400', 'Arima')..." 
+          autocomplete="off" 
+          spellcheck="false"
+        >
+        <button type="button" id="submit-guess-btn" class="submit-btn" disabled>
+          Guess <span>↵</span>
+        </button>
+      </div>
+      <!-- Suggestions Dropdown List -->
+      <div class="suggestions-dropdown" id="suggestions-list"></div>
+    </section>
+
+    <!-- Guesses Board (Attribute Grid) -->
+    <section class="board-container">
+      <table class="guess-table" id="guesses-table">
+        <thead>
+          <tr>
+            <th style="width: 22%;">Guessed Course</th>
+            <th style="width: 12%;">Racetrack</th>
+            <th style="width: 11%;">Distance</th>
+            <th style="width: 11%;">Distance Type</th>
+            <th style="width: 9%;">Surface</th>
+            <th style="width: 9%;">Direction</th>
+            <th style="width: 11%;">Late Race</th>
+            <th style="width: 7%;">Corners</th>
+            <th style="width: 10%;">Final Straight</th>
+          </tr>
+        </thead>
+        <tbody id="guesses-tbody">
+          <!-- Rows will be injected by app.js -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Game Over / Win Modal -->
+  <div class="modal-overlay" id="game-over-modal">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="close-game-over-btn">&times;</button>
+      
+      <div class="reveal-header">
+        <h2 class="reveal-status" id="reveal-status-title">Splendid Victory! 🏆</h2>
+        <p class="subtitle" id="reveal-status-sub">You correctly identified the secret course!</p>
+      </div>
+
+      <!-- Mystery Course Spotlight Card -->
+      <div class="reveal-card">
+        <img src="icons/tokyo_icon.png" alt="Mystery Track" class="reveal-badge" id="reveal-track-badge">
+        <div class="reveal-details">
+          <h3 id="reveal-course-name">Tokyo 2400m Turf</h3>
+          <div class="reveal-jp" id="reveal-track-region">Tokyo Racetrack (Kanto)</div>
+          <div class="reveal-tags" id="reveal-course-tags">
+            <!-- Dynamic tags -->
+          </div>
+          <div class="reveal-races" id="reveal-course-races"></div>
+        </div>
+      </div>
+
+      <!-- Official Course Diagram Viewer -->
+      <div class="course-preview-section">
+        <div class="course-preview-title">
+          <span>Official Course Diagram</span>
+          <a href="#" target="_blank" id="gametora-external-link" style="color: var(--color-accent); font-size: 0.8rem; text-decoration: none;">View on GameTora ↗</a>
+        </div>
+        <div class="course-img-wrapper">
+          <img src="" alt="Course Map" id="preview-course-img">
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="modal-actions">
+        <button type="button" class="action-btn btn-primary" id="btn-share-result">
+          📋 Share Result
+        </button>
+        <button type="button" class="action-btn btn-secondary" id="btn-play-again">
+          🎲 Play Practice Mode
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Help / How to Play Modal -->
+  <div class="modal-overlay" id="help-modal">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="close-help-btn">&times;</button>
+      <h2 class="modal-title">How To Play Trackle</h2>
+      
+      <div class="guide-rule">
+        Guess the mystery <strong>Track + Distance Course</strong> (e.g. <em>Niigata 2000m Outer</em> or <em>Hanshin 3200m</em>) in <strong>6 attempts</strong>! Each guess provides color-coded attribute feedback:
+      </div>
+
+      <div class="legend-grid">
+        <div class="legend-item">
+          <div class="legend-sample attr-box exact">GREEN</div>
+          <div><strong>Exact Match!</strong> Exact match on track, distance, distance type, surface, direction, or late race location.</div>
+        </div>
+
+        <div class="legend-item">
+          <div class="legend-sample attr-box partial">YELLOW</div>
+          <div><strong>Close / Partial!</strong> Same region, distance within ±200m, corner count within ±1, final straight within ±35m, or matching late race category (Corner vs Corner, or Straight vs Straight).</div>
+        </div>
+
+        <div class="legend-item">
+          <div class="legend-sample attr-box mismatch">GRAY</div>
+          <div><strong>Mismatch.</strong> Attribute does not match.</div>
+        </div>
+
+        <div class="legend-item">
+          <div class="legend-sample attr-box mismatch" style="font-size: 1.1rem;">⬆️ / ⬇️</div>
+          <div><strong>Direction Arrows:</strong> Indicate if the secret course has a <strong>higher (⬆️)</strong> or <strong>lower (⬇️)</strong> value for Distance, Corner Count, or Final Straight length!</div>
+        </div>
+
+        <div class="legend-item">
+          <div class="legend-sample attr-box exact" style="font-size: 0.72rem;">DIST TYPE</div>
+          <div><strong>Distance Type:</strong> <em>Short</em> (≤1400m), <em>Mile</em> (1401–1800m), <em>Medium</em> (1801–2400m), or <em>Long</em> (≥2401m). Strict Green / Gray only (no yellow).</div>
+        </div>
+
+        <div class="legend-item">
+          <div class="legend-sample attr-box exact" style="font-size: 0.72rem;">TURN</div>
+          <div><strong>Turn (Race Schedule):</strong> Half-month calendar period (e.g. <em>Late December</em>, <em>Early May</em>). <strong>Yellow</strong> means within ±2 turns (1 month). <strong>⬆️ / ⬇️</strong> indicates whether the race is scheduled later or earlier in the calendar year.</div>
+        </div>
+
+        <div class="legend-item">
+          <div class="legend-sample attr-box exact" style="font-size: 0.72rem;">LATE RACE</div>
+          <div><strong>Late Race Start (終盤入り):</strong> The critical 2/3 mark where acceleration skills activate: <strong>C2</strong>, <strong>C3</strong>, <strong>C4</strong>, <strong>Backstretch</strong>, or <strong>Homestretch</strong>. Yellow means both are corners or both are straights; Gray means corner vs straight.</div>
+        </div>
+      </div>
+
+      <div class="guide-rule" style="margin-top: 1.25rem; font-size: 0.85rem; border-top: 1px solid var(--border-subtle); padding-top: 1rem;">
+        🎮 <strong>Daily Mode:</strong> One shared mystery course or race each day!  <br>
+        🎲 <strong>Practice Mode:</strong> Play infinite random courses or races anytime.
+      </div>
+    </div>
+  </div>
+
+  <!-- Statistics Modal -->
+  <div class="modal-overlay" id="stats-modal">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="close-stats-btn">&times;</button>
+      <h2 class="modal-title">Your Game Statistics</h2>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-value" id="stat-played">0</div>
+          <div class="stat-label">Played</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-winrate">0%</div>
+          <div class="stat-label">Win Rate</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-streak">0</div>
+          <div class="stat-label">Current Streak</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="stat-max-streak">0</div>
+          <div class="stat-label">Max Streak</div>
+        </div>
+      </div>
+
+      <div class="distribution-section">
+        <h4>Guess Distribution</h4>
+        <div id="guess-distribution-bars">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="courses_data.js"></script>
+  <script src="races_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

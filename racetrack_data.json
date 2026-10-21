@@ -1,0 +1,1851 @@
+{
+  "source": "https://gametora.com/umamusume/racetracks",
+  "total_racetracks": 17,
+  "total_images_downloaded": 615,
+  "tracks": [
+    {
+      "id": 10001,
+      "name": "Sapporo",
+      "slug": "sapporo",
+      "sublink": "https://gametora.com/umamusume/racetracks/sapporo",
+      "icon_path": "icons/sapporo_icon.png",
+      "thumb_path": "icons/sapporo_thumb.png",
+      "courses": [
+        {
+          "id": 10101,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_1200m_turf_10101_full.png",
+            "tracks/sapporo/sapporo_1200m_turf_10101_simple.png"
+          ]
+        },
+        {
+          "id": 10102,
+          "length": 1500,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_1500m_turf_10102_full.png",
+            "tracks/sapporo/sapporo_1500m_turf_10102_simple.png"
+          ]
+        },
+        {
+          "id": 10103,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_1800m_turf_10103_full.png",
+            "tracks/sapporo/sapporo_1800m_turf_10103_simple.png",
+            "tracks/sapporo/sapporo_1800m_turf_10103_lap1_full.png",
+            "tracks/sapporo/sapporo_1800m_turf_10103_lap1_simple.png",
+            "tracks/sapporo/sapporo_1800m_turf_10103_lap2_full.png",
+            "tracks/sapporo/sapporo_1800m_turf_10103_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10104,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_2000m_turf_10104_full.png",
+            "tracks/sapporo/sapporo_2000m_turf_10104_simple.png",
+            "tracks/sapporo/sapporo_2000m_turf_10104_lap1_full.png",
+            "tracks/sapporo/sapporo_2000m_turf_10104_lap1_simple.png",
+            "tracks/sapporo/sapporo_2000m_turf_10104_lap2_full.png",
+            "tracks/sapporo/sapporo_2000m_turf_10104_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10105,
+          "length": 2600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_2600m_turf_10105_full.png",
+            "tracks/sapporo/sapporo_2600m_turf_10105_simple.png",
+            "tracks/sapporo/sapporo_2600m_turf_10105_lap1_full.png",
+            "tracks/sapporo/sapporo_2600m_turf_10105_lap1_simple.png",
+            "tracks/sapporo/sapporo_2600m_turf_10105_lap2_full.png",
+            "tracks/sapporo/sapporo_2600m_turf_10105_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10106,
+          "length": 1000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_1000m_dirt_10106_full.png",
+            "tracks/sapporo/sapporo_1000m_dirt_10106_simple.png"
+          ]
+        },
+        {
+          "id": 10107,
+          "length": 1700,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_1700m_dirt_10107_full.png",
+            "tracks/sapporo/sapporo_1700m_dirt_10107_simple.png",
+            "tracks/sapporo/sapporo_1700m_dirt_10107_lap1_full.png",
+            "tracks/sapporo/sapporo_1700m_dirt_10107_lap1_simple.png",
+            "tracks/sapporo/sapporo_1700m_dirt_10107_lap2_full.png",
+            "tracks/sapporo/sapporo_1700m_dirt_10107_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10108,
+          "length": 2400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/sapporo/sapporo_2400m_dirt_10108_full.png",
+            "tracks/sapporo/sapporo_2400m_dirt_10108_simple.png",
+            "tracks/sapporo/sapporo_2400m_dirt_10108_lap1_full.png",
+            "tracks/sapporo/sapporo_2400m_dirt_10108_lap1_simple.png",
+            "tracks/sapporo/sapporo_2400m_dirt_10108_lap2_full.png",
+            "tracks/sapporo/sapporo_2400m_dirt_10108_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10002,
+      "name": "Hakodate",
+      "slug": "hakodate",
+      "sublink": "https://gametora.com/umamusume/racetracks/hakodate",
+      "icon_path": "icons/hakodate_icon.png",
+      "thumb_path": "icons/hakodate_thumb.png",
+      "courses": [
+        {
+          "id": 10201,
+          "length": 1000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_1000m_turf_10201_full.png",
+            "tracks/hakodate/hakodate_1000m_turf_10201_simple.png"
+          ]
+        },
+        {
+          "id": 10202,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_1200m_turf_10202_full.png",
+            "tracks/hakodate/hakodate_1200m_turf_10202_simple.png"
+          ]
+        },
+        {
+          "id": 10203,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_1800m_turf_10203_full.png",
+            "tracks/hakodate/hakodate_1800m_turf_10203_simple.png",
+            "tracks/hakodate/hakodate_1800m_turf_10203_lap1_full.png",
+            "tracks/hakodate/hakodate_1800m_turf_10203_lap1_simple.png",
+            "tracks/hakodate/hakodate_1800m_turf_10203_lap2_full.png",
+            "tracks/hakodate/hakodate_1800m_turf_10203_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10204,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_2000m_turf_10204_full.png",
+            "tracks/hakodate/hakodate_2000m_turf_10204_simple.png",
+            "tracks/hakodate/hakodate_2000m_turf_10204_lap1_full.png",
+            "tracks/hakodate/hakodate_2000m_turf_10204_lap1_simple.png",
+            "tracks/hakodate/hakodate_2000m_turf_10204_lap2_full.png",
+            "tracks/hakodate/hakodate_2000m_turf_10204_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10205,
+          "length": 2600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_2600m_turf_10205_full.png",
+            "tracks/hakodate/hakodate_2600m_turf_10205_simple.png",
+            "tracks/hakodate/hakodate_2600m_turf_10205_lap1_full.png",
+            "tracks/hakodate/hakodate_2600m_turf_10205_lap1_simple.png",
+            "tracks/hakodate/hakodate_2600m_turf_10205_lap2_full.png",
+            "tracks/hakodate/hakodate_2600m_turf_10205_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10206,
+          "length": 1000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_1000m_dirt_10206_full.png",
+            "tracks/hakodate/hakodate_1000m_dirt_10206_simple.png"
+          ]
+        },
+        {
+          "id": 10207,
+          "length": 1700,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_1700m_dirt_10207_full.png",
+            "tracks/hakodate/hakodate_1700m_dirt_10207_simple.png",
+            "tracks/hakodate/hakodate_1700m_dirt_10207_lap1_full.png",
+            "tracks/hakodate/hakodate_1700m_dirt_10207_lap1_simple.png",
+            "tracks/hakodate/hakodate_1700m_dirt_10207_lap2_full.png",
+            "tracks/hakodate/hakodate_1700m_dirt_10207_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10208,
+          "length": 2400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/hakodate/hakodate_2400m_dirt_10208_full.png",
+            "tracks/hakodate/hakodate_2400m_dirt_10208_simple.png",
+            "tracks/hakodate/hakodate_2400m_dirt_10208_lap1_full.png",
+            "tracks/hakodate/hakodate_2400m_dirt_10208_lap1_simple.png",
+            "tracks/hakodate/hakodate_2400m_dirt_10208_lap2_full.png",
+            "tracks/hakodate/hakodate_2400m_dirt_10208_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10003,
+      "name": "Niigata",
+      "slug": "niigata",
+      "sublink": "https://gametora.com/umamusume/racetracks/niigata",
+      "icon_path": "icons/niigata_icon.png",
+      "thumb_path": "icons/niigata_thumb.png",
+      "courses": [
+        {
+          "id": 10301,
+          "length": 1000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/niigata/niigata_1000m_turf_10301_full.png",
+            "tracks/niigata/niigata_1000m_turf_10301_simple.png"
+          ]
+        },
+        {
+          "id": 10302,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/niigata/niigata_1200m_turf_inner_10302_full.png",
+            "tracks/niigata/niigata_1200m_turf_inner_10302_simple.png"
+          ]
+        },
+        {
+          "id": 10303,
+          "length": 1400,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/niigata/niigata_1400m_turf_inner_10303_full.png",
+            "tracks/niigata/niigata_1400m_turf_inner_10303_simple.png"
+          ]
+        },
+        {
+          "id": 10304,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/niigata/niigata_1600m_turf_outer_10304_full.png",
+            "tracks/niigata/niigata_1600m_turf_outer_10304_simple.png"
+          ]
+        },
+        {
+          "id": 10305,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/niigata/niigata_1800m_turf_outer_10305_full.png",
+            "tracks/niigata/niigata_1800m_turf_outer_10305_simple.png"
+          ]
+        },
+        {
+          "id": 10306,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/niigata/niigata_2000m_turf_inner_10306_full.png",
+            "tracks/niigata/niigata_2000m_turf_inner_10306_simple.png",
+            "tracks/niigata/niigata_2000m_turf_inner_10306_lap1_full.png",
+            "tracks/niigata/niigata_2000m_turf_inner_10306_lap1_simple.png",
+            "tracks/niigata/niigata_2000m_turf_inner_10306_lap2_full.png",
+            "tracks/niigata/niigata_2000m_turf_inner_10306_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10307,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/niigata/niigata_2000m_turf_outer_10307_full.png",
+            "tracks/niigata/niigata_2000m_turf_outer_10307_simple.png"
+          ]
+        },
+        {
+          "id": 10308,
+          "length": 2200,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/niigata/niigata_2200m_turf_inner_10308_full.png",
+            "tracks/niigata/niigata_2200m_turf_inner_10308_simple.png",
+            "tracks/niigata/niigata_2200m_turf_inner_10308_lap1_full.png",
+            "tracks/niigata/niigata_2200m_turf_inner_10308_lap1_simple.png",
+            "tracks/niigata/niigata_2200m_turf_inner_10308_lap2_full.png",
+            "tracks/niigata/niigata_2200m_turf_inner_10308_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10309,
+          "length": 2400,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/niigata/niigata_2400m_turf_inner_10309_full.png",
+            "tracks/niigata/niigata_2400m_turf_inner_10309_simple.png",
+            "tracks/niigata/niigata_2400m_turf_inner_10309_lap1_full.png",
+            "tracks/niigata/niigata_2400m_turf_inner_10309_lap1_simple.png",
+            "tracks/niigata/niigata_2400m_turf_inner_10309_lap2_full.png",
+            "tracks/niigata/niigata_2400m_turf_inner_10309_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10310,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/niigata/niigata_1200m_dirt_10310_full.png",
+            "tracks/niigata/niigata_1200m_dirt_10310_simple.png"
+          ]
+        },
+        {
+          "id": 10311,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/niigata/niigata_1800m_dirt_10311_full.png",
+            "tracks/niigata/niigata_1800m_dirt_10311_simple.png",
+            "tracks/niigata/niigata_1800m_dirt_10311_lap1_full.png",
+            "tracks/niigata/niigata_1800m_dirt_10311_lap1_simple.png",
+            "tracks/niigata/niigata_1800m_dirt_10311_lap2_full.png",
+            "tracks/niigata/niigata_1800m_dirt_10311_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10312,
+          "length": 2500,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/niigata/niigata_2500m_dirt_10312_full.png",
+            "tracks/niigata/niigata_2500m_dirt_10312_simple.png",
+            "tracks/niigata/niigata_2500m_dirt_10312_lap1_full.png",
+            "tracks/niigata/niigata_2500m_dirt_10312_lap1_simple.png",
+            "tracks/niigata/niigata_2500m_dirt_10312_lap2_full.png",
+            "tracks/niigata/niigata_2500m_dirt_10312_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "name": "Fukushima",
+      "slug": "fukushima",
+      "sublink": "https://gametora.com/umamusume/racetracks/fukushima",
+      "icon_path": "icons/fukushima_icon.png",
+      "thumb_path": "icons/fukushima_thumb.png",
+      "courses": [
+        {
+          "id": 10401,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/fukushima/fukushima_1200m_turf_10401_full.png",
+            "tracks/fukushima/fukushima_1200m_turf_10401_simple.png"
+          ]
+        },
+        {
+          "id": 10402,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/fukushima/fukushima_1800m_turf_10402_full.png",
+            "tracks/fukushima/fukushima_1800m_turf_10402_simple.png",
+            "tracks/fukushima/fukushima_1800m_turf_10402_lap1_full.png",
+            "tracks/fukushima/fukushima_1800m_turf_10402_lap1_simple.png",
+            "tracks/fukushima/fukushima_1800m_turf_10402_lap2_full.png",
+            "tracks/fukushima/fukushima_1800m_turf_10402_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10403,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/fukushima/fukushima_2000m_turf_10403_full.png",
+            "tracks/fukushima/fukushima_2000m_turf_10403_simple.png",
+            "tracks/fukushima/fukushima_2000m_turf_10403_lap1_full.png",
+            "tracks/fukushima/fukushima_2000m_turf_10403_lap1_simple.png",
+            "tracks/fukushima/fukushima_2000m_turf_10403_lap2_full.png",
+            "tracks/fukushima/fukushima_2000m_turf_10403_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10404,
+          "length": 2600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/fukushima/fukushima_2600m_turf_10404_full.png",
+            "tracks/fukushima/fukushima_2600m_turf_10404_simple.png",
+            "tracks/fukushima/fukushima_2600m_turf_10404_lap1_full.png",
+            "tracks/fukushima/fukushima_2600m_turf_10404_lap1_simple.png",
+            "tracks/fukushima/fukushima_2600m_turf_10404_lap2_full.png",
+            "tracks/fukushima/fukushima_2600m_turf_10404_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10405,
+          "length": 1150,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/fukushima/fukushima_1150m_dirt_10405_full.png",
+            "tracks/fukushima/fukushima_1150m_dirt_10405_simple.png"
+          ]
+        },
+        {
+          "id": 10406,
+          "length": 1700,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/fukushima/fukushima_1700m_dirt_10406_full.png",
+            "tracks/fukushima/fukushima_1700m_dirt_10406_simple.png",
+            "tracks/fukushima/fukushima_1700m_dirt_10406_lap1_full.png",
+            "tracks/fukushima/fukushima_1700m_dirt_10406_lap1_simple.png",
+            "tracks/fukushima/fukushima_1700m_dirt_10406_lap2_full.png",
+            "tracks/fukushima/fukushima_1700m_dirt_10406_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10407,
+          "length": 2400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/fukushima/fukushima_2400m_dirt_10407_full.png",
+            "tracks/fukushima/fukushima_2400m_dirt_10407_simple.png",
+            "tracks/fukushima/fukushima_2400m_dirt_10407_lap1_full.png",
+            "tracks/fukushima/fukushima_2400m_dirt_10407_lap1_simple.png",
+            "tracks/fukushima/fukushima_2400m_dirt_10407_lap2_full.png",
+            "tracks/fukushima/fukushima_2400m_dirt_10407_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10005,
+      "name": "Nakayama",
+      "slug": "nakayama",
+      "sublink": "https://gametora.com/umamusume/racetracks/nakayama",
+      "icon_path": "icons/nakayama_icon.png",
+      "thumb_path": "icons/nakayama_thumb.png",
+      "courses": [
+        {
+          "id": 10501,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/nakayama/nakayama_1200m_turf_outer_10501_full.png",
+            "tracks/nakayama/nakayama_1200m_turf_outer_10501_simple.png"
+          ]
+        },
+        {
+          "id": 10502,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/nakayama/nakayama_1600m_turf_outer_10502_full.png",
+            "tracks/nakayama/nakayama_1600m_turf_outer_10502_simple.png"
+          ]
+        },
+        {
+          "id": 10503,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/nakayama/nakayama_1800m_turf_inner_10503_full.png",
+            "tracks/nakayama/nakayama_1800m_turf_inner_10503_simple.png",
+            "tracks/nakayama/nakayama_1800m_turf_inner_10503_lap1_full.png",
+            "tracks/nakayama/nakayama_1800m_turf_inner_10503_lap1_simple.png",
+            "tracks/nakayama/nakayama_1800m_turf_inner_10503_lap2_full.png",
+            "tracks/nakayama/nakayama_1800m_turf_inner_10503_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10504,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/nakayama/nakayama_2000m_turf_inner_10504_full.png",
+            "tracks/nakayama/nakayama_2000m_turf_inner_10504_simple.png",
+            "tracks/nakayama/nakayama_2000m_turf_inner_10504_lap1_full.png",
+            "tracks/nakayama/nakayama_2000m_turf_inner_10504_lap1_simple.png",
+            "tracks/nakayama/nakayama_2000m_turf_inner_10504_lap2_full.png",
+            "tracks/nakayama/nakayama_2000m_turf_inner_10504_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10505,
+          "length": 2200,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/nakayama/nakayama_2200m_turf_outer_10505_full.png",
+            "tracks/nakayama/nakayama_2200m_turf_outer_10505_simple.png",
+            "tracks/nakayama/nakayama_2200m_turf_outer_10505_lap1_full.png",
+            "tracks/nakayama/nakayama_2200m_turf_outer_10505_lap1_simple.png",
+            "tracks/nakayama/nakayama_2200m_turf_outer_10505_lap2_full.png",
+            "tracks/nakayama/nakayama_2200m_turf_outer_10505_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10506,
+          "length": 2500,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/nakayama/nakayama_2500m_turf_inner_10506_full.png",
+            "tracks/nakayama/nakayama_2500m_turf_inner_10506_simple.png",
+            "tracks/nakayama/nakayama_2500m_turf_inner_10506_lap1_full.png",
+            "tracks/nakayama/nakayama_2500m_turf_inner_10506_lap1_simple.png",
+            "tracks/nakayama/nakayama_2500m_turf_inner_10506_lap2_full.png",
+            "tracks/nakayama/nakayama_2500m_turf_inner_10506_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10507,
+          "length": 3600,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_full.png",
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_simple.png",
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_lap1_full.png",
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_lap1_simple.png",
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_lap2_full.png",
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_lap2_simple.png",
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_lap3_full.png",
+            "tracks/nakayama/nakayama_3600m_turf_inner_10507_lap3_simple.png"
+          ]
+        },
+        {
+          "id": 10508,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/nakayama/nakayama_1200m_dirt_10508_full.png",
+            "tracks/nakayama/nakayama_1200m_dirt_10508_simple.png"
+          ]
+        },
+        {
+          "id": 10509,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/nakayama/nakayama_1800m_dirt_10509_full.png",
+            "tracks/nakayama/nakayama_1800m_dirt_10509_simple.png",
+            "tracks/nakayama/nakayama_1800m_dirt_10509_lap1_full.png",
+            "tracks/nakayama/nakayama_1800m_dirt_10509_lap1_simple.png",
+            "tracks/nakayama/nakayama_1800m_dirt_10509_lap2_full.png",
+            "tracks/nakayama/nakayama_1800m_dirt_10509_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10510,
+          "length": 2400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/nakayama/nakayama_2400m_dirt_10510_full.png",
+            "tracks/nakayama/nakayama_2400m_dirt_10510_simple.png",
+            "tracks/nakayama/nakayama_2400m_dirt_10510_lap1_full.png",
+            "tracks/nakayama/nakayama_2400m_dirt_10510_lap1_simple.png",
+            "tracks/nakayama/nakayama_2400m_dirt_10510_lap2_full.png",
+            "tracks/nakayama/nakayama_2400m_dirt_10510_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10511,
+          "length": 2500,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/nakayama/nakayama_2500m_dirt_10511_full.png",
+            "tracks/nakayama/nakayama_2500m_dirt_10511_simple.png",
+            "tracks/nakayama/nakayama_2500m_dirt_10511_lap1_full.png",
+            "tracks/nakayama/nakayama_2500m_dirt_10511_lap1_simple.png",
+            "tracks/nakayama/nakayama_2500m_dirt_10511_lap2_full.png",
+            "tracks/nakayama/nakayama_2500m_dirt_10511_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "name": "Tokyo",
+      "slug": "tokyo",
+      "sublink": "https://gametora.com/umamusume/racetracks/tokyo",
+      "icon_path": "icons/tokyo_icon.png",
+      "thumb_path": "icons/tokyo_thumb.png",
+      "courses": [
+        {
+          "id": 10601,
+          "length": 1400,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_1400m_turf_10601_full.png",
+            "tracks/tokyo/tokyo_1400m_turf_10601_simple.png"
+          ]
+        },
+        {
+          "id": 10602,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_1600m_turf_10602_full.png",
+            "tracks/tokyo/tokyo_1600m_turf_10602_simple.png"
+          ]
+        },
+        {
+          "id": 10603,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_1800m_turf_10603_full.png",
+            "tracks/tokyo/tokyo_1800m_turf_10603_simple.png"
+          ]
+        },
+        {
+          "id": 10604,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_2000m_turf_10604_full.png",
+            "tracks/tokyo/tokyo_2000m_turf_10604_simple.png"
+          ]
+        },
+        {
+          "id": 10605,
+          "length": 2300,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_2300m_turf_10605_full.png",
+            "tracks/tokyo/tokyo_2300m_turf_10605_simple.png",
+            "tracks/tokyo/tokyo_2300m_turf_10605_lap1_full.png",
+            "tracks/tokyo/tokyo_2300m_turf_10605_lap1_simple.png",
+            "tracks/tokyo/tokyo_2300m_turf_10605_lap2_full.png",
+            "tracks/tokyo/tokyo_2300m_turf_10605_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10606,
+          "length": 2400,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_2400m_turf_10606_full.png",
+            "tracks/tokyo/tokyo_2400m_turf_10606_simple.png",
+            "tracks/tokyo/tokyo_2400m_turf_10606_lap1_full.png",
+            "tracks/tokyo/tokyo_2400m_turf_10606_lap1_simple.png",
+            "tracks/tokyo/tokyo_2400m_turf_10606_lap2_full.png",
+            "tracks/tokyo/tokyo_2400m_turf_10606_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10607,
+          "length": 2500,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_2500m_turf_10607_full.png",
+            "tracks/tokyo/tokyo_2500m_turf_10607_simple.png",
+            "tracks/tokyo/tokyo_2500m_turf_10607_lap1_full.png",
+            "tracks/tokyo/tokyo_2500m_turf_10607_lap1_simple.png",
+            "tracks/tokyo/tokyo_2500m_turf_10607_lap2_full.png",
+            "tracks/tokyo/tokyo_2500m_turf_10607_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10608,
+          "length": 3400,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_3400m_turf_10608_full.png",
+            "tracks/tokyo/tokyo_3400m_turf_10608_simple.png",
+            "tracks/tokyo/tokyo_3400m_turf_10608_lap1_full.png",
+            "tracks/tokyo/tokyo_3400m_turf_10608_lap1_simple.png",
+            "tracks/tokyo/tokyo_3400m_turf_10608_lap2_full.png",
+            "tracks/tokyo/tokyo_3400m_turf_10608_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10609,
+          "length": 1300,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_1300m_dirt_10609_full.png",
+            "tracks/tokyo/tokyo_1300m_dirt_10609_simple.png"
+          ]
+        },
+        {
+          "id": 10610,
+          "length": 1400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_1400m_dirt_10610_full.png",
+            "tracks/tokyo/tokyo_1400m_dirt_10610_simple.png"
+          ]
+        },
+        {
+          "id": 10611,
+          "length": 1600,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_1600m_dirt_10611_full.png",
+            "tracks/tokyo/tokyo_1600m_dirt_10611_simple.png"
+          ]
+        },
+        {
+          "id": 10612,
+          "length": 2100,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_2100m_dirt_10612_full.png",
+            "tracks/tokyo/tokyo_2100m_dirt_10612_simple.png",
+            "tracks/tokyo/tokyo_2100m_dirt_10612_lap1_full.png",
+            "tracks/tokyo/tokyo_2100m_dirt_10612_lap1_simple.png",
+            "tracks/tokyo/tokyo_2100m_dirt_10612_lap2_full.png",
+            "tracks/tokyo/tokyo_2100m_dirt_10612_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10613,
+          "length": 2400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/tokyo/tokyo_2400m_dirt_10613_full.png",
+            "tracks/tokyo/tokyo_2400m_dirt_10613_simple.png",
+            "tracks/tokyo/tokyo_2400m_dirt_10613_lap1_full.png",
+            "tracks/tokyo/tokyo_2400m_dirt_10613_lap1_simple.png",
+            "tracks/tokyo/tokyo_2400m_dirt_10613_lap2_full.png",
+            "tracks/tokyo/tokyo_2400m_dirt_10613_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "name": "Chukyo",
+      "slug": "chukyo",
+      "sublink": "https://gametora.com/umamusume/racetracks/chukyo",
+      "icon_path": "icons/chukyo_icon.png",
+      "thumb_path": "icons/chukyo_thumb.png",
+      "courses": [
+        {
+          "id": 10701,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_1200m_turf_10701_full.png",
+            "tracks/chukyo/chukyo_1200m_turf_10701_simple.png"
+          ]
+        },
+        {
+          "id": 10702,
+          "length": 1400,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_1400m_turf_10702_full.png",
+            "tracks/chukyo/chukyo_1400m_turf_10702_simple.png"
+          ]
+        },
+        {
+          "id": 10703,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_1600m_turf_10703_full.png",
+            "tracks/chukyo/chukyo_1600m_turf_10703_simple.png"
+          ]
+        },
+        {
+          "id": 10704,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_2000m_turf_10704_full.png",
+            "tracks/chukyo/chukyo_2000m_turf_10704_simple.png",
+            "tracks/chukyo/chukyo_2000m_turf_10704_lap1_full.png",
+            "tracks/chukyo/chukyo_2000m_turf_10704_lap1_simple.png",
+            "tracks/chukyo/chukyo_2000m_turf_10704_lap2_full.png",
+            "tracks/chukyo/chukyo_2000m_turf_10704_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10705,
+          "length": 2200,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_2200m_turf_10705_full.png",
+            "tracks/chukyo/chukyo_2200m_turf_10705_simple.png",
+            "tracks/chukyo/chukyo_2200m_turf_10705_lap1_full.png",
+            "tracks/chukyo/chukyo_2200m_turf_10705_lap1_simple.png",
+            "tracks/chukyo/chukyo_2200m_turf_10705_lap2_full.png",
+            "tracks/chukyo/chukyo_2200m_turf_10705_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10706,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_1200m_dirt_10706_full.png",
+            "tracks/chukyo/chukyo_1200m_dirt_10706_simple.png"
+          ]
+        },
+        {
+          "id": 10707,
+          "length": 1400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_1400m_dirt_10707_full.png",
+            "tracks/chukyo/chukyo_1400m_dirt_10707_simple.png"
+          ]
+        },
+        {
+          "id": 10708,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_1800m_dirt_10708_full.png",
+            "tracks/chukyo/chukyo_1800m_dirt_10708_simple.png",
+            "tracks/chukyo/chukyo_1800m_dirt_10708_lap1_full.png",
+            "tracks/chukyo/chukyo_1800m_dirt_10708_lap1_simple.png",
+            "tracks/chukyo/chukyo_1800m_dirt_10708_lap2_full.png",
+            "tracks/chukyo/chukyo_1800m_dirt_10708_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10709,
+          "length": 1900,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/chukyo/chukyo_1900m_dirt_10709_full.png",
+            "tracks/chukyo/chukyo_1900m_dirt_10709_simple.png",
+            "tracks/chukyo/chukyo_1900m_dirt_10709_lap1_full.png",
+            "tracks/chukyo/chukyo_1900m_dirt_10709_lap1_simple.png",
+            "tracks/chukyo/chukyo_1900m_dirt_10709_lap2_full.png",
+            "tracks/chukyo/chukyo_1900m_dirt_10709_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10008,
+      "name": "Kyoto",
+      "slug": "kyoto",
+      "sublink": "https://gametora.com/umamusume/racetracks/kyoto",
+      "icon_path": "icons/kyoto_icon.png",
+      "thumb_path": "icons/kyoto_thumb.png",
+      "courses": [
+        {
+          "id": 10801,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/kyoto/kyoto_1200m_turf_inner_10801_full.png",
+            "tracks/kyoto/kyoto_1200m_turf_inner_10801_simple.png"
+          ]
+        },
+        {
+          "id": 10802,
+          "length": 1400,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/kyoto/kyoto_1400m_turf_inner_10802_full.png",
+            "tracks/kyoto/kyoto_1400m_turf_inner_10802_simple.png"
+          ]
+        },
+        {
+          "id": 10803,
+          "length": 1400,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/kyoto/kyoto_1400m_turf_outer_10803_full.png",
+            "tracks/kyoto/kyoto_1400m_turf_outer_10803_simple.png"
+          ]
+        },
+        {
+          "id": 10804,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/kyoto/kyoto_1600m_turf_inner_10804_full.png",
+            "tracks/kyoto/kyoto_1600m_turf_inner_10804_simple.png"
+          ]
+        },
+        {
+          "id": 10805,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/kyoto/kyoto_1600m_turf_outer_10805_full.png",
+            "tracks/kyoto/kyoto_1600m_turf_outer_10805_simple.png"
+          ]
+        },
+        {
+          "id": 10806,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/kyoto/kyoto_1800m_turf_outer_10806_full.png",
+            "tracks/kyoto/kyoto_1800m_turf_outer_10806_simple.png"
+          ]
+        },
+        {
+          "id": 10807,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/kyoto/kyoto_2000m_turf_inner_10807_full.png",
+            "tracks/kyoto/kyoto_2000m_turf_inner_10807_simple.png",
+            "tracks/kyoto/kyoto_2000m_turf_inner_10807_lap1_full.png",
+            "tracks/kyoto/kyoto_2000m_turf_inner_10807_lap1_simple.png",
+            "tracks/kyoto/kyoto_2000m_turf_inner_10807_lap2_full.png",
+            "tracks/kyoto/kyoto_2000m_turf_inner_10807_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10808,
+          "length": 2200,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/kyoto/kyoto_2200m_turf_outer_10808_full.png",
+            "tracks/kyoto/kyoto_2200m_turf_outer_10808_simple.png",
+            "tracks/kyoto/kyoto_2200m_turf_outer_10808_lap1_full.png",
+            "tracks/kyoto/kyoto_2200m_turf_outer_10808_lap1_simple.png",
+            "tracks/kyoto/kyoto_2200m_turf_outer_10808_lap2_full.png",
+            "tracks/kyoto/kyoto_2200m_turf_outer_10808_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10809,
+          "length": 2400,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/kyoto/kyoto_2400m_turf_outer_10809_full.png",
+            "tracks/kyoto/kyoto_2400m_turf_outer_10809_simple.png",
+            "tracks/kyoto/kyoto_2400m_turf_outer_10809_lap1_full.png",
+            "tracks/kyoto/kyoto_2400m_turf_outer_10809_lap1_simple.png",
+            "tracks/kyoto/kyoto_2400m_turf_outer_10809_lap2_full.png",
+            "tracks/kyoto/kyoto_2400m_turf_outer_10809_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10810,
+          "length": 3000,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/kyoto/kyoto_3000m_turf_outer_10810_full.png",
+            "tracks/kyoto/kyoto_3000m_turf_outer_10810_simple.png",
+            "tracks/kyoto/kyoto_3000m_turf_outer_10810_lap1_full.png",
+            "tracks/kyoto/kyoto_3000m_turf_outer_10810_lap1_simple.png",
+            "tracks/kyoto/kyoto_3000m_turf_outer_10810_lap2_full.png",
+            "tracks/kyoto/kyoto_3000m_turf_outer_10810_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10811,
+          "length": 3200,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/kyoto/kyoto_3200m_turf_outer_10811_full.png",
+            "tracks/kyoto/kyoto_3200m_turf_outer_10811_simple.png",
+            "tracks/kyoto/kyoto_3200m_turf_outer_10811_lap1_full.png",
+            "tracks/kyoto/kyoto_3200m_turf_outer_10811_lap1_simple.png",
+            "tracks/kyoto/kyoto_3200m_turf_outer_10811_lap2_full.png",
+            "tracks/kyoto/kyoto_3200m_turf_outer_10811_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10812,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kyoto/kyoto_1200m_dirt_10812_full.png",
+            "tracks/kyoto/kyoto_1200m_dirt_10812_simple.png"
+          ]
+        },
+        {
+          "id": 10813,
+          "length": 1400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kyoto/kyoto_1400m_dirt_10813_full.png",
+            "tracks/kyoto/kyoto_1400m_dirt_10813_simple.png"
+          ]
+        },
+        {
+          "id": 10814,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kyoto/kyoto_1800m_dirt_10814_full.png",
+            "tracks/kyoto/kyoto_1800m_dirt_10814_simple.png",
+            "tracks/kyoto/kyoto_1800m_dirt_10814_lap1_full.png",
+            "tracks/kyoto/kyoto_1800m_dirt_10814_lap1_simple.png",
+            "tracks/kyoto/kyoto_1800m_dirt_10814_lap2_full.png",
+            "tracks/kyoto/kyoto_1800m_dirt_10814_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10815,
+          "length": 1900,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kyoto/kyoto_1900m_dirt_10815_full.png",
+            "tracks/kyoto/kyoto_1900m_dirt_10815_simple.png",
+            "tracks/kyoto/kyoto_1900m_dirt_10815_lap1_full.png",
+            "tracks/kyoto/kyoto_1900m_dirt_10815_lap1_simple.png",
+            "tracks/kyoto/kyoto_1900m_dirt_10815_lap2_full.png",
+            "tracks/kyoto/kyoto_1900m_dirt_10815_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "name": "Hanshin",
+      "slug": "hanshin",
+      "sublink": "https://gametora.com/umamusume/racetracks/hanshin",
+      "icon_path": "icons/hanshin_icon.png",
+      "thumb_path": "icons/hanshin_thumb.png",
+      "courses": [
+        {
+          "id": 10901,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/hanshin/hanshin_1200m_turf_inner_10901_full.png",
+            "tracks/hanshin/hanshin_1200m_turf_inner_10901_simple.png"
+          ]
+        },
+        {
+          "id": 10902,
+          "length": 1400,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/hanshin/hanshin_1400m_turf_inner_10902_full.png",
+            "tracks/hanshin/hanshin_1400m_turf_inner_10902_simple.png"
+          ]
+        },
+        {
+          "id": 10903,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/hanshin/hanshin_1600m_turf_outer_10903_full.png",
+            "tracks/hanshin/hanshin_1600m_turf_outer_10903_simple.png"
+          ]
+        },
+        {
+          "id": 10904,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/hanshin/hanshin_1800m_turf_outer_10904_full.png",
+            "tracks/hanshin/hanshin_1800m_turf_outer_10904_simple.png"
+          ]
+        },
+        {
+          "id": 10905,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/hanshin/hanshin_2000m_turf_inner_10905_full.png",
+            "tracks/hanshin/hanshin_2000m_turf_inner_10905_simple.png",
+            "tracks/hanshin/hanshin_2000m_turf_inner_10905_lap1_full.png",
+            "tracks/hanshin/hanshin_2000m_turf_inner_10905_lap1_simple.png",
+            "tracks/hanshin/hanshin_2000m_turf_inner_10905_lap2_full.png",
+            "tracks/hanshin/hanshin_2000m_turf_inner_10905_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10906,
+          "length": 2200,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/hanshin/hanshin_2200m_turf_inner_10906_full.png",
+            "tracks/hanshin/hanshin_2200m_turf_inner_10906_simple.png",
+            "tracks/hanshin/hanshin_2200m_turf_inner_10906_lap1_full.png",
+            "tracks/hanshin/hanshin_2200m_turf_inner_10906_lap1_simple.png",
+            "tracks/hanshin/hanshin_2200m_turf_inner_10906_lap2_full.png",
+            "tracks/hanshin/hanshin_2200m_turf_inner_10906_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10907,
+          "length": 2400,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/hanshin/hanshin_2400m_turf_outer_10907_full.png",
+            "tracks/hanshin/hanshin_2400m_turf_outer_10907_simple.png",
+            "tracks/hanshin/hanshin_2400m_turf_outer_10907_lap1_full.png",
+            "tracks/hanshin/hanshin_2400m_turf_outer_10907_lap1_simple.png",
+            "tracks/hanshin/hanshin_2400m_turf_outer_10907_lap2_full.png",
+            "tracks/hanshin/hanshin_2400m_turf_outer_10907_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10908,
+          "length": 2600,
+          "terrain": "turf",
+          "inout": "outer",
+          "images": [
+            "tracks/hanshin/hanshin_2600m_turf_outer_10908_full.png",
+            "tracks/hanshin/hanshin_2600m_turf_outer_10908_simple.png",
+            "tracks/hanshin/hanshin_2600m_turf_outer_10908_lap1_full.png",
+            "tracks/hanshin/hanshin_2600m_turf_outer_10908_lap1_simple.png",
+            "tracks/hanshin/hanshin_2600m_turf_outer_10908_lap2_full.png",
+            "tracks/hanshin/hanshin_2600m_turf_outer_10908_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10909,
+          "length": 3000,
+          "terrain": "turf",
+          "inout": "inner",
+          "images": [
+            "tracks/hanshin/hanshin_3000m_turf_inner_10909_full.png",
+            "tracks/hanshin/hanshin_3000m_turf_inner_10909_simple.png",
+            "tracks/hanshin/hanshin_3000m_turf_inner_10909_lap1_full.png",
+            "tracks/hanshin/hanshin_3000m_turf_inner_10909_lap1_simple.png",
+            "tracks/hanshin/hanshin_3000m_turf_inner_10909_lap2_full.png",
+            "tracks/hanshin/hanshin_3000m_turf_inner_10909_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10910,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/hanshin/hanshin_1200m_dirt_10910_full.png",
+            "tracks/hanshin/hanshin_1200m_dirt_10910_simple.png"
+          ]
+        },
+        {
+          "id": 10911,
+          "length": 1400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/hanshin/hanshin_1400m_dirt_10911_full.png",
+            "tracks/hanshin/hanshin_1400m_dirt_10911_simple.png"
+          ]
+        },
+        {
+          "id": 10912,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/hanshin/hanshin_1800m_dirt_10912_full.png",
+            "tracks/hanshin/hanshin_1800m_dirt_10912_simple.png",
+            "tracks/hanshin/hanshin_1800m_dirt_10912_lap1_full.png",
+            "tracks/hanshin/hanshin_1800m_dirt_10912_lap1_simple.png",
+            "tracks/hanshin/hanshin_1800m_dirt_10912_lap2_full.png",
+            "tracks/hanshin/hanshin_1800m_dirt_10912_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10913,
+          "length": 2000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/hanshin/hanshin_2000m_dirt_10913_full.png",
+            "tracks/hanshin/hanshin_2000m_dirt_10913_simple.png",
+            "tracks/hanshin/hanshin_2000m_dirt_10913_lap1_full.png",
+            "tracks/hanshin/hanshin_2000m_dirt_10913_lap1_simple.png",
+            "tracks/hanshin/hanshin_2000m_dirt_10913_lap2_full.png",
+            "tracks/hanshin/hanshin_2000m_dirt_10913_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 10914,
+          "length": 3200,
+          "terrain": "turf",
+          "inout": "outer_to_inner",
+          "images": [
+            "tracks/hanshin/hanshin_3200m_turf_outer_to_inner_10914_full.png",
+            "tracks/hanshin/hanshin_3200m_turf_outer_to_inner_10914_simple.png",
+            "tracks/hanshin/hanshin_3200m_turf_outer_to_inner_10914_lap1_full.png",
+            "tracks/hanshin/hanshin_3200m_turf_outer_to_inner_10914_lap1_simple.png",
+            "tracks/hanshin/hanshin_3200m_turf_outer_to_inner_10914_lap2_full.png",
+            "tracks/hanshin/hanshin_3200m_turf_outer_to_inner_10914_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "name": "Kokura",
+      "slug": "kokura",
+      "sublink": "https://gametora.com/umamusume/racetracks/kokura",
+      "icon_path": "icons/kokura_icon.png",
+      "thumb_path": "icons/kokura_thumb.png",
+      "courses": [
+        {
+          "id": 11001,
+          "length": 1200,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/kokura/kokura_1200m_turf_11001_full.png",
+            "tracks/kokura/kokura_1200m_turf_11001_simple.png"
+          ]
+        },
+        {
+          "id": 11002,
+          "length": 1800,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/kokura/kokura_1800m_turf_11002_full.png",
+            "tracks/kokura/kokura_1800m_turf_11002_simple.png",
+            "tracks/kokura/kokura_1800m_turf_11002_lap1_full.png",
+            "tracks/kokura/kokura_1800m_turf_11002_lap1_simple.png",
+            "tracks/kokura/kokura_1800m_turf_11002_lap2_full.png",
+            "tracks/kokura/kokura_1800m_turf_11002_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11003,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/kokura/kokura_2000m_turf_11003_full.png",
+            "tracks/kokura/kokura_2000m_turf_11003_simple.png",
+            "tracks/kokura/kokura_2000m_turf_11003_lap1_full.png",
+            "tracks/kokura/kokura_2000m_turf_11003_lap1_simple.png",
+            "tracks/kokura/kokura_2000m_turf_11003_lap2_full.png",
+            "tracks/kokura/kokura_2000m_turf_11003_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11004,
+          "length": 2600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/kokura/kokura_2600m_turf_11004_full.png",
+            "tracks/kokura/kokura_2600m_turf_11004_simple.png",
+            "tracks/kokura/kokura_2600m_turf_11004_lap1_full.png",
+            "tracks/kokura/kokura_2600m_turf_11004_lap1_simple.png",
+            "tracks/kokura/kokura_2600m_turf_11004_lap2_full.png",
+            "tracks/kokura/kokura_2600m_turf_11004_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11005,
+          "length": 1000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kokura/kokura_1000m_dirt_11005_full.png",
+            "tracks/kokura/kokura_1000m_dirt_11005_simple.png"
+          ]
+        },
+        {
+          "id": 11006,
+          "length": 1700,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kokura/kokura_1700m_dirt_11006_full.png",
+            "tracks/kokura/kokura_1700m_dirt_11006_simple.png",
+            "tracks/kokura/kokura_1700m_dirt_11006_lap1_full.png",
+            "tracks/kokura/kokura_1700m_dirt_11006_lap1_simple.png",
+            "tracks/kokura/kokura_1700m_dirt_11006_lap2_full.png",
+            "tracks/kokura/kokura_1700m_dirt_11006_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11007,
+          "length": 2400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kokura/kokura_2400m_dirt_11007_full.png",
+            "tracks/kokura/kokura_2400m_dirt_11007_simple.png",
+            "tracks/kokura/kokura_2400m_dirt_11007_lap1_full.png",
+            "tracks/kokura/kokura_2400m_dirt_11007_lap1_simple.png",
+            "tracks/kokura/kokura_2400m_dirt_11007_lap2_full.png",
+            "tracks/kokura/kokura_2400m_dirt_11007_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10101,
+      "name": "Ooi (Tokyo City Keiba)",
+      "slug": "ooi",
+      "sublink": "https://gametora.com/umamusume/racetracks/ooi",
+      "icon_path": "icons/ooi_icon.png",
+      "thumb_path": "icons/ooi_thumb.png",
+      "courses": [
+        {
+          "id": 11101,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/ooi/ooi_1200m_dirt_11101_full.png",
+            "tracks/ooi/ooi_1200m_dirt_11101_simple.png"
+          ]
+        },
+        {
+          "id": 11102,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/ooi/ooi_1800m_dirt_11102_full.png",
+            "tracks/ooi/ooi_1800m_dirt_11102_simple.png",
+            "tracks/ooi/ooi_1800m_dirt_11102_lap1_full.png",
+            "tracks/ooi/ooi_1800m_dirt_11102_lap1_simple.png",
+            "tracks/ooi/ooi_1800m_dirt_11102_lap2_full.png",
+            "tracks/ooi/ooi_1800m_dirt_11102_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11103,
+          "length": 2000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/ooi/ooi_2000m_dirt_11103_full.png",
+            "tracks/ooi/ooi_2000m_dirt_11103_simple.png",
+            "tracks/ooi/ooi_2000m_dirt_11103_lap1_full.png",
+            "tracks/ooi/ooi_2000m_dirt_11103_lap1_simple.png",
+            "tracks/ooi/ooi_2000m_dirt_11103_lap2_full.png",
+            "tracks/ooi/ooi_2000m_dirt_11103_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10103,
+      "name": "Kawasaki",
+      "slug": "kawasaki",
+      "sublink": "https://gametora.com/umamusume/racetracks/kawasaki",
+      "icon_path": "icons/kawasaki_icon.png",
+      "thumb_path": "icons/kawasaki_thumb.png",
+      "courses": [
+        {
+          "id": 11301,
+          "length": 1400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kawasaki/kawasaki_1400m_dirt_11301_full.png",
+            "tracks/kawasaki/kawasaki_1400m_dirt_11301_simple.png",
+            "tracks/kawasaki/kawasaki_1400m_dirt_11301_lap1_full.png",
+            "tracks/kawasaki/kawasaki_1400m_dirt_11301_lap1_simple.png",
+            "tracks/kawasaki/kawasaki_1400m_dirt_11301_lap2_full.png",
+            "tracks/kawasaki/kawasaki_1400m_dirt_11301_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11302,
+          "length": 1600,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kawasaki/kawasaki_1600m_dirt_11302_full.png",
+            "tracks/kawasaki/kawasaki_1600m_dirt_11302_simple.png",
+            "tracks/kawasaki/kawasaki_1600m_dirt_11302_lap1_full.png",
+            "tracks/kawasaki/kawasaki_1600m_dirt_11302_lap1_simple.png",
+            "tracks/kawasaki/kawasaki_1600m_dirt_11302_lap2_full.png",
+            "tracks/kawasaki/kawasaki_1600m_dirt_11302_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11303,
+          "length": 2100,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/kawasaki/kawasaki_2100m_dirt_11303_full.png",
+            "tracks/kawasaki/kawasaki_2100m_dirt_11303_simple.png",
+            "tracks/kawasaki/kawasaki_2100m_dirt_11303_lap1_full.png",
+            "tracks/kawasaki/kawasaki_2100m_dirt_11303_lap1_simple.png",
+            "tracks/kawasaki/kawasaki_2100m_dirt_11303_lap2_full.png",
+            "tracks/kawasaki/kawasaki_2100m_dirt_11303_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10104,
+      "name": "Funabashi",
+      "slug": "funabashi",
+      "sublink": "https://gametora.com/umamusume/racetracks/funabashi",
+      "icon_path": "icons/funabashi_icon.png",
+      "thumb_path": "icons/funabashi_thumb.png",
+      "courses": [
+        {
+          "id": 11401,
+          "length": 1000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/funabashi/funabashi_1000m_dirt_11401_full.png",
+            "tracks/funabashi/funabashi_1000m_dirt_11401_simple.png"
+          ]
+        },
+        {
+          "id": 11402,
+          "length": 1600,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/funabashi/funabashi_1600m_dirt_11402_full.png",
+            "tracks/funabashi/funabashi_1600m_dirt_11402_simple.png",
+            "tracks/funabashi/funabashi_1600m_dirt_11402_lap1_full.png",
+            "tracks/funabashi/funabashi_1600m_dirt_11402_lap1_simple.png",
+            "tracks/funabashi/funabashi_1600m_dirt_11402_lap2_full.png",
+            "tracks/funabashi/funabashi_1600m_dirt_11402_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11403,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/funabashi/funabashi_1800m_dirt_11403_full.png",
+            "tracks/funabashi/funabashi_1800m_dirt_11403_simple.png",
+            "tracks/funabashi/funabashi_1800m_dirt_11403_lap1_full.png",
+            "tracks/funabashi/funabashi_1800m_dirt_11403_lap1_simple.png",
+            "tracks/funabashi/funabashi_1800m_dirt_11403_lap2_full.png",
+            "tracks/funabashi/funabashi_1800m_dirt_11403_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11404,
+          "length": 2400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/funabashi/funabashi_2400m_dirt_11404_full.png",
+            "tracks/funabashi/funabashi_2400m_dirt_11404_simple.png",
+            "tracks/funabashi/funabashi_2400m_dirt_11404_lap1_full.png",
+            "tracks/funabashi/funabashi_2400m_dirt_11404_lap1_simple.png",
+            "tracks/funabashi/funabashi_2400m_dirt_11404_lap2_full.png",
+            "tracks/funabashi/funabashi_2400m_dirt_11404_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "name": "Morioka",
+      "slug": "morioka",
+      "sublink": "https://gametora.com/umamusume/racetracks/morioka",
+      "icon_path": "icons/morioka_icon.png",
+      "thumb_path": "icons/morioka_thumb.png",
+      "courses": [
+        {
+          "id": 11501,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/morioka/morioka_1200m_dirt_11501_full.png",
+            "tracks/morioka/morioka_1200m_dirt_11501_simple.png"
+          ]
+        },
+        {
+          "id": 11502,
+          "length": 1600,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/morioka/morioka_1600m_dirt_11502_full.png",
+            "tracks/morioka/morioka_1600m_dirt_11502_simple.png"
+          ]
+        },
+        {
+          "id": 11503,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/morioka/morioka_1800m_dirt_11503_full.png",
+            "tracks/morioka/morioka_1800m_dirt_11503_simple.png",
+            "tracks/morioka/morioka_1800m_dirt_11503_lap1_full.png",
+            "tracks/morioka/morioka_1800m_dirt_11503_lap1_simple.png",
+            "tracks/morioka/morioka_1800m_dirt_11503_lap2_full.png",
+            "tracks/morioka/morioka_1800m_dirt_11503_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11504,
+          "length": 2000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/morioka/morioka_2000m_dirt_11504_full.png",
+            "tracks/morioka/morioka_2000m_dirt_11504_simple.png",
+            "tracks/morioka/morioka_2000m_dirt_11504_lap1_full.png",
+            "tracks/morioka/morioka_2000m_dirt_11504_lap1_simple.png",
+            "tracks/morioka/morioka_2000m_dirt_11504_lap2_full.png",
+            "tracks/morioka/morioka_2000m_dirt_11504_lap2_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10201,
+      "name": "ParisLongchamp",
+      "slug": "longchamp",
+      "sublink": "https://gametora.com/umamusume/racetracks/longchamp",
+      "icon_path": "icons/longchamp_icon.png",
+      "thumb_path": "icons/longchamp_thumb.png",
+      "courses": [
+        {
+          "id": 11203,
+          "length": 2400,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/longchamp/longchamp_2400m_turf_11203_full.png",
+            "tracks/longchamp/longchamp_2400m_turf_11203_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "name": "Santa Anita Park",
+      "slug": "santa_anita",
+      "sublink": "https://gametora.com/umamusume/racetracks/santa_anita",
+      "icon_path": "icons/santa_anita_icon.png",
+      "thumb_path": "icons/santa_anita_thumb.png",
+      "courses": [
+        {
+          "id": 11612,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_2000m_turf_11612_full.png",
+            "tracks/santa_anita/santa_anita_2000m_turf_11612_simple.png",
+            "tracks/santa_anita/santa_anita_2000m_turf_11612_lap1_full.png",
+            "tracks/santa_anita/santa_anita_2000m_turf_11612_lap1_simple.png",
+            "tracks/santa_anita/santa_anita_2000m_turf_11612_lap2_full.png",
+            "tracks/santa_anita/santa_anita_2000m_turf_11612_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11613,
+          "length": 1000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_1000m_turf_11613_full.png",
+            "tracks/santa_anita/santa_anita_1000m_turf_11613_simple.png"
+          ]
+        },
+        {
+          "id": 11614,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_1600m_turf_11614_full.png",
+            "tracks/santa_anita/santa_anita_1600m_turf_11614_simple.png"
+          ]
+        },
+        {
+          "id": 11615,
+          "length": 2000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_2000m_turf_11615_full.png",
+            "tracks/santa_anita/santa_anita_2000m_turf_11615_simple.png"
+          ]
+        },
+        {
+          "id": 11616,
+          "length": 2400,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_2400m_turf_11616_full.png",
+            "tracks/santa_anita/santa_anita_2400m_turf_11616_simple.png"
+          ]
+        },
+        {
+          "id": 11617,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_1200m_dirt_11617_full.png",
+            "tracks/santa_anita/santa_anita_1200m_dirt_11617_simple.png"
+          ]
+        },
+        {
+          "id": 11618,
+          "length": 1400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_1400m_dirt_11618_full.png",
+            "tracks/santa_anita/santa_anita_1400m_dirt_11618_simple.png"
+          ]
+        },
+        {
+          "id": 11619,
+          "length": 1600,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_1600m_dirt_11619_full.png",
+            "tracks/santa_anita/santa_anita_1600m_dirt_11619_simple.png"
+          ]
+        },
+        {
+          "id": 11620,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_1800m_dirt_11620_full.png",
+            "tracks/santa_anita/santa_anita_1800m_dirt_11620_simple.png"
+          ]
+        },
+        {
+          "id": 11621,
+          "length": 2000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/santa_anita/santa_anita_2000m_dirt_11621_full.png",
+            "tracks/santa_anita/santa_anita_2000m_dirt_11621_simple.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10203,
+      "name": "Del Mar",
+      "slug": "del_mar",
+      "sublink": "https://gametora.com/umamusume/racetracks/del_mar",
+      "icon_path": "icons/del_mar_icon.png",
+      "thumb_path": "icons/del_mar_thumb.png",
+      "courses": [
+        {
+          "id": 11701,
+          "length": 1000,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_1000m_turf_11701_full.png",
+            "tracks/del_mar/del_mar_1000m_turf_11701_simple.png"
+          ]
+        },
+        {
+          "id": 11702,
+          "length": 1600,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_1600m_turf_11702_full.png",
+            "tracks/del_mar/del_mar_1600m_turf_11702_simple.png",
+            "tracks/del_mar/del_mar_1600m_turf_11702_lap1_full.png",
+            "tracks/del_mar/del_mar_1600m_turf_11702_lap1_simple.png",
+            "tracks/del_mar/del_mar_1600m_turf_11702_lap2_full.png",
+            "tracks/del_mar/del_mar_1600m_turf_11702_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11703,
+          "length": 2200,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_2200m_turf_11703_full.png",
+            "tracks/del_mar/del_mar_2200m_turf_11703_simple.png"
+          ]
+        },
+        {
+          "id": 11704,
+          "length": 2400,
+          "terrain": "turf",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_2400m_turf_11704_full.png",
+            "tracks/del_mar/del_mar_2400m_turf_11704_simple.png",
+            "tracks/del_mar/del_mar_2400m_turf_11704_lap1_full.png",
+            "tracks/del_mar/del_mar_2400m_turf_11704_lap1_simple.png",
+            "tracks/del_mar/del_mar_2400m_turf_11704_lap2_full.png",
+            "tracks/del_mar/del_mar_2400m_turf_11704_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11705,
+          "length": 1200,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_1200m_dirt_11705_full.png",
+            "tracks/del_mar/del_mar_1200m_dirt_11705_simple.png"
+          ]
+        },
+        {
+          "id": 11706,
+          "length": 1400,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_1400m_dirt_11706_full.png",
+            "tracks/del_mar/del_mar_1400m_dirt_11706_simple.png"
+          ]
+        },
+        {
+          "id": 11707,
+          "length": 1600,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_1600m_dirt_11707_full.png",
+            "tracks/del_mar/del_mar_1600m_dirt_11707_simple.png",
+            "tracks/del_mar/del_mar_1600m_dirt_11707_lap1_full.png",
+            "tracks/del_mar/del_mar_1600m_dirt_11707_lap1_simple.png",
+            "tracks/del_mar/del_mar_1600m_dirt_11707_lap2_full.png",
+            "tracks/del_mar/del_mar_1600m_dirt_11707_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11708,
+          "length": 1800,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_1800m_dirt_11708_full.png",
+            "tracks/del_mar/del_mar_1800m_dirt_11708_simple.png",
+            "tracks/del_mar/del_mar_1800m_dirt_11708_lap1_full.png",
+            "tracks/del_mar/del_mar_1800m_dirt_11708_lap1_simple.png",
+            "tracks/del_mar/del_mar_1800m_dirt_11708_lap2_full.png",
+            "tracks/del_mar/del_mar_1800m_dirt_11708_lap2_simple.png"
+          ]
+        },
+        {
+          "id": 11709,
+          "length": 2000,
+          "terrain": "dirt",
+          "inout": "standard",
+          "images": [
+            "tracks/del_mar/del_mar_2000m_dirt_11709_full.png",
+            "tracks/del_mar/del_mar_2000m_dirt_11709_simple.png"
+          ]
+        }
+      ]
+    }
+  ]
+}
