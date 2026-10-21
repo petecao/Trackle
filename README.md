@@ -57,29 +57,3 @@ Trackle/
 ├── racetrack_data.json  # Complete structured JSON catalog
 └── README.md
 ```
-
----
-
-## 🏟️ Racetracks & Catalog Overview
-
-| ID | Racetrack | Region | League | Courses | Sublink |
-|---|---|---|---|---|---|
-| 10001 | **Sapporo** | Hokkaido | JRA | 8 | [GameTora Sapporo](https://gametora.com/umamusume/racetracks/sapporo) |
-| 10002 | **Hakodate** | Hokkaido | JRA | 8 | [GameTora Hakodate](https://gametora.com/umamusume/racetracks/hakodate) |
-| 10003 | **Niigata** | Chubu | JRA | 12 | [GameTora Niigata](https://gametora.com/umamusume/racetracks/niigata) |
-| 10004 | **Fukushima** | Tohoku | JRA | 7 | [GameTora Fukushima](https://gametora.com/umamusume/racetracks/fukushima) |
-| 10005 | **Nakayama** | Kanto | JRA | 11 | [GameTora Nakayama](https://gametora.com/umamusume/racetracks/nakayama) |
-| 10006 | **Tokyo** | Kanto | JRA | 13 | [GameTora Tokyo](https://gametora.com/umamusume/racetracks/tokyo) |
-| 10007 | **Chukyo** | Chubu | JRA | 9 | [GameTora Chukyo](https://gametora.com/umamusume/racetracks/chukyo) |
-| 10008 | **Kyoto** | Kansai | JRA | 15 | [GameTora Kyoto](https://gametora.com/umamusume/racetracks/kyoto) |
-| 10009 | **Hanshin** | Kansai | JRA | 14 | [GameTora Hanshin](https://gametora.com/umamusume/racetracks/hanshin) |
-| 10010 | **Kokura** | Kyushu | JRA | 7 | [GameTora Kokura](https://gametora.com/umamusume/racetracks/kokura) |
-| 10101 | **Ooi** | Kanto | NAR | 3 | [GameTora Ooi](https://gametora.com/umamusume/racetracks/ooi) |
-| 10103 | **Kawasaki** | Kanto | NAR | 3 | [GameTora Kawasaki](https://gametora.com/umamusume/racetracks/kawasaki) |
-| 10104 | **Funabashi** | Kanto | NAR | 4 | [GameTora Funabashi](https://gametora.com/umamusume/racetracks/funabashi) |
-| 10105 | **Morioka** | Tohoku | NAR | 4 | [GameTora Morioka](https://gametora.com/umamusume/racetracks/morioka) |
-| 10201 | **ParisLongchamp** | Overseas (France) | International | 1 | [GameTora Longchamp](https://gametora.com/umamusume/racetracks/longchamp) |
-| 10202 | **Santa Anita Park** | Overseas (USA) | International | 10 | [GameTora Santa Anita](https://gametora.com/umamusume/racetracks/santa_anita) |
-| 10203 | **Del Mar** | Overseas (USA) | International | 9 | [GameTora Del Mar](https://gametora.com/umamusume/racetracks/del_mar) |
-
-*Detailed per-course metrics, coordinates, diagrams, and in-game race schedules are indexed in [`courses_data.js`](courses_data.js), [`races_data.js`](races_data.js), and [`racetrack_data.json`](racetrack_data.json).*
