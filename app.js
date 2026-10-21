@@ -105,6 +105,46 @@
   const btnPlayAgain = document.getElementById("btn-play-again");
 
   const SOUND_KEY = "trackle_sound_v1";
+  const LAST_GAME_TYPE_KEY = "trackle_last_game_type_v1";
+  const LAST_PLAY_MODE_KEY = "trackle_last_play_mode_v1";
+
+  function getDailyStorageKey(type, dateStr) {
+    return `trackle_daily_${type}_${dateStr}`;
+  }
+
+  function getDailyState(type, dateStr) {
+    try {
+      const raw = localStorage.getItem(getDailyStorageKey(type, dateStr));
+      if (raw) return JSON.parse(raw);
+    } catch (e) {
+      console.warn("Could not read daily state", e);
+    }
+    return null;
+  }
+
+  function saveDailyState(type, dateStr, state) {
+    try {
+      localStorage.setItem(getDailyStorageKey(type, dateStr), JSON.stringify(state));
+    } catch (e) {
+      console.warn("Could not save daily state", e);
+    }
+  }
+
+  function saveCurrentDailyState() {
+    if (currentPlayMode !== "daily" || !secretTarget) return;
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const guessedIdentifiers = guesses.map(g => {
+      return currentGameType === "course" ? g.guess.id : g.guess.name;
+    });
+    const state = {
+      date: todayStr,
+      gameType: currentGameType,
+      guessedIdentifiers: guessedIdentifiers,
+      isGameOver: isGameOver,
+      isWin: isGameOver && guesses.length > 0 && guesses[guesses.length - 1].isWin
+    };
+    saveDailyState(currentGameType, todayStr, state);
+  }
 
   function getStatsKey() {
     return `trackle_${currentGameType}_stats_v1`;
@@ -114,7 +154,10 @@
   function init() {
     loadPreferences();
     setupEventListeners();
-    switchGameType("course");
+    const savedGameType = localStorage.getItem(LAST_GAME_TYPE_KEY) || "course";
+    const savedPlayMode = localStorage.getItem(LAST_PLAY_MODE_KEY) || "daily";
+    currentPlayMode = savedPlayMode;
+    switchGameType(savedGameType);
   }
 
   function loadPreferences() {
@@ -134,6 +177,7 @@
   // Switch between Course Guesser and Race Guesser
   function switchGameType(type) {
     currentGameType = type;
+    localStorage.setItem(LAST_GAME_TYPE_KEY, type);
     if (type === "course") {
       btnGameCourse.classList.add("active");
       btnGameRace.classList.remove("active");
@@ -186,12 +230,18 @@
   // Start a round
   function startNewGame(playMode) {
     currentPlayMode = playMode;
+    localStorage.setItem(LAST_PLAY_MODE_KEY, playMode);
     guesses = [];
     isGameOver = false;
     trackInput.value = "";
     trackInput.disabled = false;
     submitBtn.disabled = true;
     closeAllModals();
+
+    const dailyNotice = document.getElementById("daily-completed-notice");
+    const searchWrapper = document.getElementById("search-input-wrapper");
+    if (dailyNotice) dailyNotice.style.display = "none";
+    if (searchWrapper) searchWrapper.style.display = "flex";
 
     const todayStr = new Date().toISOString().slice(0, 10);
 
@@ -204,6 +254,35 @@
       } else {
         secretTarget = window.getDailyRace(todayStr);
         modeText.textContent = `Daily Race (${todayStr})`;
+      }
+
+      // Check if there is an existing saved daily session for today
+      const savedState = getDailyState(currentGameType, todayStr);
+      if (savedState && Array.isArray(savedState.guessedIdentifiers) && savedState.guessedIdentifiers.length > 0) {
+        savedState.guessedIdentifiers.forEach(idVal => {
+          const choice = currentGameType === "course"
+            ? window.ALL_COURSES.find(c => c.id === idVal)
+            : window.ALL_RACES.find(r => r.name === idVal);
+          if (choice) {
+            const evaluation = currentGameType === "course"
+              ? window.evaluateCourseGuess(choice, secretTarget)
+              : window.evaluateRaceGuess(choice, secretTarget);
+            guesses.push(evaluation);
+          }
+        });
+
+        const hasWin = guesses.length > 0 && guesses[guesses.length - 1].isWin;
+        const reachedMax = guesses.length >= MAX_GUESSES;
+
+        if (savedState.isGameOver || hasWin || reachedMax) {
+          isGameOver = true;
+          trackInput.disabled = true;
+          submitBtn.disabled = true;
+          renderBoard();
+          updateCounter();
+          updateCompletedBanner(hasWin);
+          return;
+        }
       }
     } else {
       btnModePractice.classList.add("active");
@@ -223,6 +302,28 @@
 
     renderBoard();
     updateCounter();
+  }
+
+  function updateCompletedBanner(isWin) {
+    const dailyNotice = document.getElementById("daily-completed-notice");
+    const searchWrapper = document.getElementById("search-input-wrapper");
+    const completedIcon = document.getElementById("completed-icon");
+    const completedText = document.getElementById("completed-text");
+    const counterDisplay = document.getElementById("guess-counter-display");
+
+    if (dailyNotice && searchWrapper) {
+      dailyNotice.style.display = "block";
+      searchWrapper.style.display = "none";
+      if (isWin) {
+        if (completedIcon) completedIcon.textContent = "🏆";
+        if (completedText) completedText.textContent = `You solved today's daily ${currentGameType} in ${guesses.length}/6!`;
+        if (counterDisplay) counterDisplay.innerHTML = `Solved in <span style="color: var(--color-exact); font-weight: 700;">${guesses.length}/${MAX_GUESSES}</span> 🏆`;
+      } else {
+        if (completedIcon) completedIcon.textContent = "🏁";
+        if (completedText) completedText.textContent = `Today's daily ${currentGameType} puzzle is complete!`;
+        if (counterDisplay) counterDisplay.innerHTML = `Finished (<span style="color: var(--text-muted); font-weight: 700;">${guesses.length}/${MAX_GUESSES}</span>) 🏁`;
+      }
+    }
   }
 
   // Render guess rows & empty placeholders
@@ -345,6 +446,7 @@
 
     if (!query) {
       suggestionsList.classList.remove("open");
+      submitBtn.disabled = true;
       return;
     }
 
@@ -371,8 +473,11 @@
 
       if (matches.length === 0) {
         suggestionsList.classList.remove("open");
+        submitBtn.disabled = true;
         return;
       }
+
+      submitBtn.disabled = false;
 
       matches.slice(0, 15).forEach(course => {
         const item = document.createElement("div");
@@ -423,8 +528,11 @@
 
       if (matches.length === 0) {
         suggestionsList.classList.remove("open");
+        submitBtn.disabled = true;
         return;
       }
+
+      submitBtn.disabled = false;
 
       matches.slice(0, 15).forEach(race => {
         const item = document.createElement("div");
@@ -461,6 +569,40 @@
     submitGuess(choice);
   }
 
+  function submitCurrentInput() {
+    if (isGameOver) return;
+    const items = suggestionsList.querySelectorAll(".suggestion-item");
+    if (selectedSuggestionIndex >= 0 && items[selectedSuggestionIndex]) {
+      const idVal = items[selectedSuggestionIndex].dataset.id;
+      const choice = currentGameType === "course"
+        ? window.ALL_COURSES.find(c => c.id === parseInt(idVal))
+        : window.ALL_RACES.find(r => r.name === idVal);
+      if (choice) {
+        selectChoice(choice);
+        return;
+      }
+    }
+    if (items.length > 0) {
+      const idVal = items[0].dataset.id;
+      const choice = currentGameType === "course"
+        ? window.ALL_COURSES.find(c => c.id === parseInt(idVal))
+        : window.ALL_RACES.find(r => r.name === idVal);
+      if (choice) {
+        selectChoice(choice);
+        return;
+      }
+    }
+    const rawVal = trackInput.value.trim().toLowerCase();
+    if (rawVal) {
+      const exactMatch = currentGameType === "course"
+        ? window.ALL_COURSES.find(c => c.full_name.toLowerCase() === rawVal || c.short_name.toLowerCase() === rawVal)
+        : window.ALL_RACES.find(r => r.name.toLowerCase() === rawVal || r.name_ja.toLowerCase() === rawVal);
+      if (exactMatch) {
+        selectChoice(exactMatch);
+      }
+    }
+  }
+
   function handleInputKeydown(e) {
     const items = suggestionsList.querySelectorAll(".suggestion-item");
     if (e.key === "ArrowDown") {
@@ -477,19 +619,7 @@
       }
     } else if (e.key === "Enter") {
       e.preventDefault();
-      if (selectedSuggestionIndex >= 0 && items[selectedSuggestionIndex]) {
-        const idVal = items[selectedSuggestionIndex].dataset.id;
-        const choice = currentGameType === "course"
-          ? window.ALL_COURSES.find(c => c.id === parseInt(idVal))
-          : window.ALL_RACES.find(r => r.name === idVal);
-        if (choice) selectChoice(choice);
-      } else if (items.length > 0) {
-        const idVal = items[0].dataset.id;
-        const choice = currentGameType === "course"
-          ? window.ALL_COURSES.find(c => c.id === parseInt(idVal))
-          : window.ALL_RACES.find(r => r.name === idVal);
-        if (choice) selectChoice(choice);
-      }
+      submitCurrentInput();
     } else if (e.key === "Escape") {
       suggestionsList.classList.remove("open");
     }
@@ -531,23 +661,43 @@
     const isWin = evaluation.isWin;
     const isLoss = guesses.length >= MAX_GUESSES && !isWin;
 
+    if (currentPlayMode === "daily") {
+      saveCurrentDailyState();
+    }
+
     if (isWin || isLoss) {
       isGameOver = true;
       trackInput.disabled = true;
 
       const staggerMs = (currentGameType === "course" ? 9 : 8) * 120 + 300;
       setTimeout(() => {
-        handleGameOver(isWin);
+        recordGameOverStats(isWin);
+        showGameOverModal(isWin);
+        if (currentPlayMode === "daily") {
+          updateCompletedBanner(isWin);
+        }
       }, staggerMs);
     }
   }
 
   function updateCounter() {
-    currentGuessNum.textContent = Math.min(guesses.length + 1, MAX_GUESSES);
+    const counterDisplay = document.getElementById("guess-counter-display");
+    if (isGameOver) {
+      const isWin = guesses.length > 0 && guesses[guesses.length - 1].isWin;
+      if (isWin) {
+        if (counterDisplay) counterDisplay.innerHTML = `Solved in <span style="color: var(--color-exact); font-weight: 700;">${guesses.length}/${MAX_GUESSES}</span> 🏆`;
+      } else {
+        if (counterDisplay) counterDisplay.innerHTML = `Finished (<span style="color: var(--text-muted); font-weight: 700;">${guesses.length}/${MAX_GUESSES}</span>) 🏁`;
+      }
+    } else {
+      if (counterDisplay) {
+        counterDisplay.innerHTML = `Guess: <span id="current-guess-num">${Math.min(guesses.length + 1, MAX_GUESSES)}</span> of <span>${MAX_GUESSES}</span>`;
+      }
+    }
   }
 
   // Game over modal
-  function handleGameOver(isWin) {
+  function recordGameOverStats(isWin) {
     const stats = getStats();
     stats.played += 1;
     if (isWin) {
@@ -563,6 +713,10 @@
       playSound("loss");
     }
     saveStats(stats);
+  }
+
+  function showGameOverModal(isWin) {
+    if (!secretTarget) return;
 
     const statusTitle = document.getElementById("reveal-status-title");
     const statusSub = document.getElementById("reveal-status-sub");
@@ -805,6 +959,24 @@
         suggestionsList.classList.remove("open");
       }
     });
+
+    // Guess submit button
+    submitBtn.addEventListener("click", submitCurrentInput);
+
+    const btnViewDailyResult = document.getElementById("btn-view-daily-result");
+    if (btnViewDailyResult) {
+      btnViewDailyResult.addEventListener("click", () => {
+        const isWin = guesses.length > 0 && guesses[guesses.length - 1].isWin;
+        showGameOverModal(isWin);
+      });
+    }
+
+    const btnSwitchPractice = document.getElementById("btn-switch-practice");
+    if (btnSwitchPractice) {
+      btnSwitchPractice.addEventListener("click", () => {
+        startNewGame("practice");
+      });
+    }
 
     // Game type buttons (Course vs Race)
     btnGameCourse.addEventListener("click", () => {
