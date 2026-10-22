@@ -281,6 +281,7 @@
           renderBoard();
           updateCounter();
           updateCompletedBanner(hasWin);
+          showGameOverModal(hasWin);
           return;
         }
       }
@@ -661,22 +662,30 @@
     const isWin = evaluation.isWin;
     const isLoss = guesses.length >= MAX_GUESSES && !isWin;
 
-    if (currentPlayMode === "daily") {
-      saveCurrentDailyState();
-    }
-
     if (isWin || isLoss) {
       isGameOver = true;
       trackInput.disabled = true;
 
+      if (currentPlayMode === "daily") {
+        saveCurrentDailyState();
+      }
+
       const staggerMs = (currentGameType === "course" ? 9 : 8) * 120 + 300;
       setTimeout(() => {
-        recordGameOverStats(isWin);
+        try {
+          recordGameOverStats(isWin);
+        } catch (e) {
+          console.warn("Could not record stats", e);
+        }
         showGameOverModal(isWin);
         if (currentPlayMode === "daily") {
           updateCompletedBanner(isWin);
         }
       }, staggerMs);
+    } else {
+      if (currentPlayMode === "daily") {
+        saveCurrentDailyState();
+      }
     }
   }
 
@@ -845,7 +854,18 @@
   function getStats() {
     try {
       const raw = localStorage.getItem(getStatsKey());
-      if (raw) return JSON.parse(raw);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === "object") {
+          return {
+            played: Number(parsed.played) || 0,
+            wins: Number(parsed.wins) || 0,
+            currentStreak: Number(parsed.currentStreak) || 0,
+            maxStreak: Number(parsed.maxStreak) || 0,
+            distribution: Object.assign({ 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, X: 0 }, parsed.distribution || {})
+          };
+        }
+      }
     } catch (e) {}
     return {
       played: 0,

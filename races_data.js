@@ -9735,7 +9735,10 @@ const ALL_RACES = [
 
 // Race evaluation between guessed race and secret target race
 function evaluateRaceGuess(guess, target) {
-  const isWin = guess.name === target.name;
+  const isWin = Boolean(
+    (guess.id && target.id && guess.id === target.id) ||
+    (guess.name && target.name && guess.name.trim().toLowerCase() === target.name.trim().toLowerCase())
+  );
 
   // 1. Grade (G1, G2, G3, OP)
   // Green if exact, Yellow if +-1 grade, with Arrow ⬆️ / ⬇️
