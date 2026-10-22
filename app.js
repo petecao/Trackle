@@ -215,14 +215,15 @@
     const thead = guessesTable.querySelector("thead");
     thead.innerHTML = `
       <tr>
-        <th style="width: 22%;">Guessed Race</th>
-        <th style="width: 9%;">Grade</th>
-        <th style="width: 13%;">Racetrack</th>
-        <th style="width: 11%;">Distance</th>
-        <th style="width: 11%;">Distance Type</th>
-        <th style="width: 9%;">Surface</th>
-        <th style="width: 13%;">Turn</th>
-        <th style="width: 12%;">Late Race</th>
+        <th style="width: 20%;">Guessed Race</th>
+        <th style="width: 8%;">Grade</th>
+        <th style="width: 12%;">Racetrack</th>
+        <th style="width: 10%;">Distance</th>
+        <th style="width: 10%;">Distance Type</th>
+        <th style="width: 8%;">Surface</th>
+        <th style="width: 11%;">Turn</th>
+        <th style="width: 10%;">Late Race</th>
+        <th style="width: 11%;">Fan Gain</th>
       </tr>
     `;
   }
@@ -330,7 +331,7 @@
   // Render guess rows & empty placeholders
   function renderBoard() {
     guessesTbody.innerHTML = "";
-    const colCount = currentGameType === "course" ? 9 : 8;
+    const colCount = 9;
 
     // Existing guesses
     guesses.forEach((guessEval) => {
@@ -404,7 +405,8 @@
         { status: res.distance_type.status, val: res.distance_type.val },
         { status: res.terrain.status, val: res.terrain.val },
         { status: res.turn.status, val: res.turn.val, arrow: res.turn.arrow },
-        { status: res.late_race.status, val: res.late_race.val }
+        { status: res.late_race.status, val: res.late_race.val },
+        { status: res.fans.status, val: res.fans.val, arrow: res.fans.arrow }
       ];
     }
 
@@ -522,7 +524,9 @@
           race.division,
           race.terrain,
           `${race.length}m`,
-          `${race.length}`
+          `${race.length}`,
+          `${race.fans || 0} fans`,
+          `${race.fans || 0}`
         ].join(" ").toLowerCase();
         return tokens.every(tok => searchableText.includes(tok));
       });
@@ -551,6 +555,7 @@
               <span>${race.length}m ${race.terrain}</span>
               <span style="color: #a5b4fc; font-weight: 600;">📅 ${race.turn}</span>
               <span>Late Race: <strong>${race.late_race}</strong></span>
+              <span style="color: #34d399; font-weight: 600;">👥 ${(race.fans || 0).toLocaleString()} fans</span>
             </div>
           </div>
         `;
@@ -670,7 +675,7 @@
         saveCurrentDailyState();
       }
 
-      const staggerMs = (currentGameType === "course" ? 9 : 8) * 120 + 300;
+      const staggerMs = 9 * 120 + 300;
       setTimeout(() => {
         try {
           recordGameOverStats(isWin);
@@ -775,6 +780,7 @@
         <span class="tag-badge tag-jra" style="background: rgba(99,102,241,0.25); color: #818cf8;">📅 <strong>${secretTarget.turn}</strong></span>
         <span class="tag-badge tag-nar" style="background: rgba(236,72,153,0.25); color: #f472b6;">Late Race: <strong>${secretTarget.late_race}</strong></span>
         <span class="tag-badge tag-intl">${secretTarget.direction} turn</span>
+        <span class="tag-badge tag-jra" style="background: rgba(16,185,129,0.25); color: #34d399;">👥 <strong>${(secretTarget.fans || 0).toLocaleString()} Fans</strong></span>
       `;
       const racesContainer = document.getElementById("reveal-course-races");
       if (secretTarget.factor) {
@@ -823,7 +829,8 @@
           emojiForStatus(res.distance_type.status),
           emojiForStatus(res.terrain.status),
           res.turn.arrow || emojiForStatus(res.turn.status),
-          emojiForStatus(res.late_race.status)
+          emojiForStatus(res.late_race.status),
+          res.fans.arrow || emojiForStatus(res.fans.status)
         ];
       }
       emojiBoard += rowEmojis.join("") + "\n";

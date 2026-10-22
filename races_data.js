@@ -33,7 +33,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 10500
   },
   {
     "id": 102301,
@@ -65,7 +66,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 30000
   },
   {
     "id": 102201,
@@ -97,7 +99,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 7000
   },
   {
     "id": 102001,
@@ -129,7 +132,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 10000
   },
   {
     "id": 100101,
@@ -161,7 +165,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 10000
   },
   {
     "id": 102101,
@@ -193,7 +198,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 6500
   },
   {
     "id": 102401,
@@ -225,7 +231,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 7000
   },
   {
     "id": 110501,
@@ -257,7 +264,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 8000
   },
   {
     "id": 110301,
@@ -289,7 +297,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 110401,
@@ -321,7 +330,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 6000
   },
   {
     "id": 101901,
@@ -353,7 +363,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 30000
   },
   {
     "id": 110201,
@@ -385,7 +396,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 4500
   },
   {
     "id": 100901,
@@ -417,7 +429,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 11000
   },
   {
     "id": 110901,
@@ -449,7 +462,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 8000
   },
   {
     "id": 110701,
@@ -481,7 +495,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 6000
   },
   {
     "id": 101501,
@@ -513,7 +528,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 12000
   },
   {
     "id": 111001,
@@ -545,7 +561,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 6000
   },
   {
     "id": 101801,
@@ -577,7 +594,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 11000
   },
   {
     "id": 103001,
@@ -609,7 +627,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 6000
   },
   {
     "id": 100701,
@@ -641,7 +660,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 10500
   },
   {
     "id": 100401,
@@ -673,7 +693,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 10500
   },
   {
     "id": 100301,
@@ -705,7 +726,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 13500
   },
   {
     "id": 120101,
@@ -737,7 +759,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 30000
   },
   {
     "id": 103401,
@@ -769,7 +792,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 10500
   },
   {
     "id": 101701,
@@ -801,7 +825,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 10500
   },
   {
     "id": 100501,
@@ -833,7 +858,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 11000
   },
   {
     "id": 101401,
@@ -865,7 +891,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 10000
   },
   {
     "id": 101301,
@@ -897,7 +924,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 13000
   },
   {
     "id": 100201,
@@ -929,7 +957,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 13000
   },
   {
     "id": 101201,
@@ -961,7 +990,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 15000
   },
   {
     "id": 110101,
@@ -993,7 +1023,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 6000
   },
   {
     "id": 101601,
@@ -1025,7 +1056,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 15000
   },
   {
     "id": 100601,
@@ -1057,7 +1089,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 15000
   },
   {
     "id": 110601,
@@ -1089,7 +1122,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 8000
   },
   {
     "id": 101001,
@@ -1121,7 +1155,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 20000
   },
   {
     "id": 100801,
@@ -1153,7 +1188,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 10500
   },
   {
     "id": 101101,
@@ -1185,7 +1221,8 @@ const ALL_RACES = [
     "turn": "Early June",
     "turn_index": 11,
     "month": 6,
-    "half": 1
+    "half": 1,
+    "fans": 13000
   },
   {
     "id": 110801,
@@ -1217,7 +1254,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 4200
   },
   {
     "id": 202501,
@@ -1249,7 +1287,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 6700
   },
   {
     "id": 200301,
@@ -1281,7 +1320,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 6200
   },
   {
     "id": 201601,
@@ -1313,7 +1353,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 5400
   },
   {
     "id": 202101,
@@ -1345,7 +1386,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 5900
   },
   {
     "id": 203101,
@@ -1377,7 +1419,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 5700
   },
   {
     "id": 203201,
@@ -1409,7 +1452,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 204001,
@@ -1441,7 +1485,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 3200
   },
   {
     "id": 203801,
@@ -1473,7 +1518,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 3500
   },
   {
     "id": 200801,
@@ -1505,7 +1551,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 5200
   },
   {
     "id": 201501,
@@ -1537,7 +1584,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 5200
   },
   {
     "id": 202801,
@@ -1569,7 +1617,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 5500
   },
   {
     "id": 305801,
@@ -1601,7 +1650,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 5900
   },
   {
     "id": 203401,
@@ -1633,7 +1683,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 6700
   },
   {
     "id": 200901,
@@ -1665,7 +1716,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 6700
   },
   {
     "id": 201201,
@@ -1697,7 +1749,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 5500
   },
   {
     "id": 931207,
@@ -1729,7 +1782,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 5500
   },
   {
     "id": 203901,
@@ -1761,7 +1815,8 @@ const ALL_RACES = [
     "turn": "Early June",
     "turn_index": 11,
     "month": 6,
-    "half": 1
+    "half": 1,
+    "fans": 3500
   },
   {
     "id": 203001,
@@ -1793,7 +1848,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 201801,
@@ -1825,7 +1881,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 5900
   },
   {
     "id": 200701,
@@ -1857,7 +1914,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 6700
   },
   {
     "id": 202401,
@@ -1889,7 +1947,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 5400
   },
   {
     "id": 202701,
@@ -1921,7 +1980,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 6700
   },
   {
     "id": 200401,
@@ -1953,7 +2013,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 6200
   },
   {
     "id": 201701,
@@ -1985,7 +2046,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 5400
   },
   {
     "id": 203601,
@@ -2017,7 +2079,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 3100
   },
   {
     "id": 202601,
@@ -2049,7 +2112,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 6700
   },
   {
     "id": 201901,
@@ -2081,7 +2145,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 5700
   },
   {
     "id": 201401,
@@ -2113,7 +2178,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 5900
   },
   {
     "id": 200501,
@@ -2145,7 +2211,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 6700
   },
   {
     "id": 201301,
@@ -2177,7 +2244,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 5400
   },
   {
     "id": 200101,
@@ -2209,7 +2277,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 5700
   },
   {
     "id": 201101,
@@ -2241,7 +2310,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 6700
   },
   {
     "id": 931202,
@@ -2273,7 +2343,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 5000
   },
   {
     "id": 931201,
@@ -2305,7 +2376,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 5000
   },
   {
     "id": 202201,
@@ -2337,7 +2409,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 5200
   },
   {
     "id": 202001,
@@ -2369,7 +2442,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 7000
   },
   {
     "id": 204101,
@@ -2401,7 +2475,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 3200
   },
   {
     "id": 201001,
@@ -2433,7 +2508,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 5400
   },
   {
     "id": 202301,
@@ -2465,7 +2541,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 5400
   },
   {
     "id": 203301,
@@ -2497,7 +2574,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 6200
   },
   {
     "id": 202901,
@@ -2529,7 +2607,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 5900
   },
   {
     "id": 200201,
@@ -2561,7 +2640,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 5500
   },
   {
     "id": 203701,
@@ -2593,7 +2673,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 3500
   },
   {
     "id": 301801,
@@ -2625,7 +2706,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 5200
   },
   {
     "id": 200601,
@@ -2657,7 +2739,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 5400
   },
   {
     "id": 300501,
@@ -2689,7 +2772,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 302601,
@@ -2721,7 +2805,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 405001,
@@ -2753,7 +2838,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 3800
   },
   {
     "id": 301601,
@@ -2785,7 +2871,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 305901,
@@ -2817,7 +2904,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 2900
   },
   {
     "id": 303501,
@@ -2849,7 +2937,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 3900
   },
   {
     "id": 306901,
@@ -2881,7 +2970,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 306701,
@@ -2913,7 +3003,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 304001,
@@ -2945,7 +3036,8 @@ const ALL_RACES = [
     "turn": "Late July",
     "turn_index": 14,
     "month": 7,
-    "half": 2
+    "half": 2,
+    "fans": 3900
   },
   {
     "id": 306801,
@@ -2977,7 +3069,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 307701,
@@ -3009,7 +3102,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 301401,
@@ -3041,7 +3135,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 4100
   },
   {
     "id": 304701,
@@ -3073,7 +3168,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 303201,
@@ -3105,7 +3201,8 @@ const ALL_RACES = [
     "turn": "Early June",
     "turn_index": 11,
     "month": 6,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 300401,
@@ -3137,7 +3234,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 3500
   },
   {
     "id": 302101,
@@ -3169,7 +3267,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 3800
   },
   {
     "id": 306001,
@@ -3201,7 +3300,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 2900
   },
   {
     "id": 302201,
@@ -3233,7 +3333,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 3500
   },
   {
     "id": 306301,
@@ -3265,7 +3366,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 302701,
@@ -3297,7 +3399,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 3800
   },
   {
     "id": 304101,
@@ -3329,7 +3432,8 @@ const ALL_RACES = [
     "turn": "Late July",
     "turn_index": 14,
     "month": 7,
-    "half": 2
+    "half": 2,
+    "fans": 3100
   },
   {
     "id": 303901,
@@ -3361,7 +3465,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 303401,
@@ -3393,7 +3498,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 3900
   },
   {
     "id": 301701,
@@ -3425,7 +3531,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 4100
   },
   {
     "id": 302901,
@@ -3457,7 +3564,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 3600
   },
   {
     "id": 304201,
@@ -3489,7 +3597,8 @@ const ALL_RACES = [
     "turn": "Late July",
     "turn_index": 14,
     "month": 7,
-    "half": 2
+    "half": 2,
+    "fans": 3900
   },
   {
     "id": 305001,
@@ -3521,7 +3630,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 4100
   },
   {
     "id": 306601,
@@ -3553,7 +3663,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 3900
   },
   {
     "id": 300601,
@@ -3585,7 +3696,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 305501,
@@ -3617,7 +3729,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 3900
   },
   {
     "id": 300901,
@@ -3649,7 +3762,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 304801,
@@ -3681,7 +3795,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 3900
   },
   {
     "id": 301501,
@@ -3713,7 +3828,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 4100
   },
   {
     "id": 305201,
@@ -3745,7 +3861,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 3100
   },
   {
     "id": 304401,
@@ -3777,7 +3894,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 301201,
@@ -3809,7 +3927,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 306501,
@@ -3841,7 +3960,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 3300
   },
   {
     "id": 300101,
@@ -3873,7 +3993,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 301301,
@@ -3905,7 +4026,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 3600
   },
   {
     "id": 304501,
@@ -3937,7 +4059,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 4000
   },
   {
     "id": 302501,
@@ -3969,7 +4092,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 3900
   },
   {
     "id": 302301,
@@ -4001,7 +4125,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 3800
   },
   {
     "id": 302401,
@@ -4033,7 +4158,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 3600
   },
   {
     "id": 307401,
@@ -4065,7 +4191,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 307601,
@@ -4097,7 +4224,8 @@ const ALL_RACES = [
     "turn": "Late July",
     "turn_index": 14,
     "month": 7,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 303101,
@@ -4129,7 +4257,8 @@ const ALL_RACES = [
     "turn": "Early June",
     "turn_index": 11,
     "month": 6,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 306101,
@@ -4161,7 +4290,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 306201,
@@ -4193,7 +4323,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 300201,
@@ -4225,7 +4356,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 302001,
@@ -4257,7 +4389,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 303001,
@@ -4289,7 +4422,8 @@ const ALL_RACES = [
     "turn": "Early June",
     "turn_index": 11,
     "month": 6,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 300801,
@@ -4321,7 +4455,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 3800
   },
   {
     "id": 302801,
@@ -4353,7 +4488,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 304901,
@@ -4385,7 +4521,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 3100
   },
   {
     "id": 305301,
@@ -4417,7 +4554,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 301901,
@@ -4449,7 +4587,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 303701,
@@ -4481,7 +4620,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 301101,
@@ -4513,7 +4653,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 3500
   },
   {
     "id": 307501,
@@ -4545,7 +4686,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 2100
   },
   {
     "id": 304301,
@@ -4577,7 +4719,8 @@ const ALL_RACES = [
     "turn": "Late July",
     "turn_index": 14,
     "month": 7,
-    "half": 2
+    "half": 2,
+    "fans": 3600
   },
   {
     "id": 303601,
@@ -4609,7 +4752,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 305101,
@@ -4641,7 +4785,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 3100
   },
   {
     "id": 305701,
@@ -4673,7 +4818,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 3300
   },
   {
     "id": 304601,
@@ -4705,7 +4851,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 3900
   },
   {
     "id": 300301,
@@ -4737,7 +4884,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 3800
   },
   {
     "id": 305401,
@@ -4769,7 +4917,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 3500
   },
   {
     "id": 300701,
@@ -4801,7 +4950,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 3900
   },
   {
     "id": 305601,
@@ -4833,7 +4983,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 3600
   },
   {
     "id": 307301,
@@ -4865,7 +5016,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 307101,
@@ -4897,7 +5049,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 303801,
@@ -4929,7 +5082,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 4100
   },
   {
     "id": 301001,
@@ -4961,7 +5115,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 3900
   },
   {
     "id": 306401,
@@ -4993,7 +5148,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 3300
   },
   {
     "id": 307201,
@@ -5025,7 +5181,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 2700
   },
   {
     "id": 307001,
@@ -5057,7 +5214,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 3600
   },
   {
     "id": 303301,
@@ -5089,7 +5247,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 3500
   },
   {
     "id": 405901,
@@ -5121,7 +5280,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 401601,
@@ -5153,7 +5313,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 410401,
@@ -5185,7 +5346,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 2600
   },
   {
     "id": 402401,
@@ -5217,7 +5379,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 2000
   },
   {
     "id": 407301,
@@ -5249,7 +5412,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 410801,
@@ -5281,7 +5445,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 405801,
@@ -5313,7 +5478,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 411901,
@@ -5345,7 +5511,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 407901,
@@ -5377,7 +5544,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 411601,
@@ -5409,7 +5577,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 409801,
@@ -5441,7 +5610,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 404801,
@@ -5473,7 +5643,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 408901,
@@ -5505,7 +5676,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 1600
   },
   {
     "id": 410701,
@@ -5537,7 +5709,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 401001,
@@ -5569,7 +5742,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 410001,
@@ -5601,7 +5775,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 2600
   },
   {
     "id": 402801,
@@ -5633,7 +5808,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 411401,
@@ -5665,7 +5841,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 1600
   },
   {
     "id": 406801,
@@ -5697,7 +5874,8 @@ const ALL_RACES = [
     "turn": "Late July",
     "turn_index": 14,
     "month": 7,
-    "half": 2
+    "half": 2,
+    "fans": 1600
   },
   {
     "id": 407701,
@@ -5729,7 +5907,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 1600
   },
   {
     "id": 403101,
@@ -5761,7 +5940,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 407501,
@@ -5793,7 +5973,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 1600
   },
   {
     "id": 401201,
@@ -5825,7 +6006,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 407001,
@@ -5857,7 +6039,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 1600
   },
   {
     "id": 411301,
@@ -5889,7 +6072,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 2600
   },
   {
     "id": 401401,
@@ -5921,7 +6105,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 2000
   },
   {
     "id": 408401,
@@ -5953,7 +6138,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 403301,
@@ -5985,7 +6171,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 1800
   },
   {
     "id": 410301,
@@ -6017,7 +6204,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 1600
   },
   {
     "id": 403801,
@@ -6049,7 +6237,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 2600
   },
   {
     "id": 410601,
@@ -6081,7 +6270,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 406901,
@@ -6113,7 +6303,8 @@ const ALL_RACES = [
     "turn": "Late July",
     "turn_index": 14,
     "month": 7,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 408801,
@@ -6145,7 +6336,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 1600
   },
   {
     "id": 411501,
@@ -6177,7 +6369,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 409201,
@@ -6209,7 +6402,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 409901,
@@ -6241,7 +6435,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 1700
   },
   {
     "id": 407801,
@@ -6273,7 +6468,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 1600
   },
   {
     "id": 405401,
@@ -6305,7 +6501,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 1900
   },
   {
     "id": 401801,
@@ -6337,7 +6534,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 1900
   },
   {
     "id": 405501,
@@ -6369,7 +6567,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 409601,
@@ -6401,7 +6600,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 1700
   },
   {
     "id": 400501,
@@ -6433,7 +6633,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 400201,
@@ -6465,7 +6666,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2000
   },
   {
     "id": 412201,
@@ -6497,7 +6699,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 2400
   },
   {
     "id": 403601,
@@ -6529,7 +6732,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 405701,
@@ -6561,7 +6765,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 408701,
@@ -6593,7 +6798,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 1600
   },
   {
     "id": 411801,
@@ -6625,7 +6831,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 400701,
@@ -6657,7 +6864,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2000
   },
   {
     "id": 402601,
@@ -6689,7 +6897,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 408001,
@@ -6721,7 +6930,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 2400
   },
   {
     "id": 404701,
@@ -6753,7 +6963,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 410901,
@@ -6785,7 +6996,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 410101,
@@ -6817,7 +7029,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 400101,
@@ -6849,7 +7062,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2400
   },
   {
     "id": 403201,
@@ -6881,7 +7095,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 406501,
@@ -6913,7 +7128,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 405301,
@@ -6945,7 +7161,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 2400
   },
   {
     "id": 406601,
@@ -6977,7 +7194,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 404601,
@@ -7009,7 +7227,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 2600
   },
   {
     "id": 404901,
@@ -7041,7 +7260,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 2600
   },
   {
     "id": 409301,
@@ -7073,7 +7293,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 1600
   },
   {
     "id": 409701,
@@ -7105,7 +7326,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 407601,
@@ -7137,7 +7359,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 412301,
@@ -7169,7 +7392,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 400601,
@@ -7201,7 +7425,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 402301,
@@ -7233,7 +7458,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 408501,
@@ -7265,7 +7491,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 1600
   },
   {
     "id": 404001,
@@ -7297,7 +7524,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 409401,
@@ -7329,7 +7557,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 2600
   },
   {
     "id": 406201,
@@ -7361,7 +7590,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 409101,
@@ -7393,7 +7623,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 410201,
@@ -7425,7 +7656,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 402101,
@@ -7457,7 +7689,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 2600
   },
   {
     "id": 406301,
@@ -7489,7 +7722,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 407401,
@@ -7521,7 +7755,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 1600
   },
   {
     "id": 402201,
@@ -7553,7 +7788,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 400401,
@@ -7585,7 +7821,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 409001,
@@ -7617,7 +7854,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 404501,
@@ -7649,7 +7887,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 2000
   },
   {
     "id": 408601,
@@ -7681,7 +7920,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 401501,
@@ -7713,7 +7953,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 411101,
@@ -7745,7 +7986,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 405101,
@@ -7777,7 +8019,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 403001,
@@ -7809,7 +8052,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 412101,
@@ -7841,7 +8085,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 407101,
@@ -7873,7 +8118,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 2600
   },
   {
     "id": 405201,
@@ -7905,7 +8151,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 1800
   },
   {
     "id": 410501,
@@ -7937,7 +8184,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 409501,
@@ -7969,7 +8217,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 401101,
@@ -8001,7 +8250,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 2600
   },
   {
     "id": 405601,
@@ -8033,7 +8283,8 @@ const ALL_RACES = [
     "turn": "Late May",
     "turn_index": 10,
     "month": 5,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 411001,
@@ -8065,7 +8316,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 402501,
@@ -8097,7 +8349,8 @@ const ALL_RACES = [
     "turn": "Early March",
     "turn_index": 5,
     "month": 3,
-    "half": 1
+    "half": 1,
+    "fans": 1800
   },
   {
     "id": 403701,
@@ -8129,7 +8382,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 412001,
@@ -8161,7 +8415,8 @@ const ALL_RACES = [
     "turn": "Early June",
     "turn_index": 11,
     "month": 6,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 401901,
@@ -8193,7 +8448,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 400801,
@@ -8225,7 +8481,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 2300
   },
   {
     "id": 402001,
@@ -8257,7 +8514,8 @@ const ALL_RACES = [
     "turn": "Late February",
     "turn_index": 4,
     "month": 2,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 408301,
@@ -8289,7 +8547,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 1600
   },
   {
     "id": 404301,
@@ -8321,7 +8580,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 403901,
@@ -8353,7 +8613,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 408201,
@@ -8385,7 +8646,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 2400
   },
   {
     "id": 404201,
@@ -8417,7 +8679,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 1800
   },
   {
     "id": 404401,
@@ -8449,7 +8712,8 @@ const ALL_RACES = [
     "turn": "Early May",
     "turn_index": 9,
     "month": 5,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 411201,
@@ -8481,7 +8745,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 406001,
@@ -8513,7 +8778,8 @@ const ALL_RACES = [
     "turn": "Early June",
     "turn_index": 11,
     "month": 6,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 404101,
@@ -8545,7 +8811,8 @@ const ALL_RACES = [
     "turn": "Late April",
     "turn_index": 8,
     "month": 4,
-    "half": 2
+    "half": 2,
+    "fans": 2200
   },
   {
     "id": 408101,
@@ -8577,7 +8844,8 @@ const ALL_RACES = [
     "turn": "Late August",
     "turn_index": 16,
     "month": 8,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 406401,
@@ -8609,7 +8877,8 @@ const ALL_RACES = [
     "turn": "Early July",
     "turn_index": 13,
     "month": 7,
-    "half": 1
+    "half": 1,
+    "fans": 2400
   },
   {
     "id": 407201,
@@ -8641,7 +8910,8 @@ const ALL_RACES = [
     "turn": "Early August",
     "turn_index": 15,
     "month": 8,
-    "half": 1
+    "half": 1,
+    "fans": 2300
   },
   {
     "id": 412401,
@@ -8673,7 +8943,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 401701,
@@ -8705,7 +8976,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 402701,
@@ -8737,7 +9009,8 @@ const ALL_RACES = [
     "turn": "Late March",
     "turn_index": 6,
     "month": 3,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 400901,
@@ -8769,7 +9042,8 @@ const ALL_RACES = [
     "turn": "Late January",
     "turn_index": 2,
     "month": 1,
-    "half": 2
+    "half": 2,
+    "fans": 2000
   },
   {
     "id": 403501,
@@ -8801,7 +9075,8 @@ const ALL_RACES = [
     "turn": "Early April",
     "turn_index": 7,
     "month": 4,
-    "half": 1
+    "half": 1,
+    "fans": 2000
   },
   {
     "id": 401301,
@@ -8833,7 +9108,8 @@ const ALL_RACES = [
     "turn": "Early February",
     "turn_index": 3,
     "month": 2,
-    "half": 1
+    "half": 1,
+    "fans": 2200
   },
   {
     "id": 400301,
@@ -8865,7 +9141,8 @@ const ALL_RACES = [
     "turn": "Early January",
     "turn_index": 1,
     "month": 1,
-    "half": 1
+    "half": 1,
+    "fans": 2500
   },
   {
     "id": 406101,
@@ -8897,7 +9174,8 @@ const ALL_RACES = [
     "turn": "Late June",
     "turn_index": 12,
     "month": 6,
-    "half": 2
+    "half": 2,
+    "fans": 2500
   },
   {
     "id": 451201,
@@ -8929,7 +9207,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 450101,
@@ -8961,7 +9240,8 @@ const ALL_RACES = [
     "turn": "Early September",
     "turn_index": 17,
     "month": 9,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 451501,
@@ -8993,7 +9273,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 451401,
@@ -9025,7 +9306,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 452101,
@@ -9057,7 +9339,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 451701,
@@ -9089,7 +9372,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 452301,
@@ -9121,7 +9405,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 450701,
@@ -9153,7 +9438,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 452501,
@@ -9185,7 +9471,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 451001,
@@ -9217,7 +9504,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 450801,
@@ -9249,7 +9537,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 451801,
@@ -9281,7 +9570,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 452001,
@@ -9313,7 +9603,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 451901,
@@ -9345,7 +9636,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 451101,
@@ -9377,7 +9669,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 450601,
@@ -9409,7 +9702,8 @@ const ALL_RACES = [
     "turn": "Late October",
     "turn_index": 20,
     "month": 10,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 450901,
@@ -9441,7 +9735,8 @@ const ALL_RACES = [
     "turn": "Early November",
     "turn_index": 21,
     "month": 11,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 450501,
@@ -9473,7 +9768,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 450301,
@@ -9505,7 +9801,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 450201,
@@ -9537,7 +9834,8 @@ const ALL_RACES = [
     "turn": "Late September",
     "turn_index": 18,
     "month": 9,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 452401,
@@ -9569,7 +9867,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 452601,
@@ -9601,7 +9900,8 @@ const ALL_RACES = [
     "turn": "Late December",
     "turn_index": 24,
     "month": 12,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 450401,
@@ -9633,7 +9933,8 @@ const ALL_RACES = [
     "turn": "Early October",
     "turn_index": 19,
     "month": 10,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   },
   {
     "id": 451601,
@@ -9665,7 +9966,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 451301,
@@ -9697,7 +9999,8 @@ const ALL_RACES = [
     "turn": "Late November",
     "turn_index": 22,
     "month": 11,
-    "half": 2
+    "half": 2,
+    "fans": 1000
   },
   {
     "id": 452201,
@@ -9729,7 +10032,8 @@ const ALL_RACES = [
     "turn": "Early December",
     "turn_index": 23,
     "month": 12,
-    "half": 1
+    "half": 1,
+    "fans": 1000
   }
 ];
 
@@ -9806,6 +10110,21 @@ function evaluateRaceGuess(guess, target) {
     lateRaceStatus = "partial";
   }
 
+  // 8. Fan Gain (Base 1st-place fan gain)
+  let fansStatus = "mismatch";
+  const targetFans = target.fans || 0;
+  const guessFans = guess.fans || 0;
+  const fansDiff = targetFans - guessFans;
+  const absFansDiff = Math.abs(fansDiff);
+  if (absFansDiff === 0) {
+    fansStatus = "exact";
+  } else if (absFansDiff <= 2000) {
+    fansStatus = "partial"; // within ±2,000 fans
+  }
+  let fansArrow = "";
+  if (targetFans > guessFans) fansArrow = "⬆️";
+  else if (targetFans < guessFans) fansArrow = "⬇️";
+
   return {
     isWin,
     guess,
@@ -9818,13 +10137,15 @@ function evaluateRaceGuess(guess, target) {
       terrain: { val: guess.terrain, status: terrainStatus },
       turn: { val: guess.turn, arrow: turnArrow, status: turnStatus, diff: target.turn_index - guess.turn_index },
       season: { val: guess.season, status: (guess.season === target.season ? "exact" : "mismatch") },
-      late_race: { val: guess.late_race, status: lateRaceStatus }
+      late_race: { val: guess.late_race, status: lateRaceStatus },
+      fans: { val: `${guessFans.toLocaleString()}`, arrow: fansArrow, status: fansStatus, diff: fansDiff }
     }
   };
 }
 
 // Daily race deterministic selector (picks from graded G1, G2, G3 races)
 function getDailyRace(dateString) {
+  if (!dateString) dateString = new Date().toISOString().slice(0, 10);
   const gradedPool = ALL_RACES.filter(r => r.grade_num <= 3); // G1, G2, G3
   let hash = 0;
   for (let i = 0; i < dateString.length; i++) {
@@ -9837,4 +10158,3 @@ function getDailyRace(dateString) {
 window.ALL_RACES = ALL_RACES;
 window.evaluateRaceGuess = evaluateRaceGuess;
 window.getDailyRace = getDailyRace;
-
