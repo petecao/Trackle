@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261023">
 </head>
 <body>
   <!-- Confetti Celebration Canvas -->
@@ -368,6 +368,34 @@
   <script src="courses_data.js"></script>
   <script src="races_data.js"></script>
   <script src="songs_data.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=20261023"></script>
+  <script>
+    (function() {
+      function tick() {
+        var now = new Date();
+        var nextReset = new Date(Date.UTC(
+          now.getUTCFullYear(),
+          now.getUTCMonth(),
+          now.getUTCDate() + 1,
+          0, 0, 0, 0
+        ));
+        var diff = Math.max(0, nextReset - now);
+        var h = Math.floor(diff / 3600000);
+        var m = Math.floor((diff % 3600000) / 60000);
+        var s = Math.floor((diff % 60000) / 1000);
+        var pad = function(n) { return (n < 10 ? "0" : "") + n; };
+        var str = pad(h) + ":" + pad(m) + ":" + pad(s);
+        var els = document.querySelectorAll(".daily-reset-timer");
+        for (var i = 0; i < els.length; i++) {
+          els[i].textContent = str;
+        }
+      }
+      tick();
+      setInterval(tick, 1000);
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", tick);
+      }
+    })();
+  </script>
 </body>
 </html>

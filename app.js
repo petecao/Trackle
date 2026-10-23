@@ -185,6 +185,8 @@
 
   // Initialize
   function init() {
+    updateDailyCountdownTimers();
+    setInterval(updateDailyCountdownTimers, 1000);
     loadPreferences();
     setupEventListeners();
     const savedGameType = localStorage.getItem(LAST_GAME_TYPE_KEY) || "course";
@@ -537,6 +539,7 @@
           renderBoard();
           updateCounter();
           updateCompletedBanner(hasWin);
+          updateDailyCountdownTimers();
           showGameOverModal(hasWin);
           return;
         }
@@ -618,6 +621,7 @@
         if (counterDisplay) counterDisplay.innerHTML = `Finished (<span style="color: var(--text-muted); font-weight: 700;">${guesses.length}/${MAX_GUESSES}</span>) 🏁`;
       }
     }
+    updateDailyCountdownTimers();
   }
 
   // Render guess rows & empty placeholders
@@ -1575,9 +1579,6 @@
         canvas.height = window.innerHeight;
       }
     });
-
-    setInterval(updateDailyCountdownTimers, 1000);
-    updateDailyCountdownTimers();
   }
 
   if (document.readyState === "loading") {
