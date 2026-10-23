@@ -28,16 +28,21 @@ An interactive Wordle-style daily guessing game and comprehensive racetrack asse
   - **Turn**: Exact half-month calendar schedule (e.g. *Late December*, *Early May*). 🟨 Within ±2 turns (1 month). ⬆️/⬇️ indicates whether the race is earlier or later in the calendar year.
   - **Late Race**: Exact acceleration phase start.
 
+### 3. Song Guesser ("Heardle")
+- Progressive audio unlock tiers (**0.1s → 0.5s → 2.0s → 8.0s → 15.0s**) across 247 official *Uma Musume* songs.
+- Searchable by song title (English or Japanese) and character/artist vocalists (e.g. *Silence Suzuka*, *Oguri Cap*, *Mayano Top Gun*).
+- Complete album artwork reveal and full audio playback upon round completion.
+
 ---
 
 ## 🚀 Running Locally
 
 ```bash
 # Serve the directory locally
-python3 -m http.server 8080
+python3 -m http.server 8085
 
 # Open in browser:
-# http://localhost:8080
+# http://localhost:8085
 ```
 
 ---
@@ -47,13 +52,26 @@ python3 -m http.server 8080
 Trackle/
 ├── index.html           # Trackle Single-Page Application
 ├── style.css            # Dark/cyberpunk glassmorphism design system
-├── app.js               # Game state, audio synthesis, autocomplete, share generator
+├── app.js               # Game state, audio player, autocomplete, share generator
 ├── courses_data.js      # 138 official course datasets with late-race spurt points
 ├── races_data.js        # 304 official in-game races mapped to career calendar turns
 ├── tracks_data.js       # 17 track metadata definitions
+├── songs_data.js        # 247 song catalog with metadata, singer mapping, and daily selector
+├── audio/               # 247 clipped 30s song preview clips
+├── covers/              # 223 album jacket cover images
 ├── icons/               # 512x512 full badges and 128x128 thumbnails for 17 tracks
 ├── ui_icons/            # Course markers (spurt start, slope up/down, corners, straights, direction arrows)
 ├── tracks/              # Full & simple diagrams for all 138 course configurations
 ├── racetrack_data.json  # Complete structured JSON catalog
 └── README.md
 ```
+
+---
+
+## 🙏 Credits & Attributions
+
+- **Song Previews & Album Artwork**: Gratefully sourced from [snep's Uma Musume Song Sorter](https://snep.pw/uma/songsorter).
+- **Racetrack Data & Course Diagrams**: Sourced from [GameTora](https://gametora.com/umamusume/racetracks).
+- **Discography & Lyrics Data**: Sourced from [Umamusume Wiki](https://umamusu.wiki).
+- **Original IP & Audio**: © Cygames, Inc. / *Uma Musume: Pretty Derby*
+

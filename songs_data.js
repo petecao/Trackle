@@ -1,5 +1,6 @@
-// Uma Musume Complete Discography Song Catalog (224 Songs)
-// Sourced from official Winning Live, Starting Gate, and Anime CD releases
+// Uma Musume Complete Discography Song Catalog (247 Songs)
+// Song previews and covers sourced from https://snep.pw/uma/songsorter and official CD releases
+// Metadata and character vocalists sourced from Umamusume Wiki (https://umamusu.wiki)
 const ALL_SONGS = [
   {
     "id": "00c104fa-f2fe-4359-879d-ac17c8a51098",
