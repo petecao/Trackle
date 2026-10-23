@@ -16,7 +16,8 @@ const ALL_SONGS = [
     "cover_file": "covers/43e8406c9.png",
     "preview_hash": "9722f623f",
     "cover_hash": "43e8406c9",
-    "singer": "Silence Suzuka"
+    "singer": "Silence Suzuka",
+    "name_en": "Silent Star"
   },
   {
     "id": "0306151a-a7fb-41aa-bd78-bde2e61086af",
@@ -32,7 +33,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f0a596303.png",
     "preview_hash": "fdaf02cfe",
     "cover_hash": "f0a596303",
-    "singer": "Mayano Top Gun"
+    "singer": "Mayano Top Gun",
+    "name_en": "Heart-Fluttering Scramble"
   },
   {
     "id": "031121b0-d168-4bec-bb24-e1314a9d0759",
@@ -48,7 +50,8 @@ const ALL_SONGS = [
     "cover_file": "covers/22db75fd9.png",
     "preview_hash": "83b6ea0c8",
     "cover_hash": "22db75fd9",
-    "singer": "Oguri Cap"
+    "singer": "Oguri Cap",
+    "name_en": "∞ (infinity)"
   },
   {
     "id": "03ec58be-cc5e-458c-b3cf-5e56526f63a9",
@@ -64,7 +67,8 @@ const ALL_SONGS = [
     "cover_file": "covers/caaf5f8c2.png",
     "preview_hash": "769878ff9",
     "cover_hash": "caaf5f8c2",
-    "singer": "Katsuragi Ace"
+    "singer": "Katsuragi Ace",
+    "name_en": "Ace of Japan"
   },
   {
     "id": "04c68d37-cfc6-4952-91ad-6fa54bd7ebb6",
@@ -80,7 +84,8 @@ const ALL_SONGS = [
     "cover_file": "covers/104f71376.png",
     "preview_hash": "660fa3ae8",
     "cover_hash": "104f71376",
-    "singer": "Mejiro McQueen"
+    "singer": "Mejiro McQueen",
+    "name_en": "Signal of Something New"
   },
   {
     "id": "059316ea-a2c6-4433-9b6b-f0c0ef594448",
@@ -96,7 +101,8 @@ const ALL_SONGS = [
     "cover_file": "covers/aa6dfea24.png",
     "preview_hash": "556074473",
     "cover_hash": "aa6dfea24",
-    "singer": "Tokai Teio, Mihono Bourbon, Transcend, Hokko Tarumae, Wonder Acute"
+    "singer": "Tokai Teio, Mihono Bourbon, Transcend, Hokko Tarumae, Wonder Acute",
+    "name_en": "Yukoma Thermae"
   },
   {
     "id": "07a22113-c84c-4cc0-893d-18f770f41228",
@@ -112,7 +118,8 @@ const ALL_SONGS = [
     "cover_file": "covers/bf72c7a3d.png",
     "preview_hash": "547e34b66",
     "cover_hash": "bf72c7a3d",
-    "singer": "Narita Taishin"
+    "singer": "Narita Taishin",
+    "name_en": "Dawn of Emotions"
   },
   {
     "id": "07e5ac4d-70f9-4a3a-ab44-ed1f03eb7564",
@@ -128,7 +135,8 @@ const ALL_SONGS = [
     "cover_file": "covers/96dd82fd0.png",
     "preview_hash": "3360a0fb3",
     "cover_hash": "96dd82fd0",
-    "singer": "Grass Wonder, T.M. Opera O, Yukino Bijin, Winning Ticket, Narita Taishin"
+    "singer": "Grass Wonder, T.M. Opera O, Yukino Bijin, Winning Ticket, Narita Taishin",
+    "name_en": "#Uma Rap"
   },
   {
     "id": "083bf4ca-4ddf-4e70-9135-a00bc8ce3497",
@@ -144,7 +152,8 @@ const ALL_SONGS = [
     "cover_file": "covers/518e87a09.png",
     "preview_hash": "7b4c1061c",
     "cover_hash": "518e87a09",
-    "singer": "Silence Suzuka, Agnes Tachyon"
+    "singer": "Silence Suzuka, Agnes Tachyon",
+    "name_en": "Transforming"
   },
   {
     "id": "0a426407-9c4a-411f-a7fc-d6a767d15a1a",
@@ -160,7 +169,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e6cf77be1.png",
     "preview_hash": "f9668ada7",
     "cover_hash": "e6cf77be1",
-    "singer": "Gold Ship, Vodka, El Condor Pasa, Manhattan Cafe, Air Shakur, Eishin Flash, Nakayama Festa, Satono Diamond, Kitasan Black, Sirius Symboli, Sakura Laurel, Neo Universe, Tap Dance City"
+    "singer": "Gold Ship, Vodka, El Condor Pasa, Manhattan Cafe, Air Shakur, Eishin Flash, Nakayama Festa, Satono Diamond, Kitasan Black, Sirius Symboli, Sakura Laurel, Neo Universe, Tap Dance City",
+    "name_en": "L'Arc de gloire"
   },
   {
     "id": "0bcd5bab-6c1b-4df1-a4e0-49b8c020b814",
@@ -176,7 +186,8 @@ const ALL_SONGS = [
     "cover_file": "covers/93b8497b9.png",
     "preview_hash": "2d7b2efec",
     "cover_hash": "93b8497b9",
-    "singer": "Fine Motion, Mejiro Ryan, Smart Falcon"
+    "singer": "Fine Motion, Mejiro Ryan, Smart Falcon",
+    "name_en": "Here Comes Our Time"
   },
   {
     "id": "0d8fa11a-1795-4d5e-a948-bf22061c7de9",
@@ -192,7 +203,8 @@ const ALL_SONGS = [
     "cover_file": "covers/06b9e217a.png",
     "preview_hash": "4d604f383",
     "cover_hash": "06b9e217a",
-    "singer": "Fine Motion"
+    "singer": "Fine Motion",
+    "name_en": "The World When in Love"
   },
   {
     "id": "100f01a9-b717-4945-961e-a844f8a652a7",
@@ -208,7 +220,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3c7345357.png",
     "preview_hash": "2c68331f8",
     "cover_hash": "3c7345357",
-    "singer": "Oguri Cap, Gold Ship, Mejiro McQueen, Seiun Sky, Tamamo Cross, Biwa Hayahide, Curren Chan, Hishi Miracle, Chrono Genesis"
+    "singer": "Oguri Cap, Gold Ship, Mejiro McQueen, Seiun Sky, Tamamo Cross, Biwa Hayahide, Curren Chan, Hishi Miracle, Chrono Genesis",
+    "name_en": "Ashen Memoir"
   },
   {
     "id": "10bbf2f3-d06c-4a81-9cd8-9ea487a68c10",
@@ -224,7 +237,8 @@ const ALL_SONGS = [
     "cover_file": "covers/4eab95bfb.png",
     "preview_hash": "a397fe0e1",
     "cover_hash": "4eab95bfb",
-    "singer": "Daiwa Scarlet, Grass Wonder, T.M. Opera O, Narita Brian, Symboli Rudolf, Air Groove, Mayano Top Gun, Mihono Bourbon"
+    "singer": "Daiwa Scarlet, Grass Wonder, T.M. Opera O, Narita Brian, Symboli Rudolf, Air Groove, Mayano Top Gun, Mihono Bourbon",
+    "name_en": "Never Looking Back"
   },
   {
     "id": "112ba661-b0a8-4fd6-a4fd-39465eb5fd70",
@@ -240,7 +254,8 @@ const ALL_SONGS = [
     "cover_file": "covers/538be435c.png",
     "preview_hash": "1e3365cc3",
     "cover_hash": "538be435c",
-    "singer": "Vodka, Daiwa Scarlet, Mayano Top Gun, Smart Falcon, Daitaku Helios, Sakura Laurel, Yamanin Zephyr, Daiichi Ruby, Aston Machan, K.S.Miracle, Copano Rickey, Hokko Tarumae, Wonder Acute"
+    "singer": "Vodka, Daiwa Scarlet, Mayano Top Gun, Smart Falcon, Daitaku Helios, Sakura Laurel, Yamanin Zephyr, Daiichi Ruby, Aston Machan, K.S.Miracle, Copano Rickey, Hokko Tarumae, Wonder Acute",
+    "name_en": "Gaze on Me!"
   },
   {
     "id": "12610ae4-b26d-4b3b-9db3-b3db11b7dac0",
@@ -256,7 +271,8 @@ const ALL_SONGS = [
     "cover_file": "covers/71cd9a43c.png",
     "preview_hash": "ab31f1e69",
     "cover_hash": "71cd9a43c",
-    "singer": "Nice Nature"
+    "singer": "Nice Nature",
+    "name_en": "Out of This Triangle"
   },
   {
     "id": "14831685-2d90-499d-bd69-a8244afa1e97",
@@ -272,7 +288,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ee93115c6.png",
     "preview_hash": "aa9d0426c",
     "cover_hash": "ee93115c6",
-    "singer": "Hishi Amazon"
+    "singer": "Hishi Amazon",
+    "name_en": "Lonely Bird in the Cage"
   },
   {
     "id": "14c29581-32a5-4cea-a513-06c75e998cf0",
@@ -288,7 +305,8 @@ const ALL_SONGS = [
     "cover_file": "covers/43e8406c9.png",
     "preview_hash": "0fcd4f2e7",
     "cover_hash": "43e8406c9",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio",
+    "name_en": "Fanfare for the Future!"
   },
   {
     "id": "157ab627-9c04-4282-8324-52aeb05f9c19",
@@ -304,7 +322,8 @@ const ALL_SONGS = [
     "cover_file": "covers/caaf5f8c2.png",
     "preview_hash": "1942af790",
     "cover_hash": "caaf5f8c2",
-    "singer": "Inari One"
+    "singer": "Inari One",
+    "name_en": "Flower of Inari"
   },
   {
     "id": "15ccd855-a5fa-4689-bdd3-216621ff0c89",
@@ -320,7 +339,8 @@ const ALL_SONGS = [
     "cover_file": "covers/5ea0972ff.png",
     "preview_hash": "260cec76d",
     "cover_hash": "5ea0972ff",
-    "singer": "Satono Diamond, Kitasan Black"
+    "singer": "Satono Diamond, Kitasan Black",
+    "name_en": "Ambitious World"
   },
   {
     "id": "18378549-dd48-42f4-80c4-d228b007c646",
@@ -336,7 +356,8 @@ const ALL_SONGS = [
     "cover_file": "covers/bc5cbe9d3.png",
     "preview_hash": "b64785bd7",
     "cover_hash": "bc5cbe9d3",
-    "singer": "Taiki Shuttle, Grass Wonder, Hishi Amazon, El Condor Pasa, Seeking the Pearl, Espoir City, Symboli Kris S, Tap Dance City, Cesario, Loves Only You, Red Desire, Forever Young, Marche Lorraine"
+    "singer": "Taiki Shuttle, Grass Wonder, Hishi Amazon, El Condor Pasa, Seeking the Pearl, Espoir City, Symboli Kris S, Tap Dance City, Cesario, Loves Only You, Red Desire, Forever Young, Marche Lorraine",
+    "name_en": "VOLTAGE"
   },
   {
     "id": "19af0aa1-e1e3-4268-9bb3-bd6d998387db",
@@ -352,7 +373,8 @@ const ALL_SONGS = [
     "cover_file": "covers/05c44f8b4.png",
     "preview_hash": "de9e7fcd3",
     "cover_hash": "05c44f8b4",
-    "singer": "Still in Love, Rhein Kraft, Cesario, Air Messiah, Daring Heart"
+    "singer": "Still in Love, Rhein Kraft, Cesario, Air Messiah, Daring Heart",
+    "name_en": "Unite!!"
   },
   {
     "id": "19ce01a3-4412-4da6-9042-a278630a0463",
@@ -368,7 +390,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e1fe73715.png",
     "preview_hash": "a918e3e47",
     "cover_hash": "e1fe73715",
-    "singer": "Loves Only You"
+    "singer": "Loves Only You",
+    "name_en": "[GOODNIGHT ZATSU] Let's recharge our love together"
   },
   {
     "id": "19d9b813-fa3c-46c6-aeca-ebd793db9fa4",
@@ -384,7 +407,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3658a9696.png",
     "preview_hash": "70149f208",
     "cover_hash": "3658a9696",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Vodka, Daiwa Scarlet, Mejiro McQueen, Gold Ship"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Vodka, Daiwa Scarlet, Mejiro McQueen, Gold Ship",
+    "name_en": "Find My Only Way"
   },
   {
     "id": "1aa416e0-042c-4cef-93dc-75c2c93e06e3",
@@ -400,7 +424,8 @@ const ALL_SONGS = [
     "cover_file": "covers/adab79e96.png",
     "preview_hash": "dabe5328c",
     "cover_hash": "adab79e96",
-    "singer": "Yukino Bijin"
+    "singer": "Yukino Bijin",
+    "name_en": "City Princess!"
   },
   {
     "id": "1b7ae431-c9c4-40b6-a768-29e7c7608210",
@@ -416,7 +441,8 @@ const ALL_SONGS = [
     "cover_file": "covers/b2b1043ac.png",
     "preview_hash": "1772bc95b",
     "cover_hash": "b2b1043ac",
-    "singer": "Manhattan Cafe, Air Shakur, Nice Nature"
+    "singer": "Manhattan Cafe, Air Shakur, Nice Nature",
+    "name_en": "Go This Way"
   },
   {
     "id": "1d24a079-8010-42bf-9ca9-58034ea70cc1",
@@ -432,7 +458,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e26b4d71b.png",
     "preview_hash": "babeea8ef",
     "cover_hash": "e26b4d71b",
-    "singer": "Sakura Bakushin O, Matikanefukukitaru, Nice Nature, King Halo, Matikanetannhauser, Rhein Kraft, Cesario, Win Variation, Calstone Light O, Durandal"
+    "singer": "Sakura Bakushin O, Matikanefukukitaru, Nice Nature, King Halo, Matikanetannhauser, Rhein Kraft, Cesario, Win Variation, Calstone Light O, Durandal",
+    "name_en": "Pom-Pom Cheer!"
   },
   {
     "id": "1d9512e3-73bc-480e-9d46-b5779d810f52",
@@ -448,7 +475,8 @@ const ALL_SONGS = [
     "cover_file": "covers/267929af8.png",
     "preview_hash": "f2e8e81f4",
     "cover_hash": "267929af8",
-    "singer": "Gold Ship, Narita Brian, Biwa Hayahide, Super Creek, Mr. C.B., Sakura Chiyono O, Yaeno Muteki, Orfevre"
+    "singer": "Gold Ship, Narita Brian, Biwa Hayahide, Super Creek, Mr. C.B., Sakura Chiyono O, Yaeno Muteki, Orfevre",
+    "name_en": "AmpReignition"
   },
   {
     "id": "1eee32a8-6a9e-4521-9007-7c5b313ecb53",
@@ -464,7 +492,8 @@ const ALL_SONGS = [
     "cover_file": "covers/8f36105ca.png",
     "preview_hash": "68e8047cc",
     "cover_hash": "8f36105ca",
-    "singer": "Satono Diamond, Kitasan Black, Satono Crown, Cheval Grand, Sounds of Earth, Duramente"
+    "singer": "Satono Diamond, Kitasan Black, Satono Crown, Cheval Grand, Sounds of Earth, Duramente",
+    "name_en": "Be Their Beloved"
   },
   {
     "id": "1f4bf340-d54e-4454-936f-cf4a7f076e14",
@@ -480,7 +509,8 @@ const ALL_SONGS = [
     "cover_file": "covers/cd2a45cba.png",
     "preview_hash": "487ab56fd",
     "cover_hash": "cd2a45cba",
-    "singer": "Tokai Teio, Mejiro McQueen"
+    "singer": "Tokai Teio, Mejiro McQueen",
+    "name_en": "Sunbeam Cheer"
   },
   {
     "id": "1fec8560-84b3-446a-8a4b-a4bb77f89545",
@@ -496,7 +526,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6a111193e.png",
     "preview_hash": "85341f311",
     "cover_hash": "6a111193e",
-    "singer": "Rice Shower"
+    "singer": "Rice Shower",
+    "name_en": "A Little Prayer"
   },
   {
     "id": "24d9b93c-10a8-4b5b-abbb-397f3ea553a5",
@@ -512,7 +543,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f8cfcb423.png",
     "preview_hash": "c21e8d2b0",
     "cover_hash": "f8cfcb423",
-    "singer": "Daring Tact, Mejiro Ramonu, Vivlos, Still in Love, Gentildonna, Almond Eye, Gran Alegria, Loves Only You, Chrono Genesis"
+    "singer": "Daring Tact, Mejiro Ramonu, Vivlos, Still in Love, Gentildonna, Almond Eye, Gran Alegria, Loves Only You, Chrono Genesis",
+    "name_en": "Blooming at Dawn"
   },
   {
     "id": "256ab509-c0f4-49fb-a773-c90a92fc1791",
@@ -528,7 +560,8 @@ const ALL_SONGS = [
     "cover_file": "covers/2609753cc.png",
     "preview_hash": "e471cfb72",
     "cover_hash": "2609753cc",
-    "singer": "Blast Onepiece, Almond Eye, Lucky Lilac, Gran Alegria, Loves Only You, Chrono Genesis, Curren Bouquetd'or"
+    "singer": "Blast Onepiece, Almond Eye, Lucky Lilac, Gran Alegria, Loves Only You, Chrono Genesis, Curren Bouquetd'or",
+    "name_en": "Shake The World!!"
   },
   {
     "id": "26943766-4284-46d2-836b-c9d02ca9df5b",
@@ -544,7 +577,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f395cf448.png",
     "preview_hash": "7374f41a4",
     "cover_hash": "f395cf448",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship, Kitasan Black"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship, Kitasan Black",
+    "name_en": "Dream On! Challenge Dash!!"
   },
   {
     "id": "28bee54e-360f-43b3-90fe-43dbf503f012",
@@ -560,7 +594,8 @@ const ALL_SONGS = [
     "cover_file": "covers/447499e2f.png",
     "preview_hash": "65c1099a6",
     "cover_hash": "447499e2f",
-    "singer": "Gold Ship"
+    "singer": "Gold Ship",
+    "name_en": "Goal to My Ship"
   },
   {
     "id": "2aa6b866-53a8-4de5-8d6c-3bb502a58467",
@@ -576,7 +611,8 @@ const ALL_SONGS = [
     "cover_file": "covers/890d385d9.png",
     "preview_hash": "302efcb83",
     "cover_hash": "890d385d9",
-    "singer": "Tap Dance City"
+    "singer": "Tap Dance City",
+    "name_en": "Dance! Dance! ADVENTURE!"
   },
   {
     "id": "2afda098-b30e-4160-bc3f-b705fae90f30",
@@ -592,7 +628,8 @@ const ALL_SONGS = [
     "cover_file": "covers/eed2da0b2.png",
     "preview_hash": "56a21fd35",
     "cover_hash": "eed2da0b2",
-    "singer": "Satono Diamond"
+    "singer": "Satono Diamond",
+    "name_en": "Answer to My Dream"
   },
   {
     "id": "2b7a6bec-264e-401b-9d82-e444dbb8317b",
@@ -608,7 +645,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3049deb65.png",
     "preview_hash": "b845d5e72",
     "cover_hash": "3049deb65",
-    "singer": "T.M. Opera O"
+    "singer": "T.M. Opera O",
+    "name_en": "T.M. Opera: the Ever Exalted"
   },
   {
     "id": "2cd331dd-9ea8-41ad-a4e6-5857fcbc3cf3",
@@ -624,7 +662,8 @@ const ALL_SONGS = [
     "cover_file": "covers/a75f45aee.png",
     "preview_hash": "1de7265be",
     "cover_hash": "a75f45aee",
-    "singer": "Agnes Digital"
+    "singer": "Agnes Digital",
+    "name_en": "My Sacred Mission!"
   },
   {
     "id": "2f3d0828-de2c-4f7a-8e30-793de08448ee",
@@ -640,7 +679,8 @@ const ALL_SONGS = [
     "cover_file": "covers/5edd2bcf1.png",
     "preview_hash": "39c48d760",
     "cover_hash": "5edd2bcf1",
-    "singer": "Narita Brian"
+    "singer": "Narita Brian",
+    "name_en": "BLAZE"
   },
   {
     "id": "30181c7f-64fc-446a-878c-eaed20d704fd",
@@ -656,7 +696,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ba3000097.png",
     "preview_hash": "db98475ab",
     "cover_hash": "ba3000097",
-    "singer": "Biwa Hayahide, Winning Ticket, Narita Taishin"
+    "singer": "Biwa Hayahide, Winning Ticket, Narita Taishin",
+    "name_en": "Those Tears Are for Tomorrow's Sake!"
   },
   {
     "id": "31dd5a8c-d3b1-40d5-95e2-e48a87dc0fb6",
@@ -672,7 +713,8 @@ const ALL_SONGS = [
     "cover_file": "covers/860c86f17.png",
     "preview_hash": "b2d9d48b6",
     "cover_hash": "860c86f17",
-    "singer": "Tokai Teio, Oguri Cap, Vodka, Taiki Shuttle, El Condor Pasa, T.M. Opera O, Narita Brian, Air Groove, Tamamo Cross, Biwa Hayahide, Mayano Top Gun, Mihono Bourbon, Inari One, Kitasan Black"
+    "singer": "Tokai Teio, Oguri Cap, Vodka, Taiki Shuttle, El Condor Pasa, T.M. Opera O, Narita Brian, Air Groove, Tamamo Cross, Biwa Hayahide, Mayano Top Gun, Mihono Bourbon, Inari One, Kitasan Black",
+    "name_en": "Ms. Victoria"
   },
   {
     "id": "32b51107-a07e-461a-ad5a-385715b37952",
@@ -688,7 +730,8 @@ const ALL_SONGS = [
     "cover_file": "covers/801c3822f.png",
     "preview_hash": "eadc3b0b3",
     "cover_hash": "801c3822f",
-    "singer": "Cheval Grand, Verxina, Vivlos"
+    "singer": "Cheval Grand, Verxina, Vivlos",
+    "name_en": "Close my eyes"
   },
   {
     "id": "356b8b66-78df-4c12-92df-af1188aeac6f",
@@ -704,7 +747,8 @@ const ALL_SONGS = [
     "cover_file": "covers/473df5fe3.png",
     "preview_hash": "7ac9f5e48",
     "cover_hash": "473df5fe3",
-    "singer": "Matikanetannhauser"
+    "singer": "Matikanetannhauser",
+    "name_en": "TAILWIND"
   },
   {
     "id": "363a2131-f482-4b24-9972-70b1e3a832c3",
@@ -720,7 +764,8 @@ const ALL_SONGS = [
     "cover_file": "covers/085847277.png",
     "preview_hash": "bf8f4e726",
     "cover_hash": "085847277",
-    "singer": "Gold Ship, Nakayama Festa, Daring Tact, Rhein Kraft, Daring Heart, Fusaichi Pandora, Orfevre, Dream Journey, Fenomeno, Blast Onepiece, Almond Eye, Lucky Lilac, Gran Alegria, Loves Only You, Chrono Genesis, Curren Bouquetd'or"
+    "singer": "Gold Ship, Nakayama Festa, Daring Tact, Rhein Kraft, Daring Heart, Fusaichi Pandora, Orfevre, Dream Journey, Fenomeno, Blast Onepiece, Almond Eye, Lucky Lilac, Gran Alegria, Loves Only You, Chrono Genesis, Curren Bouquetd'or",
+    "name_en": "STARTING FORCE"
   },
   {
     "id": "3988a9c5-c06c-444c-a980-8a017afad8f1",
@@ -736,7 +781,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0463a5153.png",
     "preview_hash": "96ee27cb1",
     "cover_hash": "0463a5153",
-    "singer": "Party Dash#Team Cosmos, Party Dash#Team Freesia, Party Dash#Team Rose, Party Dash#Team Lily, Party Dash:Mr. C.B., Party Dash:Oguri Cap, Party Dash:Kitasan Black, Party Dash:Satono Diamond, Party Dash:Happy Meek"
+    "singer": "Party Dash#Team Cosmos, Party Dash#Team Freesia, Party Dash#Team Rose, Party Dash#Team Lily, Party Dash:Mr. C.B., Party Dash:Oguri Cap, Party Dash:Kitasan Black, Party Dash:Satono Diamond, Party Dash:Happy Meek",
+    "name_en": "Hip Hip Victory! It's the Fan Fest!!!"
   },
   {
     "id": "3a762456-6686-4f27-8d27-2ed0c0eeae9b",
@@ -752,7 +798,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7f5731190.png",
     "preview_hash": "98a246fa5",
     "cover_hash": "7f5731190",
-    "singer": "Dantsu Flame"
+    "singer": "Dantsu Flame",
+    "name_en": "Can't I Be No. 1?"
   },
   {
     "id": "3c1172fa-b1c9-4aa9-8534-84017258b831",
@@ -768,7 +815,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0d1d4d6a1.png",
     "preview_hash": "4db145dc0",
     "cover_hash": "0d1d4d6a1",
-    "singer": "King Halo"
+    "singer": "King Halo",
+    "name_en": "Exercise the Right"
   },
   {
     "id": "3c372766-732b-4617-9e7e-bd62bbfda42d",
@@ -784,7 +832,8 @@ const ALL_SONGS = [
     "cover_file": "covers/d845adb72.png",
     "preview_hash": "62fcd8006",
     "cover_hash": "d845adb72",
-    "singer": "Sakura Laurel"
+    "singer": "Sakura Laurel",
+    "name_en": "Youthful Eyes"
   },
   {
     "id": "3c3c6750-8413-4430-9486-8b5f710556ed",
@@ -800,7 +849,8 @@ const ALL_SONGS = [
     "cover_file": "covers/86f68490a.png",
     "preview_hash": "3facb5dfe",
     "cover_hash": "86f68490a",
-    "singer": "Silence Suzuka"
+    "singer": "Silence Suzuka",
+    "name_en": "Seven Colors Scenery"
   },
   {
     "id": "3cadf386-96c3-4ab8-a92b-48025a567c98",
@@ -816,7 +866,8 @@ const ALL_SONGS = [
     "cover_file": "covers/77a70b2bb.png",
     "preview_hash": "a52094ef1",
     "cover_hash": "77a70b2bb",
-    "singer": "Special Week, Silence Suzuka, Gold Ship, Mejiro McQueen, Narita Brian, Rice Shower, Winning Ticket"
+    "singer": "Special Week, Silence Suzuka, Gold Ship, Mejiro McQueen, Narita Brian, Rice Shower, Winning Ticket",
+    "name_en": "Precious Star Dreamer"
   },
   {
     "id": "3cec85d3-d913-4908-aa55-20d1353592c4",
@@ -832,7 +883,8 @@ const ALL_SONGS = [
     "cover_file": "covers/4dd29d623.png",
     "preview_hash": "13f1a53dd",
     "cover_hash": "4dd29d623",
-    "singer": "Tokai Teio, Vodka, Symboli Rudolf, Tsurumaru Tsuyoshi, Tanino Gimlet"
+    "singer": "Tokai Teio, Vodka, Symboli Rudolf, Tsurumaru Tsuyoshi, Tanino Gimlet",
+    "name_en": "Everlasting BEATS"
   },
   {
     "id": "3d2140cf-0574-4d6f-99b7-ece6fc1e498b",
@@ -848,7 +900,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ac8d2ad72.png",
     "preview_hash": "de817341e",
     "cover_hash": "ac8d2ad72",
-    "singer": "Special Week, Grass Wonder, El Condor Pasa, Seiun Sky, King Halo"
+    "singer": "Special Week, Grass Wonder, El Condor Pasa, Seiun Sky, King Halo",
+    "name_en": "Hoppity Sunny Days ♪"
   },
   {
     "id": "3d984330-ae0c-4848-a763-f21d2fb9990c",
@@ -864,7 +917,8 @@ const ALL_SONGS = [
     "cover_file": "covers/9a9d50fce.png",
     "preview_hash": "a18a95d21",
     "cover_hash": "9a9d50fce",
-    "singer": "Rice Shower, Mr. C.B., Matikanetannhauser, Cheval Grand, Hokko Tarumae"
+    "singer": "Rice Shower, Mr. C.B., Matikanetannhauser, Cheval Grand, Hokko Tarumae",
+    "name_en": "Hat on your Head!"
   },
   {
     "id": "3e9bd54f-ba40-4304-a8c6-bba775faa0d1",
@@ -880,7 +934,8 @@ const ALL_SONGS = [
     "cover_file": "covers/504357913.png",
     "preview_hash": "cb7d24ccc",
     "cover_hash": "504357913",
-    "singer": "10-FEET"
+    "singer": "10-FEET",
+    "name_en": "Spurt Syndromer"
   },
   {
     "id": "3f0e029f-d8ee-48ff-a536-186a1664832a",
@@ -896,7 +951,8 @@ const ALL_SONGS = [
     "cover_file": "covers/47e1c0629.png",
     "preview_hash": "4ace357ec",
     "cover_hash": "47e1c0629",
-    "singer": "Fuji Kiseki"
+    "singer": "Fuji Kiseki",
+    "name_en": "Dream Jack"
   },
   {
     "id": "3f655337-8489-4696-a5aa-061df8032666",
@@ -912,7 +968,8 @@ const ALL_SONGS = [
     "cover_file": "covers/c7e64f80d.png",
     "preview_hash": "697f0c6ec",
     "cover_hash": "c7e64f80d",
-    "singer": "Sakura Chiyono O, Katsuragi Ace, Hishi Amazon, Cesario"
+    "singer": "Sakura Chiyono O, Katsuragi Ace, Hishi Amazon, Cesario",
+    "name_en": "GOCHISO-SAMA"
   },
   {
     "id": "3fcd6161-a2d0-4e08-be8b-d4de387bd425",
@@ -928,7 +985,8 @@ const ALL_SONGS = [
     "cover_file": "covers/cbbe13bea.png",
     "preview_hash": "0ee65603c",
     "cover_hash": "cbbe13bea",
-    "singer": "Gold Ship"
+    "singer": "Gold Ship",
+    "name_en": "Pakatube! But, What is it?"
   },
   {
     "id": "4046bfd0-2d9b-4d0f-b08f-f1fe1222f6ce",
@@ -944,7 +1002,8 @@ const ALL_SONGS = [
     "cover_file": "covers/96ad8e883.png",
     "preview_hash": "a91daf368",
     "cover_hash": "96ad8e883",
-    "singer": "Daitaku Helios"
+    "singer": "Daitaku Helios",
+    "name_en": "Let's Just Smile!"
   },
   {
     "id": "405d625b-e7ea-4fb7-87e7-cf5e141e4497",
@@ -960,7 +1019,8 @@ const ALL_SONGS = [
     "cover_file": "covers/783fffd2e.png",
     "preview_hash": "44ce634c6",
     "cover_hash": "783fffd2e",
-    "singer": "Cheval Grand"
+    "singer": "Cheval Grand",
+    "name_en": "A Shining Silhouette"
   },
   {
     "id": "415dd560-4213-4fbb-bb6a-932082d13cd1",
@@ -976,7 +1036,8 @@ const ALL_SONGS = [
     "cover_file": "covers/132d56919.png",
     "preview_hash": "912a81309",
     "cover_hash": "132d56919",
-    "singer": "Oguri Cap, Inari One, Smart Falcon, Copano Rickey, Hokko Tarumae, Wonder Acute"
+    "singer": "Oguri Cap, Inari One, Smart Falcon, Copano Rickey, Hokko Tarumae, Wonder Acute",
+    "name_en": "Sparkly Magic Show"
   },
   {
     "id": "423046f9-2afb-4ec0-8d74-8fb784988dc9",
@@ -992,7 +1053,8 @@ const ALL_SONGS = [
     "cover_file": "covers/32c5da49f.png",
     "preview_hash": "3f800b6de",
     "cover_hash": "32c5da49f",
-    "singer": "Tamamo Cross, Sakura Bakushin O, Biko Pegasus"
+    "singer": "Tamamo Cross, Sakura Bakushin O, Biko Pegasus",
+    "name_en": "Dream Sky"
   },
   {
     "id": "44e411ea-1d64-413d-a9dd-b46c527001fd",
@@ -1008,7 +1070,8 @@ const ALL_SONGS = [
     "cover_file": "covers/512a336db.png",
     "preview_hash": "2cd586a85",
     "cover_hash": "512a336db",
-    "singer": "Biwa Hayahide, Air Shakur, Narita Taishin, Symboli Kris S, Tanino Gimlet, ST-2"
+    "singer": "Biwa Hayahide, Air Shakur, Narita Taishin, Symboli Kris S, Tanino Gimlet, ST-2",
+    "name_en": "Aurorize"
   },
   {
     "id": "47d87b96-e1be-425c-a082-c00e5cbc6878",
@@ -1024,7 +1087,8 @@ const ALL_SONGS = [
     "cover_file": "covers/4c3584f11.png",
     "preview_hash": "bf21b6341",
     "cover_hash": "4c3584f11",
-    "singer": "Mejiro Ramonu"
+    "singer": "Mejiro Ramonu",
+    "name_en": "Love Will Come Through"
   },
   {
     "id": "480db559-1e67-4d20-970d-11791791e4eb",
@@ -1040,7 +1104,8 @@ const ALL_SONGS = [
     "cover_file": "covers/fea71e2ef.png",
     "preview_hash": "f611e96c4",
     "cover_hash": "fea71e2ef",
-    "singer": "Mihono Bourbon"
+    "singer": "Mihono Bourbon",
+    "name_en": "Absolute Faith"
   },
   {
     "id": "481eaec0-9e47-40b7-96d3-b6c5d702899c",
@@ -1056,7 +1121,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6db0674e4.png",
     "preview_hash": "57f9a1577",
     "cover_hash": "6db0674e4",
-    "singer": "Dream Journey"
+    "singer": "Dream Journey",
+    "name_en": "Stay on Course"
   },
   {
     "id": "494aff2d-6cc3-4b0e-917b-a02a6f3de580",
@@ -1072,7 +1138,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e9f079be9.png",
     "preview_hash": "ae7331ba5",
     "cover_hash": "e9f079be9",
-    "singer": "Win Variation"
+    "singer": "Win Variation",
+    "name_en": "How Far Must I Run?"
   },
   {
     "id": "4afb8f30-d88d-4f11-aa5d-5517e8f5f8a3",
@@ -1088,7 +1155,8 @@ const ALL_SONGS = [
     "cover_file": "covers/dc2da6a0c.png",
     "preview_hash": "0c1e63b37",
     "cover_hash": "dc2da6a0c",
-    "singer": "Haru Urara"
+    "singer": "Haru Urara",
+    "name_en": "Urara la la, Que Sera Sera Days!"
   },
   {
     "id": "4baabf18-c111-462d-b2e6-118676508492",
@@ -1104,7 +1172,8 @@ const ALL_SONGS = [
     "cover_file": "covers/b2dccd5be.png",
     "preview_hash": "0ad820810",
     "cover_hash": "b2dccd5be",
-    "singer": "Maruzensky, Daiwa Scarlet, Air Shakur, Twin Turbo, Happy Meek"
+    "singer": "Maruzensky, Daiwa Scarlet, Air Shakur, Twin Turbo, Happy Meek",
+    "name_en": "Dance 2 Endless Beat"
   },
   {
     "id": "4bce7ed8-a4e2-4f39-a369-2c3ef92fc3d5",
@@ -1120,7 +1189,8 @@ const ALL_SONGS = [
     "cover_file": "covers/4c68106f6.png",
     "preview_hash": "cc23ec07e",
     "cover_hash": "4c68106f6",
-    "singer": "Curren Chan"
+    "singer": "Curren Chan",
+    "name_en": "#Saykawaii"
   },
   {
     "id": "4d56bdd1-d67b-4f4d-86e2-717fa09b2625",
@@ -1136,7 +1206,8 @@ const ALL_SONGS = [
     "cover_file": "covers/078ca8284.png",
     "preview_hash": "c6eb71941",
     "cover_hash": "078ca8284",
-    "singer": "Narita Brian, Symboli Rudolf, Air Groove"
+    "singer": "Narita Brian, Symboli Rudolf, Air Groove",
+    "name_en": "Precious Treasure Box"
   },
   {
     "id": "4e93902b-eaa5-4422-90f2-9566222f9409",
@@ -1152,7 +1223,8 @@ const ALL_SONGS = [
     "cover_file": "covers/2fa40a639.png",
     "preview_hash": "058cbb174",
     "cover_hash": "2fa40a639",
-    "singer": "Narita Top Road"
+    "singer": "Narita Top Road",
+    "name_en": "Give It Another Shot"
   },
   {
     "id": "4f18e216-3fb2-4d2d-b4e9-1b31e8b3a9e2",
@@ -1168,7 +1240,8 @@ const ALL_SONGS = [
     "cover_file": "covers/21120611d.png",
     "preview_hash": "fc01db7f1",
     "cover_hash": "21120611d",
-    "singer": "Twin Turbo"
+    "singer": "Twin Turbo",
+    "name_en": "▷▷▷▶︎Hyper Ultra Turbo Booooost!"
   },
   {
     "id": "4f8b8d2e-5e2a-4182-9061-ed89d5ee14d7",
@@ -1184,7 +1257,8 @@ const ALL_SONGS = [
     "cover_file": "covers/a1ed93d12.png",
     "preview_hash": "f24ab792c",
     "cover_hash": "a1ed93d12",
-    "singer": "Vodka, Daiwa Scarlet, Tsurumaru Tsuyoshi, Symboli Kris S, Tanino Gimlet"
+    "singer": "Vodka, Daiwa Scarlet, Tsurumaru Tsuyoshi, Symboli Kris S, Tanino Gimlet",
+    "name_en": "Yuru Paka Happy Days!"
   },
   {
     "id": "50c2f64d-7293-4254-81d7-0efb09e10862",
@@ -1200,7 +1274,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6badbe1ee.png",
     "preview_hash": "97b03c436",
     "cover_hash": "6badbe1ee",
-    "singer": "Gold Ship, T.M. Opera O, Seiun Sky, Mihono Bourbon, Agnes Tachyon, Air Shakur, Narita Taishin"
+    "singer": "Gold Ship, T.M. Opera O, Seiun Sky, Mihono Bourbon, Agnes Tachyon, Air Shakur, Narita Taishin",
+    "name_en": "Enjoy and Join"
   },
   {
     "id": "51b1e6f2-c6b2-4c34-8243-2ae3025723db",
@@ -1216,7 +1291,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7cbc0dc07.png",
     "preview_hash": "280106855",
     "cover_hash": "7cbc0dc07",
-    "singer": "Oguri Cap, El Condor Pasa, Narita Brian, Symboli Rudolf, Seeking the Pearl, Smart Falcon, Mr. C.B., Kitasan Black, Sirius Symboli, Mejiro Ramonu, Hokko Tarumae, Cesario, Orfevre, Gentildonna, Almond Eye, Commentator (Male)"
+    "singer": "Oguri Cap, El Condor Pasa, Narita Brian, Symboli Rudolf, Seeking the Pearl, Smart Falcon, Mr. C.B., Kitasan Black, Sirius Symboli, Mejiro Ramonu, Hokko Tarumae, Cesario, Orfevre, Gentildonna, Almond Eye, Commentator (Male)",
+    "name_en": "Legend-Changer"
   },
   {
     "id": "5223a46d-ae42-40b5-93d4-01bddd926a2f",
@@ -1232,7 +1308,8 @@ const ALL_SONGS = [
     "cover_file": "covers/447499e2f.png",
     "preview_hash": "e6852b710",
     "cover_hash": "447499e2f",
-    "singer": "Daiwa Scarlet"
+    "singer": "Daiwa Scarlet",
+    "name_en": "Rising Girl"
   },
   {
     "id": "52694030-e714-4d5b-a90f-5db0434bb432",
@@ -1248,7 +1325,8 @@ const ALL_SONGS = [
     "cover_file": "covers/537c95478.png",
     "preview_hash": "228a5fdb1",
     "cover_hash": "537c95478",
-    "singer": "Still in Love"
+    "singer": "Still in Love",
+    "name_en": "Love, Devour, and Cry"
   },
   {
     "id": "54bcc2a8-b9f1-4206-a159-25ff6ae3e4e9",
@@ -1264,7 +1342,8 @@ const ALL_SONGS = [
     "cover_file": "covers/47e1c0629.png",
     "preview_hash": "631c58391",
     "cover_hash": "47e1c0629",
-    "singer": "Maruzensky"
+    "singer": "Maruzensky",
+    "name_en": "Forbidden Burning Heart"
   },
   {
     "id": "553440bb-2410-4c4f-8459-1232e2b41f41",
@@ -1280,7 +1359,8 @@ const ALL_SONGS = [
     "cover_file": "covers/1c19c29df.png",
     "preview_hash": "5f0c2887c",
     "cover_hash": "1c19c29df",
-    "singer": "Vodka"
+    "singer": "Vodka",
+    "name_en": "Catch the Victory!"
   },
   {
     "id": "55c85daa-5536-4e90-8384-07937411d4be",
@@ -1296,7 +1376,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6d1597b35.png",
     "preview_hash": "62616e515",
     "cover_hash": "6d1597b35",
-    "singer": "Special Week"
+    "singer": "Special Week",
+    "name_en": "Thanks to the Goddesses"
   },
   {
     "id": "57c2b6af-21e0-49b8-9058-71dc21d1151c",
@@ -1312,7 +1393,8 @@ const ALL_SONGS = [
     "cover_file": "covers/10c4087da.png",
     "preview_hash": "e30f39270",
     "cover_hash": "10c4087da",
-    "singer": "Daring Heart"
+    "singer": "Daring Heart",
+    "name_en": "Queen Bee"
   },
   {
     "id": "581c79fe-43d3-46dc-a5c0-10fac0f57add",
@@ -1328,7 +1410,8 @@ const ALL_SONGS = [
     "cover_file": "covers/563b67144.png",
     "preview_hash": "a76ba34e1",
     "cover_hash": "563b67144",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship",
+    "name_en": "Run for Our Dream!"
   },
   {
     "id": "5bdb0dfd-8eb0-4736-aa2c-21999f99977c",
@@ -1344,7 +1427,8 @@ const ALL_SONGS = [
     "cover_file": "covers/961453785.png",
     "preview_hash": "7f164ca2d",
     "cover_hash": "961453785",
-    "singer": "Sweep Tosho"
+    "singer": "Sweep Tosho",
+    "name_en": "That Magic Spark"
   },
   {
     "id": "5cff7bab-57fc-49d9-8584-a34bc0c2036b",
@@ -1360,7 +1444,8 @@ const ALL_SONGS = [
     "cover_file": "covers/385801da2.png",
     "preview_hash": "1d2aa7e20",
     "cover_hash": "385801da2",
-    "singer": "Verxina"
+    "singer": "Verxina",
+    "name_en": "I Can't Choose to Give Up!"
   },
   {
     "id": "5d639e7b-d154-458f-bdda-5a81866ed03a",
@@ -1376,7 +1461,8 @@ const ALL_SONGS = [
     "cover_file": "covers/049f73d8e.png",
     "preview_hash": "39bf0dd52",
     "cover_hash": "049f73d8e",
-    "singer": "Eishin Flash"
+    "singer": "Eishin Flash",
+    "name_en": "Pride in My Hands"
   },
   {
     "id": "5de60cc4-55ff-4203-b9e0-93442c58b136",
@@ -1392,7 +1478,8 @@ const ALL_SONGS = [
     "cover_file": "covers/a72dc778d.png",
     "preview_hash": "bfb90b097",
     "cover_hash": "a72dc778d",
-    "singer": "Tosen Jordan"
+    "singer": "Tosen Jordan",
+    "name_en": "JK♡"
   },
   {
     "id": "5fcd34e9-238a-41ec-88d9-39f1736ac95f",
@@ -1408,7 +1495,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ce078a95f.png",
     "preview_hash": "654706d17",
     "cover_hash": "ce078a95f",
-    "singer": "Nakayama Festa"
+    "singer": "Nakayama Festa",
+    "name_en": "You know me"
   },
   {
     "id": "636bac6f-6180-46f4-ab10-ff003f082ca4",
@@ -1424,7 +1512,8 @@ const ALL_SONGS = [
     "cover_file": "covers/22fd431bf.png",
     "preview_hash": "863fed0ba",
     "cover_hash": "22fd431bf",
-    "singer": "Super Creek, Haru Urara, Matikanefukukitaru"
+    "singer": "Super Creek, Haru Urara, Matikanefukukitaru",
+    "name_en": "Present March"
   },
   {
     "id": "63928bbe-bd2a-4f63-b44c-140f256990d5",
@@ -1440,7 +1529,8 @@ const ALL_SONGS = [
     "cover_file": "covers/14eea941a.png",
     "preview_hash": "998bb9947",
     "cover_hash": "14eea941a",
-    "singer": "T.M. Opera O, Admire Vega, Narita Top Road"
+    "singer": "T.M. Opera O, Admire Vega, Narita Top Road",
+    "name_en": "The First Star Across the Sky"
   },
   {
     "id": "658a8b0b-1280-495a-8d9f-b0ec91cb80bb",
@@ -1456,7 +1546,8 @@ const ALL_SONGS = [
     "cover_file": "covers/db31b5613.png",
     "preview_hash": "552e73711",
     "cover_hash": "db31b5613",
-    "singer": "Copano Rickey"
+    "singer": "Copano Rickey",
+    "name_en": "Lucky Happy Fantastic"
   },
   {
     "id": "66ee1f0d-7424-4c19-be4e-37ae25d854ec",
@@ -1472,7 +1563,8 @@ const ALL_SONGS = [
     "cover_file": "covers/aa30c04fd.png",
     "preview_hash": "1b7554b4e",
     "cover_hash": "aa30c04fd",
-    "singer": "Jungle Pocket"
+    "singer": "Jungle Pocket",
+    "name_en": "Beyond the Finale"
   },
   {
     "id": "67e0207d-6e94-40e6-b614-cd2dc86eb695",
@@ -1488,7 +1580,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0ee582278.png",
     "preview_hash": "ce1618329",
     "cover_hash": "0ee582278",
-    "singer": "Gold City, Tosen Jordan, Daitaku Helios, Mejiro Palmer"
+    "singer": "Gold City, Tosen Jordan, Daitaku Helios, Mejiro Palmer",
+    "name_en": "GSK☆"
   },
   {
     "id": "6a443554-87b3-470b-b836-b48843686cef",
@@ -1504,7 +1597,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6d1597b35.png",
     "preview_hash": "4fa20b577",
     "cover_hash": "6d1597b35",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship",
+    "name_en": "Grow Up and Shine!"
   },
   {
     "id": "6b20b80e-4550-4d56-85f0-1ff67426f283",
@@ -1520,7 +1614,8 @@ const ALL_SONGS = [
     "cover_file": "covers/666bdf26e.png",
     "preview_hash": "3e164870b",
     "cover_hash": "666bdf26e",
-    "singer": "Jungle Pocket, Agnes Tachyon, Manhattan Cafe, Dantsu Flame"
+    "singer": "Jungle Pocket, Agnes Tachyon, Manhattan Cafe, Dantsu Flame",
+    "name_en": "Ready!! Steady!! Derby!!"
   },
   {
     "id": "6d93326f-8390-4c07-aa5f-b6129a0736c0",
@@ -1536,7 +1631,8 @@ const ALL_SONGS = [
     "cover_file": "covers/cbbe13bea.png",
     "preview_hash": "3f4ab7f79",
     "cover_hash": "cbbe13bea",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Gold Ship, Tamamo Cross, Winning Ticket"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Gold Ship, Tamamo Cross, Winning Ticket",
+    "name_en": "Run, Umamusume"
   },
   {
     "id": "6de082c8-82ee-47c4-8f5b-400bb6f51da5",
@@ -1552,7 +1648,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0df2107f2.png",
     "preview_hash": "649937748",
     "cover_hash": "0df2107f2",
-    "singer": "Transcend"
+    "singer": "Transcend",
+    "name_en": "ZOKZOK"
   },
   {
     "id": "6eea2fd9-7dcb-450e-a0b9-4799c39a37d7",
@@ -1568,7 +1665,8 @@ const ALL_SONGS = [
     "cover_file": "covers/c5e60982b.png",
     "preview_hash": "d2a949860",
     "cover_hash": "c5e60982b",
-    "singer": "T.M. Opera O, Admire Vega, Narita Top Road"
+    "singer": "T.M. Opera O, Admire Vega, Narita Top Road",
+    "name_en": "Glorious Moment!"
   },
   {
     "id": "72f1cc27-55ee-4a26-b06b-fc69a18fbf6a",
@@ -1584,7 +1682,8 @@ const ALL_SONGS = [
     "cover_file": "covers/490be1879.png",
     "preview_hash": "dedfd0b29",
     "cover_hash": "490be1879",
-    "singer": "Tamamo Cross"
+    "singer": "Tamamo Cross",
+    "name_en": "My Resistance"
   },
   {
     "id": "744641c5-e813-4017-889a-08e3f2e01960",
@@ -1600,7 +1699,8 @@ const ALL_SONGS = [
     "cover_file": "covers/eaa6031b3.png",
     "preview_hash": "f9ae697fe",
     "cover_hash": "eaa6031b3",
-    "singer": "Buena Vista"
+    "singer": "Buena Vista",
+    "name_en": "Para Siempre"
   },
   {
     "id": "74c82b0d-4e41-4016-9e00-71be1b1d11d1",
@@ -1616,7 +1716,8 @@ const ALL_SONGS = [
     "cover_file": "covers/5a949a1fb.png",
     "preview_hash": "aab2c9529",
     "cover_hash": "5a949a1fb",
-    "singer": "Aston Machan"
+    "singer": "Aston Machan",
+    "name_en": "Memory Lapse"
   },
   {
     "id": "75d7a850-8fdd-4dd7-96e0-079479a2e9b3",
@@ -1632,7 +1733,8 @@ const ALL_SONGS = [
     "cover_file": "covers/2e6a59404.png",
     "preview_hash": "06b143e35",
     "cover_hash": "2e6a59404",
-    "singer": "Air Messiah"
+    "singer": "Air Messiah",
+    "name_en": "The Bloom of an Era"
   },
   {
     "id": "763f4c0a-0c36-4e8d-a7b6-bd2d80e06e40",
@@ -1648,7 +1750,8 @@ const ALL_SONGS = [
     "cover_file": "covers/165f4205b.png",
     "preview_hash": "5f6e8889f",
     "cover_hash": "165f4205b",
-    "singer": "Taiki Shuttle, Mihono Bourbon, Rice Shower, Haru Urara, Matikanefukukitaru"
+    "singer": "Taiki Shuttle, Mihono Bourbon, Rice Shower, Haru Urara, Matikanefukukitaru",
+    "name_en": "WINnin' 5"
   },
   {
     "id": "76595cda-1ece-43b3-9ef2-e5d8d0491e50",
@@ -1664,7 +1767,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3c767c76e.png",
     "preview_hash": "2cfc1373a",
     "cover_hash": "3c767c76e",
-    "singer": "Tokai Teio, Fuji Kiseki, Hishi Amazon, Symboli Rudolf, Air Groove"
+    "singer": "Tokai Teio, Fuji Kiseki, Hishi Amazon, Symboli Rudolf, Air Groove",
+    "name_en": "Ring Ring Diary"
   },
   {
     "id": "769bbf3f-59ac-493a-ab4f-466cd6d9aa83",
@@ -1680,7 +1784,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3d53e8ab9.png",
     "preview_hash": "1e5c9ce05",
     "cover_hash": "3d53e8ab9",
-    "singer": "Sirius Symboli"
+    "singer": "Sirius Symboli",
+    "name_en": "GALACTIC PLAYER"
   },
   {
     "id": "775f7df8-62b8-4dbd-a29a-df0bf0e598f7",
@@ -1696,7 +1801,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7c67ec543.png",
     "preview_hash": "82d9bf1db",
     "cover_hash": "7c67ec543",
-    "singer": "Mejiro McQueen, El Condor Pasa, T.M. Opera O"
+    "singer": "Mejiro McQueen, El Condor Pasa, T.M. Opera O",
+    "name_en": "The World's at Our Whim"
   },
   {
     "id": "77a14b8d-f6dd-4f3c-99c2-9871fe7971ce",
@@ -1712,7 +1818,8 @@ const ALL_SONGS = [
     "cover_file": "covers/1bee84a4d.png",
     "preview_hash": "5dc85d137",
     "cover_hash": "1bee84a4d",
-    "singer": "Mejiro McQueen, Mejiro Ryan, Mejiro Dober, Mejiro Palmer, Mejiro Ardan, Mejiro Bright"
+    "singer": "Mejiro McQueen, Mejiro Ryan, Mejiro Dober, Mejiro Palmer, Mejiro Ardan, Mejiro Bright",
+    "name_en": "The Mejiro Anthem"
   },
   {
     "id": "784392cf-0fb6-480c-b455-20032a4ae9d9",
@@ -1728,7 +1835,8 @@ const ALL_SONGS = [
     "cover_file": "covers/447499e2f.png",
     "preview_hash": "b817da3d7",
     "cover_hash": "447499e2f",
-    "singer": "Vodka, Daiwa Scarlet, Gold Ship"
+    "singer": "Vodka, Daiwa Scarlet, Gold Ship",
+    "name_en": "Our Blue Bird Days"
   },
   {
     "id": "7889d09e-22de-4edd-abd3-0a2e6de6d21c",
@@ -1744,7 +1852,8 @@ const ALL_SONGS = [
     "cover_file": "covers/13d22fcdd.png",
     "preview_hash": "f76e4201a",
     "cover_hash": "13d22fcdd",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap, Gold Ship, Mejiro McQueen, T.M. Opera O, Narita Brian, Symboli Rudolf, Tamamo Cross, Mejiro Ryan, Admire Vega, Sakura Bakushin O, Mr. C.B., Mejiro Dober, Matikanetannhauser, Satono Diamond, Kitasan Black, Sakura Chiyono O, Mejiro Ardan, Yaeno Muteki, Narita Top Road"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap, Gold Ship, Mejiro McQueen, T.M. Opera O, Narita Brian, Symboli Rudolf, Tamamo Cross, Mejiro Ryan, Admire Vega, Sakura Bakushin O, Mr. C.B., Mejiro Dober, Matikanetannhauser, Satono Diamond, Kitasan Black, Sakura Chiyono O, Mejiro Ardan, Yaeno Muteki, Narita Top Road",
+    "name_en": "We are DREAMERS!!"
   },
   {
     "id": "7a423d13-46d8-49c1-8738-6569a3a869d1",
@@ -1760,7 +1869,8 @@ const ALL_SONGS = [
     "cover_file": "covers/b53c67b23.png",
     "preview_hash": "bd66145f0",
     "cover_hash": "b53c67b23",
-    "singer": "Matikanefukukitaru"
+    "singer": "Matikanefukukitaru",
+    "name_en": "Luck Comes True!"
   },
   {
     "id": "7b5d4962-55e3-48f6-9af6-05b734cf2ed1",
@@ -1776,7 +1886,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6c7c20695.png",
     "preview_hash": "910d472fc",
     "cover_hash": "6c7c20695",
-    "singer": "Oguri Cap, Tamamo Cross"
+    "singer": "Oguri Cap, Tamamo Cross",
+    "name_en": "The two of us"
   },
   {
     "id": "7bc219cb-b53a-4091-bcd1-516f649296cd",
@@ -1792,7 +1903,8 @@ const ALL_SONGS = [
     "cover_file": "covers/adab79e96.png",
     "preview_hash": "fdfabd4f2",
     "cover_hash": "adab79e96",
-    "singer": "Seiun Sky, Yukino Bijin, Gold City"
+    "singer": "Seiun Sky, Yukino Bijin, Gold City",
+    "name_en": "Hey, Guess What!"
   },
   {
     "id": "7d3c68db-1b9d-4899-892e-70c677daf5fa",
@@ -1808,7 +1920,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f1b48497a.png",
     "preview_hash": "3e4e4c360",
     "cover_hash": "f1b48497a",
-    "singer": "Duramente"
+    "singer": "Duramente",
+    "name_en": "EXCEED"
   },
   {
     "id": "7da17c46-ba4a-4fa6-bbcf-a5e2010cd2cf",
@@ -1824,7 +1937,8 @@ const ALL_SONGS = [
     "cover_file": "covers/59f7bbcd4.png",
     "preview_hash": "51ff73934",
     "cover_hash": "59f7bbcd4",
-    "singer": "Epiphaneia"
+    "singer": "Epiphaneia",
+    "name_en": "Supernova of Belief"
   },
   {
     "id": "7ffaf49e-844b-469a-b750-cb03744ee9bc",
@@ -1840,7 +1954,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ee93115c6.png",
     "preview_hash": "b25d86c8c",
     "cover_hash": "ee93115c6",
-    "singer": "Taiki Shuttle, Grass Wonder, Hishi Amazon"
+    "singer": "Taiki Shuttle, Grass Wonder, Hishi Amazon",
+    "name_en": "Believe in Miracles!"
   },
   {
     "id": "80190825-12d8-4949-a6cf-57d1f9f66827",
@@ -1856,7 +1971,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e1050762d.png",
     "preview_hash": "1168ee1e1",
     "cover_hash": "e1050762d",
-    "singer": "Oguri Cap, Vodka, Taiki Shuttle, El Condor Pasa, Sakura Bakushin O, Biko Pegasus, Nice Nature, King Halo"
+    "singer": "Oguri Cap, Vodka, Taiki Shuttle, El Condor Pasa, Sakura Bakushin O, Biko Pegasus, Nice Nature, King Halo",
+    "name_en": "Instinctive Speed"
   },
   {
     "id": "803f3daa-4e94-4a38-b9e0-5f3a7189a232",
@@ -1872,7 +1988,8 @@ const ALL_SONGS = [
     "cover_file": "covers/61dfa6bbf.png",
     "preview_hash": "4e2e9f375",
     "cover_hash": "61dfa6bbf",
-    "singer": "Dantsu Flame, K.S.Miracle, Hishi Miracle, Calstone Light O, Durandal"
+    "singer": "Dantsu Flame, K.S.Miracle, Hishi Miracle, Calstone Light O, Durandal",
+    "name_en": "Our Way Home"
   },
   {
     "id": "8113ad41-2efd-4aea-bfa3-4c5a80fec01c",
@@ -1888,7 +2005,8 @@ const ALL_SONGS = [
     "cover_file": "covers/40a578d20.png",
     "preview_hash": "d9e5536af",
     "cover_hash": "40a578d20",
-    "singer": "Kitasan Black"
+    "singer": "Kitasan Black",
+    "name_en": "Why the Sky Makes Me Smile"
   },
   {
     "id": "813c2fb9-8aa2-47ad-a791-c1c80b0a7785",
@@ -1904,7 +2022,8 @@ const ALL_SONGS = [
     "cover_file": "covers/2e52f549c.png",
     "preview_hash": "1c26e5693",
     "cover_hash": "2e52f549c",
-    "singer": "Air Shakur"
+    "singer": "Air Shakur",
+    "name_en": "Air Race"
   },
   {
     "id": "82764067-efcd-4b24-9c3c-5307039e7ae4",
@@ -1920,7 +2039,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0ee58ef05.png",
     "preview_hash": "a65024d82",
     "cover_hash": "0ee58ef05",
-    "singer": "Silence Suzuka, Maruzensky, Mihono Bourbon, Ines Fujin, Smart Falcon"
+    "singer": "Silence Suzuka, Maruzensky, Mihono Bourbon, Ines Fujin, Smart Falcon",
+    "name_en": "Getaway! Fallin' Love"
   },
   {
     "id": "85e4a14a-fb71-4c98-bb13-7578b5fd909d",
@@ -1936,7 +2056,8 @@ const ALL_SONGS = [
     "cover_file": "covers/a1382cb90.png",
     "preview_hash": "22913f67d",
     "cover_hash": "a1382cb90",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Daiwa Scarlet, Vodka, Mejiro McQueen, Gold Ship",
+    "name_en": "Make Debut!"
   },
   {
     "id": "86c2b3b3-f4ee-48a7-9c40-6474e373b535",
@@ -1952,7 +2073,8 @@ const ALL_SONGS = [
     "cover_file": "covers/25f865f10.png",
     "preview_hash": "7d8cb13c2",
     "cover_hash": "25f865f10",
-    "singer": "Gran Alegria"
+    "singer": "Gran Alegria",
+    "name_en": "Mile×Rule Star"
   },
   {
     "id": "8706a24b-8a32-41fd-ad68-c234c34c5a33",
@@ -1968,7 +2090,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f69a7b105.png",
     "preview_hash": "2bb4020a2",
     "cover_hash": "f69a7b105",
-    "singer": "Smart Falcon"
+    "singer": "Smart Falcon",
+    "name_en": "Zero is where the Center Stands!"
   },
   {
     "id": "875d2e6d-4538-4d77-9adf-914e23b86d51",
@@ -1984,7 +2107,8 @@ const ALL_SONGS = [
     "cover_file": "covers/1ed71d57b.png",
     "preview_hash": "13a59359f",
     "cover_hash": "1ed71d57b",
-    "singer": "Zenno Rob Roy"
+    "singer": "Zenno Rob Roy",
+    "name_en": "Smoldering Hero's Soul"
   },
   {
     "id": "89729a42-f14e-495e-966a-37f459cc71e9",
@@ -2000,7 +2124,8 @@ const ALL_SONGS = [
     "cover_file": "covers/8f425cd33.png",
     "preview_hash": "66085ebee",
     "cover_hash": "8f425cd33",
-    "singer": "Wonder Acute"
+    "singer": "Wonder Acute",
+    "name_en": "Composed Leisure"
   },
   {
     "id": "8cde214b-eac1-43fd-894e-61faefdd6924",
@@ -2016,7 +2141,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7c67ec543.png",
     "preview_hash": "f282e34b5",
     "cover_hash": "7c67ec543",
-    "singer": "El Condor Pasa"
+    "singer": "El Condor Pasa",
+    "name_en": "El's Surprise!!"
   },
   {
     "id": "8d4197a6-2371-48df-ba14-a54188bdf3b1",
@@ -2032,7 +2158,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e344f1ccc.png",
     "preview_hash": "7bc7ef544",
     "cover_hash": "e344f1ccc",
-    "singer": "Maruzensky, Fuji Kiseki, Oguri Cap"
+    "singer": "Maruzensky, Fuji Kiseki, Oguri Cap",
+    "name_en": "UNLIMITED IMPACT"
   },
   {
     "id": "8d592559-a72f-4ac8-bbcf-af9883ae6f8f",
@@ -2048,7 +2175,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0d1d4d6a1.png",
     "preview_hash": "1aac2e6d6",
     "cover_hash": "0d1d4d6a1",
-    "singer": "Mejiro Dober"
+    "singer": "Mejiro Dober",
+    "name_en": "Just a Little Bit"
   },
   {
     "id": "91eae091-21e8-4e02-9225-5b582882e3bc",
@@ -2064,7 +2192,8 @@ const ALL_SONGS = [
     "cover_file": "covers/c05905795.png",
     "preview_hash": "41397a1c6",
     "cover_hash": "c05905795",
-    "singer": "Seeking the Pearl"
+    "singer": "Seeking the Pearl",
+    "name_en": "Seeking The Pearl"
   },
   {
     "id": "92ea78cb-86d3-40d3-9041-f18b5b4482b9",
@@ -2080,7 +2209,8 @@ const ALL_SONGS = [
     "cover_file": "covers/16fc53395.png",
     "preview_hash": "f557ec80a",
     "cover_hash": "16fc53395",
-    "singer": "Maruzensky, Mejiro McQueen, Narita Brian, Symboli Rudolf, Tamamo Cross, Manhattan Cafe, Eishin Flash"
+    "singer": "Maruzensky, Mejiro McQueen, Narita Brian, Symboli Rudolf, Tamamo Cross, Manhattan Cafe, Eishin Flash",
+    "name_en": "Blow My Gale"
   },
   {
     "id": "9355d373-7a80-4a19-bcba-d1e38b8762a0",
@@ -2096,7 +2226,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0e085808d.png",
     "preview_hash": "ac883a576",
     "cover_hash": "0e085808d",
-    "singer": "Taiki Shuttle, Grass Wonder, Hishi Amazon, El Condor Pasa, Seeking the Pearl, Espoir City, Symboli Kris S, Tap Dance City, Cesario, Loves Only You, Red Desire, Forever Young, Marche Lorraine"
+    "singer": "Taiki Shuttle, Grass Wonder, Hishi Amazon, El Condor Pasa, Seeking the Pearl, Espoir City, Symboli Kris S, Tap Dance City, Cesario, Loves Only You, Red Desire, Forever Young, Marche Lorraine",
+    "name_en": "UMA IN AMERICA"
   },
   {
     "id": "945c507a-0229-45b6-b503-4ce5fb9459cd",
@@ -2112,7 +2243,8 @@ const ALL_SONGS = [
     "cover_file": "covers/93b8497b9.png",
     "preview_hash": "c97fb10b0",
     "cover_hash": "93b8497b9",
-    "singer": "Mejiro Ryan"
+    "singer": "Mejiro Ryan",
+    "name_en": "Hopeful Discovery"
   },
   {
     "id": "94ec87cb-cb9e-4feb-b653-d09f3f8455a6",
@@ -2128,7 +2260,8 @@ const ALL_SONGS = [
     "cover_file": "covers/d54c98827.png",
     "preview_hash": "20c84ef75",
     "cover_hash": "d54c98827",
-    "singer": "Symboli Kris S"
+    "singer": "Symboli Kris S",
+    "name_en": "THE SUPER STRONG S"
   },
   {
     "id": "94fdd685-d3b0-4e47-9d82-4bf2f594a22c",
@@ -2144,7 +2277,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ee609e32e.png",
     "preview_hash": "471fd5f1b",
     "cover_hash": "ee609e32e",
-    "singer": "Curren Chan, Still in Love, Fusaichi Pandora, Admire Groove, Lucky Lilac, Loves Only You, Stay Gold"
+    "singer": "Curren Chan, Still in Love, Fusaichi Pandora, Admire Groove, Lucky Lilac, Loves Only You, Stay Gold",
+    "name_en": "Super Suki♡Shuki Rush!"
   },
   {
     "id": "98874b36-a98e-42eb-9316-9e1c12577673",
@@ -2160,7 +2294,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3c2682d6c.png",
     "preview_hash": "c144c9f47",
     "cover_hash": "3c2682d6c",
-    "singer": "Narita Brian, Mayano Top Gun, Admire Vega, Inari One, Satono Diamond, Kitasan Black, Yaeno Muteki, Sakura Laurel, Narita Top Road, Satono Crown, Cheval Grand, Neo Universe, Hishi Miracle"
+    "singer": "Narita Brian, Mayano Top Gun, Admire Vega, Inari One, Satono Diamond, Kitasan Black, Yaeno Muteki, Sakura Laurel, Narita Top Road, Satono Crown, Cheval Grand, Neo Universe, Hishi Miracle",
+    "name_en": "Tracen Dance"
   },
   {
     "id": "9a7e8b5c-f45c-4981-ab1c-7d0b0e89170d",
@@ -2176,7 +2311,8 @@ const ALL_SONGS = [
     "cover_file": "covers/adab79e96.png",
     "preview_hash": "2fcba2b2a",
     "cover_hash": "adab79e96",
-    "singer": "Seiun Sky"
+    "singer": "Seiun Sky",
+    "name_en": "Whimsical Tuning Heart"
   },
   {
     "id": "9ae36db4-101a-49b2-b2d6-6b30a386afe5",
@@ -2192,7 +2328,8 @@ const ALL_SONGS = [
     "cover_file": "covers/d7a19338b.png",
     "preview_hash": "1b73835a5",
     "cover_hash": "d7a19338b",
-    "singer": "Neo Universe, Agnes Tachyon, Vivlos, Admire Vega, Mihono Bourbon"
+    "singer": "Neo Universe, Agnes Tachyon, Vivlos, Admire Vega, Mihono Bourbon",
+    "name_en": "Cosmo Puella Galactic Adventure"
   },
   {
     "id": "9d436979-d8f0-4bcf-89a2-3839161a5629",
@@ -2208,7 +2345,8 @@ const ALL_SONGS = [
     "cover_file": "covers/42fe19a16.png",
     "preview_hash": "0e8de1aa9",
     "cover_hash": "42fe19a16",
-    "singer": "Chrono Genesis"
+    "singer": "Chrono Genesis",
+    "name_en": "Logos"
   },
   {
     "id": "9e1099ea-b757-4c47-b31e-602f75d8d140",
@@ -2224,7 +2362,8 @@ const ALL_SONGS = [
     "cover_file": "covers/eb89fe4f3.png",
     "preview_hash": "82143f190",
     "cover_hash": "eb89fe4f3",
-    "singer": "Oguri Cap"
+    "singer": "Oguri Cap",
+    "name_en": "Unbreakable"
   },
   {
     "id": "9e2c24f6-8b8a-40c1-9d24-25c11ebb23f9",
@@ -2240,7 +2379,8 @@ const ALL_SONGS = [
     "cover_file": "covers/a8409afa7.png",
     "preview_hash": "4f9518a90",
     "cover_hash": "a8409afa7",
-    "singer": "Almond Eye"
+    "singer": "Almond Eye",
+    "name_en": "Eyes on Glory"
   },
   {
     "id": "9f602ff5-e910-48c3-a91b-0ece227c598d",
@@ -2256,7 +2396,8 @@ const ALL_SONGS = [
     "cover_file": "covers/15dad39c5.png",
     "preview_hash": "071fe1bbf",
     "cover_hash": "15dad39c5",
-    "singer": "Marvelous Sunday"
+    "singer": "Marvelous Sunday",
+    "name_en": "Marvelous Sunday Time"
   },
   {
     "id": "a10e165e-0bdc-4f10-a14b-839d7e60bea3",
@@ -2272,7 +2413,8 @@ const ALL_SONGS = [
     "cover_file": "covers/43e8406c9.png",
     "preview_hash": "3c6736edf",
     "cover_hash": "43e8406c9",
-    "singer": "Tokai Teio"
+    "singer": "Tokai Teio",
+    "name_en": "Love Is at the Derby☆"
   },
   {
     "id": "a1c0d366-faa1-429c-b486-7ddd8a6dd2d0",
@@ -2288,7 +2430,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0d46b30a5.png",
     "preview_hash": "add89416f",
     "cover_hash": "0d46b30a5",
-    "singer": "Tanino Gimlet"
+    "singer": "Tanino Gimlet",
+    "name_en": "Destroy for Dasein"
   },
   {
     "id": "a243fa4e-fb48-4a68-a13e-dffd4a5ce3fe",
@@ -2304,7 +2447,8 @@ const ALL_SONGS = [
     "cover_file": "covers/078ca8284.png",
     "preview_hash": "ed611e152",
     "cover_hash": "078ca8284",
-    "singer": "Air Groove"
+    "singer": "Air Groove",
+    "name_en": "Empress Game"
   },
   {
     "id": "a2aa7c31-d082-4dd1-81b7-f62697d832d5",
@@ -2320,7 +2464,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ec1e0fd21.png",
     "preview_hash": "a30dec451",
     "cover_hash": "ec1e0fd21",
-    "singer": "Hishi Miracle"
+    "singer": "Hishi Miracle",
+    "name_en": "From Ordinary to Extraordinary"
   },
   {
     "id": "a3ae1915-91a9-479c-b9eb-e08f18304b2d",
@@ -2336,7 +2481,8 @@ const ALL_SONGS = [
     "cover_file": "covers/c7852f092.png",
     "preview_hash": "a5aa22099",
     "cover_hash": "c7852f092",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Maruzensky, Fuji Kiseki, Oguri Cap, Gold Ship, Vodka, Daiwa Scarlet, Grass Wonder, Hishi Amazon, Mejiro McQueen, El Condor Pasa, T.M. Opera O, Narita Brian, Symboli Rudolf, Air Groove, Biwa Hayahide"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Maruzensky, Fuji Kiseki, Oguri Cap, Gold Ship, Vodka, Daiwa Scarlet, Grass Wonder, Hishi Amazon, Mejiro McQueen, El Condor Pasa, T.M. Opera O, Narita Brian, Symboli Rudolf, Air Groove, Biwa Hayahide",
+    "name_en": "Special Record!"
   },
   {
     "id": "a4feeb54-6cf1-4897-ad9c-26775663f2a9",
@@ -2352,7 +2498,8 @@ const ALL_SONGS = [
     "cover_file": "covers/27e8dd3e5.png",
     "preview_hash": "8ef5749e6",
     "cover_hash": "27e8dd3e5",
-    "singer": "Gold Ship, Nakayama Festa, Dream Journey, Orfevre, Fenomeno, Stay Gold"
+    "singer": "Gold Ship, Nakayama Festa, Dream Journey, Orfevre, Fenomeno, Stay Gold",
+    "name_en": "Gold-Triumph"
   },
   {
     "id": "a5b1c413-433c-46c5-a15a-d9bcc1d915f4",
@@ -2368,7 +2515,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ba30bb49c.png",
     "preview_hash": "9c44b4548",
     "cover_hash": "ba30bb49c",
-    "singer": "Rhein Kraft, Fusaichi Pandora"
+    "singer": "Rhein Kraft, Fusaichi Pandora",
+    "name_en": "Gift"
   },
   {
     "id": "a72f148f-d1ae-40f3-aaf6-e1e30ba84c6a",
@@ -2384,7 +2532,8 @@ const ALL_SONGS = [
     "cover_file": "covers/711664346.png",
     "preview_hash": "93aa2c663",
     "cover_hash": "711664346",
-    "singer": "Gold City"
+    "singer": "Gold City",
+    "name_en": "Bare-Faced Heart"
   },
   {
     "id": "a7699f25-2925-49cc-a57c-e8e811e94bab",
@@ -2400,7 +2549,8 @@ const ALL_SONGS = [
     "cover_file": "covers/a51732135.png",
     "preview_hash": "c6cc72cf9",
     "cover_hash": "a51732135",
-    "singer": "Special Week, Narita Brian, Biwa Hayahide, Transcend, Duramente, Buena Vista, Epiphaneia, Logotype, Victoire Pisa, Rulership, Efforia, Titleholder, Phalaenopsis"
+    "singer": "Special Week, Narita Brian, Biwa Hayahide, Transcend, Duramente, Buena Vista, Epiphaneia, Logotype, Victoire Pisa, Rulership, Efforia, Titleholder, Phalaenopsis",
+    "name_en": "Beyond"
   },
   {
     "id": "a87aacca-d542-4e12-b1c6-d018ec6e0bc8",
@@ -2416,7 +2566,8 @@ const ALL_SONGS = [
     "cover_file": "covers/2f3037b55.png",
     "preview_hash": "fa5973a18",
     "cover_hash": "2f3037b55",
-    "singer": "Oguri Cap"
+    "singer": "Oguri Cap",
+    "name_en": "BRIGHTEST HEART"
   },
   {
     "id": "aac1bf32-ca92-4af3-9677-2a27a1ab29dd",
@@ -2432,7 +2583,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f128dc0ae.png",
     "preview_hash": "c5f010953",
     "cover_hash": "f128dc0ae",
-    "singer": "Special Week, Rice Shower, Smart Falcon, Tosen Jordan, Nice Nature, King Halo, Mejiro Palmer, Tsurumaru Tsuyoshi, Sakura Laurel, Hishi Miracle"
+    "singer": "Special Week, Rice Shower, Smart Falcon, Tosen Jordan, Nice Nature, King Halo, Mejiro Palmer, Tsurumaru Tsuyoshi, Sakura Laurel, Hishi Miracle",
+    "name_en": "Comeback Story V"
   },
   {
     "id": "ac588f9b-0e19-4832-bbcb-50aeffb04f35",
@@ -2448,7 +2600,8 @@ const ALL_SONGS = [
     "cover_file": "covers/59f7bbcd4.png",
     "preview_hash": "5e370f030",
     "cover_hash": "59f7bbcd4",
-    "singer": "Fusaichi Pandora"
+    "singer": "Fusaichi Pandora",
+    "name_en": "A Genius for Real"
   },
   {
     "id": "ad47d8ad-d6ae-4809-9a84-9155a60c1169",
@@ -2464,7 +2617,8 @@ const ALL_SONGS = [
     "cover_file": "covers/2375c1ae1.png",
     "preview_hash": "e277c4cbe",
     "cover_hash": "2375c1ae1",
-    "singer": "Various / All Umamusume"
+    "singer": "Various / All Umamusume",
+    "name_en": "Umapyoi Legend"
   },
   {
     "id": "ada2ea1a-60a5-4476-bf21-9d82f97f158a",
@@ -2480,7 +2634,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f918858f9.png",
     "preview_hash": "c59253f94",
     "cover_hash": "f918858f9",
-    "singer": "Oguri Cap, Tamamo Cross"
+    "singer": "Oguri Cap, Tamamo Cross",
+    "name_en": "Transcend"
   },
   {
     "id": "adc8786e-66d4-4ef3-b5fc-fd09be122513",
@@ -2496,7 +2651,8 @@ const ALL_SONGS = [
     "cover_file": "covers/1ed71d57b.png",
     "preview_hash": "47e8826e7",
     "cover_hash": "1ed71d57b",
-    "singer": "Neo Universe"
+    "singer": "Neo Universe",
+    "name_en": "Galactic Philosophy"
   },
   {
     "id": "ae5192d1-c3c8-414c-bcec-32c28668cf22",
@@ -2512,7 +2668,8 @@ const ALL_SONGS = [
     "cover_file": "covers/02a16cf28.png",
     "preview_hash": "ab23caa84",
     "cover_hash": "02a16cf28",
-    "singer": "Smart Falcon, Nakayama Festa, Mejiro Palmer, Daitaku Helios, Transcend, Dantsu Flame, Jungle Pocket, Copano Rickey, Hokko Tarumae, Wonder Acute, Rhein Kraft, Gentildonna, Dream Journey, Calstone Light O"
+    "singer": "Smart Falcon, Nakayama Festa, Mejiro Palmer, Daitaku Helios, Transcend, Dantsu Flame, Jungle Pocket, Copano Rickey, Hokko Tarumae, Wonder Acute, Rhein Kraft, Gentildonna, Dream Journey, Calstone Light O",
+    "name_en": "UMA Summer"
   },
   {
     "id": "ae97afc9-f5cd-4f2d-b1cf-b6eab33e62f0",
@@ -2528,7 +2685,8 @@ const ALL_SONGS = [
     "cover_file": "covers/11486aa54.png",
     "preview_hash": "a490202b1",
     "cover_hash": "11486aa54",
-    "singer": "Oguri Cap, Tamamo Cross"
+    "singer": "Oguri Cap, Tamamo Cross",
+    "name_en": "Hello Polaris"
   },
   {
     "id": "b00c1814-8972-4c18-85e7-d44f31ba9d29",
@@ -2544,7 +2702,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7c67ec543.png",
     "preview_hash": "a030a0691",
     "cover_hash": "7c67ec543",
-    "singer": "Mejiro McQueen"
+    "singer": "Mejiro McQueen",
+    "name_en": "Waiting for Tomorrow"
   },
   {
     "id": "b0b508d6-8a49-497a-b9bf-04f6104f3a4f",
@@ -2560,7 +2719,8 @@ const ALL_SONGS = [
     "cover_file": "covers/dec261ccb.png",
     "preview_hash": "0243fa6a3",
     "cover_hash": "dec261ccb",
-    "singer": "Rice Shower, Nakayama Festa, North Flight, Cheval Grand, Verxina, Vivlos, Loves Only You"
+    "singer": "Rice Shower, Nakayama Festa, North Flight, Cheval Grand, Verxina, Vivlos, Loves Only You",
+    "name_en": "BoC-izm"
   },
   {
     "id": "b6ec29cf-b528-4c65-8614-298ab83b2962",
@@ -2576,7 +2736,8 @@ const ALL_SONGS = [
     "cover_file": "covers/924928b3e.png",
     "preview_hash": "35b4a427a",
     "cover_hash": "924928b3e",
-    "singer": "Yaeno Muteki"
+    "singer": "Yaeno Muteki",
+    "name_en": "Glory Run!"
   },
   {
     "id": "b81494e9-571d-47b8-8f88-1d8a6b082d1e",
@@ -2592,7 +2753,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ee93115c6.png",
     "preview_hash": "1afc5b381",
     "cover_hash": "ee93115c6",
-    "singer": "Taiki Shuttle"
+    "singer": "Taiki Shuttle",
+    "name_en": "Trust Your Gut, No Problem!"
   },
   {
     "id": "b9a4e32b-b59e-46a7-ad21-3e3b16a97bb2",
@@ -2608,7 +2770,8 @@ const ALL_SONGS = [
     "cover_file": "covers/138f1ce98.png",
     "preview_hash": "601909268",
     "cover_hash": "138f1ce98",
-    "singer": "Jungle Pocket"
+    "singer": "Jungle Pocket",
+    "name_en": "Roar of the Strongest"
   },
   {
     "id": "bf9dd165-0ba9-4139-b08b-fa2b62a2a4dc",
@@ -2624,7 +2787,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0f1838ed3.png",
     "preview_hash": "e22264360",
     "cover_hash": "0f1838ed3",
-    "singer": "Gold Ship"
+    "singer": "Gold Ship",
+    "name_en": "Peace, Yo! It's Golshi!"
   },
   {
     "id": "c1b06e5a-4879-4ea4-bb7b-8984fff88441",
@@ -2640,7 +2804,8 @@ const ALL_SONGS = [
     "cover_file": "covers/9f8afe591.png",
     "preview_hash": "337f6adec",
     "cover_hash": "9f8afe591",
-    "singer": "T.M. Opera O"
+    "singer": "T.M. Opera O",
+    "name_en": "Forever Gold"
   },
   {
     "id": "c1b986a9-e709-4335-9d03-56274c82720b",
@@ -2656,7 +2821,8 @@ const ALL_SONGS = [
     "cover_file": "covers/9cddd6040.png",
     "preview_hash": "6ec50c583",
     "cover_hash": "9cddd6040",
-    "singer": "Oguri Cap, Tamamo Cross, Dicta Striker"
+    "singer": "Oguri Cap, Tamamo Cross, Dicta Striker",
+    "name_en": "NEXT FRONTIER"
   },
   {
     "id": "c380c993-4aac-4bbb-aaeb-b67e215c95f9",
@@ -2672,7 +2838,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f7c7bd189.png",
     "preview_hash": "96dd08345",
     "cover_hash": "f7c7bd189",
-    "singer": "Winning Ticket"
+    "singer": "Winning Ticket",
+    "name_en": "WINNING MELODY"
   },
   {
     "id": "c61b4350-22ef-4141-a616-91183bc2d272",
@@ -2688,7 +2855,8 @@ const ALL_SONGS = [
     "cover_file": "covers/59f7bbcd4.png",
     "preview_hash": "2fe1c9ee6",
     "cover_hash": "59f7bbcd4",
-    "singer": "Shinko Windy"
+    "singer": "Shinko Windy",
+    "name_en": "CAN'T STOP WICKED WINDY!"
   },
   {
     "id": "c61dd3ab-7127-40be-badd-dc15edee0b0c",
@@ -2704,7 +2872,8 @@ const ALL_SONGS = [
     "cover_file": "covers/d83364e0b.png",
     "preview_hash": "475986c8c",
     "cover_hash": "d83364e0b",
-    "singer": "Biko Pegasus"
+    "singer": "Biko Pegasus",
+    "name_en": "Soulful Fist Pegasus Punch"
   },
   {
     "id": "c64cbfec-ebb1-4c18-a014-455df2d5dcf9",
@@ -2720,7 +2889,8 @@ const ALL_SONGS = [
     "cover_file": "covers/926c9c845.png",
     "preview_hash": "de78c249e",
     "cover_hash": "926c9c845",
-    "singer": "Stay Gold"
+    "singer": "Stay Gold",
+    "name_en": "Gold-Recollection"
   },
   {
     "id": "c692e930-e733-44e4-9dfb-feed96e181da",
@@ -2736,7 +2906,8 @@ const ALL_SONGS = [
     "cover_file": "covers/bf72c7a3d.png",
     "preview_hash": "4cd0bd7a0",
     "cover_hash": "bf72c7a3d",
-    "singer": "Biwa Hayahide, Winning Ticket, Narita Taishin"
+    "singer": "Biwa Hayahide, Winning Ticket, Narita Taishin",
+    "name_en": "Sky-blue Spring"
   },
   {
     "id": "c6d263bb-a3cc-4383-86cc-9096b439181f",
@@ -2752,7 +2923,8 @@ const ALL_SONGS = [
     "cover_file": "covers/4ea601d8f.png",
     "preview_hash": "d909010c4",
     "cover_hash": "4ea601d8f",
-    "singer": "Gentildonna"
+    "singer": "Gentildonna",
+    "name_en": "LADY G DONNA"
   },
   {
     "id": "c712e2e0-6260-4ee7-bf83-647f473d3afd",
@@ -2768,7 +2940,8 @@ const ALL_SONGS = [
     "cover_file": "covers/c22192898.png",
     "preview_hash": "d43514c03",
     "cover_hash": "c22192898",
-    "singer": "Manhattan Cafe, Agnes Tachyon"
+    "singer": "Manhattan Cafe, Agnes Tachyon",
+    "name_en": "Mystery × Chemistry"
   },
   {
     "id": "c72e2b0f-5a88-451a-8834-8ed400b10aa7",
@@ -2784,7 +2957,8 @@ const ALL_SONGS = [
     "cover_file": "covers/a88f98e04.png",
     "preview_hash": "87c20cd8f",
     "cover_hash": "a88f98e04",
-    "singer": "Tsurumaru Tsuyoshi"
+    "singer": "Tsurumaru Tsuyoshi",
+    "name_en": "Play Again"
   },
   {
     "id": "c7beece5-f6fa-4501-9aab-38b8d953cb2a",
@@ -2800,7 +2974,8 @@ const ALL_SONGS = [
     "cover_file": "covers/9f99296dc.png",
     "preview_hash": "a1645afeb",
     "cover_hash": "9f99296dc",
-    "singer": "Manhattan Cafe"
+    "singer": "Manhattan Cafe",
+    "name_en": "Paradise"
   },
   {
     "id": "c8db0e26-74ab-409a-9411-3701c06bf8cd",
@@ -2816,7 +2991,8 @@ const ALL_SONGS = [
     "cover_file": "covers/03795f3e5.png",
     "preview_hash": "5608f177a",
     "cover_hash": "03795f3e5",
-    "singer": "Symboli Rudolf"
+    "singer": "Symboli Rudolf",
+    "name_en": "SEVEN"
   },
   {
     "id": "c8f4f1d5-8504-4daf-9269-58dcff32b9ee",
@@ -2832,7 +3008,8 @@ const ALL_SONGS = [
     "cover_file": "covers/d3392bd28.png",
     "preview_hash": "f9139b619",
     "cover_hash": "d3392bd28",
-    "singer": "Furioso"
+    "singer": "Furioso",
+    "name_en": "Dear Dream of Mine"
   },
   {
     "id": "c90a86d6-997d-49c0-b323-533fa6966ec0",
@@ -2848,7 +3025,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6badbe1ee.png",
     "preview_hash": "a851d0119",
     "cover_hash": "6badbe1ee",
-    "singer": "Tokai Teio"
+    "singer": "Tokai Teio",
+    "name_en": "Shape of Our Wish"
   },
   {
     "id": "ca3c036c-4ba7-4395-946e-b08dcc92df17",
@@ -2864,7 +3042,8 @@ const ALL_SONGS = [
     "cover_file": "covers/5b8dbb685.png",
     "preview_hash": "6e4e2f2bd",
     "cover_hash": "5b8dbb685",
-    "singer": "Special Week, Oguri Cap, Gold Ship, Narita Brian, Tamamo Cross, Manhattan Cafe, Agnes Tachyon, Satono Diamond, Kitasan Black, Sakura Laurel, Verxina, Jungle Pocket, Duramente, Rhein Kraft, Cesario, Orfevre, Gentildonna, Win Variation"
+    "singer": "Special Week, Oguri Cap, Gold Ship, Narita Brian, Tamamo Cross, Manhattan Cafe, Agnes Tachyon, Satono Diamond, Kitasan Black, Sakura Laurel, Verxina, Jungle Pocket, Duramente, Rhein Kraft, Cesario, Orfevre, Gentildonna, Win Variation",
+    "name_en": "U.M.A. New World!"
   },
   {
     "id": "cb21310b-58da-4803-86b2-2df217e1d653",
@@ -2880,7 +3059,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ad3b9d857.png",
     "preview_hash": "5fe398049",
     "cover_hash": "ad3b9d857",
-    "singer": "Orfevre"
+    "singer": "Orfevre",
+    "name_en": "By My Decree"
   },
   {
     "id": "cda485c3-0b9f-4e1f-8c37-3553c6f88481",
@@ -2896,7 +3076,8 @@ const ALL_SONGS = [
     "cover_file": "covers/45ccbd8e8.png",
     "preview_hash": "a97210de2",
     "cover_hash": "45ccbd8e8",
-    "singer": "Tokai Teio"
+    "singer": "Tokai Teio",
+    "name_en": "Winning the Soul"
   },
   {
     "id": "ced2fe63-0519-4cad-87db-ca5b0d4cbe62",
@@ -2912,7 +3093,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f0adbf931.png",
     "preview_hash": "2fe6f86d0",
     "cover_hash": "f0adbf931",
-    "singer": "Special Week, Tokai Teio, T.M. Opera O, Narita Brian, Symboli Rudolf, Mayano Top Gun, Manhattan Cafe, Agnes Tachyon, Admire Vega, Marvelous Sunday, Mr. C.B., Twin Turbo, Satono Diamond, Kitasan Black, Sakura Laurel, Narita Top Road, Symboli Kris S, Tanino Gimlet, Mejiro Ramonu, Satono Crown, Cheval Grand, Jungle Pocket, Katsuragi Ace"
+    "singer": "Special Week, Tokai Teio, T.M. Opera O, Narita Brian, Symboli Rudolf, Mayano Top Gun, Manhattan Cafe, Agnes Tachyon, Admire Vega, Marvelous Sunday, Mr. C.B., Twin Turbo, Satono Diamond, Kitasan Black, Sakura Laurel, Narita Top Road, Symboli Kris S, Tanino Gimlet, Mejiro Ramonu, Satono Crown, Cheval Grand, Jungle Pocket, Katsuragi Ace",
+    "name_en": "DRAMATIC JOURNEY"
   },
   {
     "id": "cf464081-c44e-4146-b481-7be70c7e57a2",
@@ -2928,7 +3110,8 @@ const ALL_SONGS = [
     "cover_file": "covers/97bc618ca.png",
     "preview_hash": "fa26f9fa8",
     "cover_hash": "97bc618ca",
-    "singer": "Cheval Grand"
+    "singer": "Cheval Grand",
+    "name_en": "My Endless Blue Dreams"
   },
   {
     "id": "cf785192-aa17-47b9-b20e-941d89ca770e",
@@ -2944,7 +3127,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0ccaaf956.png",
     "preview_hash": "1d74f6a37",
     "cover_hash": "0ccaaf956",
-    "singer": "Kitasan Black"
+    "singer": "Kitasan Black",
+    "name_en": "Lost Shine"
   },
   {
     "id": "d03f6e5e-2acb-44e6-a5d4-6cc3f44823c4",
@@ -2960,7 +3144,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3efdf4e1c.png",
     "preview_hash": "74a395c19",
     "cover_hash": "3efdf4e1c",
-    "singer": "Marche Lorraine"
+    "singer": "Marche Lorraine",
+    "name_en": "A Glimmer of Courage"
   },
   {
     "id": "d0f883b1-8365-40b5-8f53-f1bb4ef41a79",
@@ -2976,7 +3161,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e87b79c82.png",
     "preview_hash": "57cce66b8",
     "cover_hash": "e87b79c82",
-    "singer": "Calstone Light O"
+    "singer": "Calstone Light O",
+    "name_en": "O-Light-O"
   },
   {
     "id": "d1d983e8-4bfe-4fe1-8ced-5257d9025d0e",
@@ -2992,7 +3178,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0882ca984.png",
     "preview_hash": "050216230",
     "cover_hash": "0882ca984",
-    "singer": "Grass Wonder"
+    "singer": "Grass Wonder",
+    "name_en": "Secret Graduation"
   },
   {
     "id": "d26c1e12-be7f-42d7-961e-2e7fcf1ee8f1",
@@ -3008,7 +3195,8 @@ const ALL_SONGS = [
     "cover_file": "covers/51accc571.png",
     "preview_hash": "a8ed86a15",
     "cover_hash": "51accc571",
-    "singer": "Espoir City"
+    "singer": "Espoir City",
+    "name_en": "Peep Peep Pow!"
   },
   {
     "id": "d609a246-7d33-40b2-b847-fa3e0a95b0d8",
@@ -3024,7 +3212,8 @@ const ALL_SONGS = [
     "cover_file": "covers/672c66761.png",
     "preview_hash": "3bb42244f",
     "cover_hash": "672c66761",
-    "singer": "Vodka, Tanino Gimlet, Agnes Digital, Symboli Rudolf, Air Groove"
+    "singer": "Vodka, Tanino Gimlet, Agnes Digital, Symboli Rudolf, Air Groove",
+    "name_en": "Bright Melody"
   },
   {
     "id": "d82456d1-b1f8-4451-8de2-3209c6abaddb",
@@ -3040,7 +3229,8 @@ const ALL_SONGS = [
     "cover_file": "covers/302695e98.png",
     "preview_hash": "391f9f16b",
     "cover_hash": "302695e98",
-    "singer": "Agnes Digital, Mayano Top Gun, Smart Falcon, Nishino Flower, Haru Urara, Marvelous Sunday, Nice Nature, Twin Turbo"
+    "singer": "Agnes Digital, Mayano Top Gun, Smart Falcon, Nishino Flower, Haru Urara, Marvelous Sunday, Nice Nature, Twin Turbo",
+    "name_en": "Run n' Run!"
   },
   {
     "id": "d875c82b-0513-43b6-9d00-ed514c37778e",
@@ -3056,7 +3246,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3d947847e.png",
     "preview_hash": "1b28eabff",
     "cover_hash": "3d947847e",
-    "singer": "Meisho Doto"
+    "singer": "Meisho Doto",
+    "name_en": "I'll Be Right Beside You...!"
   },
   {
     "id": "d90d46b8-745a-44db-b209-1f73b6a74873",
@@ -3072,7 +3263,8 @@ const ALL_SONGS = [
     "cover_file": "covers/1913b1352.png",
     "preview_hash": "8f21de784",
     "cover_hash": "1913b1352",
-    "singer": "Fine Motion, Meisho Doto, Nice Nature, Narita Top Road, Calstone Light O"
+    "singer": "Fine Motion, Meisho Doto, Nice Nature, Narita Top Road, Calstone Light O",
+    "name_en": "TRACEN RAMEN"
   },
   {
     "id": "d9647c9a-be3e-4184-8b22-1b353380a063",
@@ -3088,7 +3280,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f9ceaf26b.png",
     "preview_hash": "478aef924",
     "cover_hash": "f9ceaf26b",
-    "singer": "Vivlos"
+    "singer": "Vivlos",
+    "name_en": "Marine Blue Magic♡"
   },
   {
     "id": "dc32a9e8-bd23-4257-a157-34513daed9d3",
@@ -3104,7 +3297,8 @@ const ALL_SONGS = [
     "cover_file": "covers/cc9acd288.png",
     "preview_hash": "94e0d1283",
     "cover_hash": "cc9acd288",
-    "singer": "Jungle Pocket, Agnes Tachyon, Manhattan Cafe, Dantsu Flame"
+    "singer": "Jungle Pocket, Agnes Tachyon, Manhattan Cafe, Dantsu Flame",
+    "name_en": "PRISMATIC SPURT!!!!"
   },
   {
     "id": "dd4d167b-dd60-4482-81db-85d7b65bc419",
@@ -3120,7 +3314,8 @@ const ALL_SONGS = [
     "cover_file": "covers/4fcae823c.png",
     "preview_hash": "7e2fce9c4",
     "cover_hash": "4fcae823c",
-    "singer": "Mr. C.B."
+    "singer": "Mr. C.B.",
+    "name_en": "Dreaming in the Wind"
   },
   {
     "id": "ded28c42-535b-41cc-9d22-618290ce2783",
@@ -3136,7 +3331,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f560ec1da.png",
     "preview_hash": "fc77600bf",
     "cover_hash": "f560ec1da",
-    "singer": "Ikuno Dictus"
+    "singer": "Ikuno Dictus",
+    "name_en": "Excellent Condition"
   },
   {
     "id": "dee2789f-3d79-4096-823a-4e9ab6fda90f",
@@ -3152,7 +3348,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7c63be582.png",
     "preview_hash": "80e6dc79e",
     "cover_hash": "7c63be582",
-    "singer": "Victoire Pisa"
+    "singer": "Victoire Pisa",
+    "name_en": "Hope Everlasting"
   },
   {
     "id": "e0940991-05c1-486c-9870-55f2129cc157",
@@ -3168,7 +3365,8 @@ const ALL_SONGS = [
     "cover_file": "covers/274b88f8c.png",
     "preview_hash": "a0c653980",
     "cover_hash": "274b88f8c",
-    "singer": "Air Groove, Kawakami Princess, Sweep Tosho, Nishino Flower, Mejiro Dober"
+    "singer": "Air Groove, Kawakami Princess, Sweep Tosho, Nishino Flower, Mejiro Dober",
+    "name_en": "Brilliant Phantasia"
   },
   {
     "id": "e127ee76-c339-48af-87c6-0ecd53e64dd7",
@@ -3184,7 +3382,8 @@ const ALL_SONGS = [
     "cover_file": "covers/1f0e97e91.png",
     "preview_hash": "ba7dec09b",
     "cover_hash": "1f0e97e91",
-    "singer": "Yamanin Zephyr"
+    "singer": "Yamanin Zephyr",
+    "name_en": "Like the Wind"
   },
   {
     "id": "e27b4248-8e17-470e-a8c3-601b2e4039eb",
@@ -3200,7 +3399,8 @@ const ALL_SONGS = [
     "cover_file": "covers/898e1b867.png",
     "preview_hash": "cfc79188d",
     "cover_hash": "898e1b867",
-    "singer": "Special Week, Oguri Cap, Fine Motion, Air Shakur, Matikanetannhauser"
+    "singer": "Special Week, Oguri Cap, Fine Motion, Air Shakur, Matikanetannhauser",
+    "name_en": "Eternity's Palette"
   },
   {
     "id": "e3d9fbe9-d72e-4950-80ba-c04f60178cf3",
@@ -3216,7 +3416,8 @@ const ALL_SONGS = [
     "cover_file": "covers/8760680b1.png",
     "preview_hash": "a454bb6c4",
     "cover_hash": "8760680b1",
-    "singer": "Cesario"
+    "singer": "Cesario",
+    "name_en": "The Dew Runs as the River Rushes"
   },
   {
     "id": "e4923164-a10e-4694-afde-0fa10397ac64",
@@ -3232,7 +3433,8 @@ const ALL_SONGS = [
     "cover_file": "covers/924928b3e.png",
     "preview_hash": "99acc67f7",
     "cover_hash": "924928b3e",
-    "singer": "Sakura Chiyono O"
+    "singer": "Sakura Chiyono O",
+    "name_en": "My Diligent Notes"
   },
   {
     "id": "e7c7a0fe-dedd-4d20-bf7b-a6644b45ed62",
@@ -3248,7 +3450,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f05107488.png",
     "preview_hash": "3960e5b58",
     "cover_hash": "f05107488",
-    "singer": "Kawakami Princess"
+    "singer": "Kawakami Princess",
+    "name_en": "Heroic Burst Princess!"
   },
   {
     "id": "e8447703-d0d9-4feb-b477-80b6838f9646",
@@ -3264,7 +3467,8 @@ const ALL_SONGS = [
     "cover_file": "covers/83c9ab559.png",
     "preview_hash": "886ad59a0",
     "cover_hash": "83c9ab559",
-    "singer": "Special Week, Mihono Bourbon, Hishi Akebono, Rice Shower, Nishino Flower, Biko Pegasus, Cheval Grand, Katsuragi Ace, Hishi Miracle, Cesario"
+    "singer": "Special Week, Mihono Bourbon, Hishi Akebono, Rice Shower, Nishino Flower, Biko Pegasus, Cheval Grand, Katsuragi Ace, Hishi Miracle, Cesario",
+    "name_en": "Umalicious! Gourmet Parade"
   },
   {
     "id": "e88dfbbe-2805-4fd8-9549-2a49c6b90ea3",
@@ -3280,7 +3484,8 @@ const ALL_SONGS = [
     "cover_file": "covers/b4ceba7ea.png",
     "preview_hash": "47bd21cad",
     "cover_hash": "b4ceba7ea",
-    "singer": "Tucker Bryne"
+    "singer": "Tucker Bryne",
+    "name_en": "Tucker's Grindin' Island"
   },
   {
     "id": "e89c11de-1c08-409f-b38d-332687bb6652",
@@ -3296,7 +3501,8 @@ const ALL_SONGS = [
     "cover_file": "covers/885168c71.png",
     "preview_hash": "5a891cc8e",
     "cover_hash": "885168c71",
-    "singer": "Mayano Top Gun, Matikanefukukitaru, Seeking the Pearl"
+    "singer": "Mayano Top Gun, Matikanefukukitaru, Seeking the Pearl",
+    "name_en": "SHAKEROCK"
   },
   {
     "id": "e95d81d5-f5fa-4249-9adb-8eeb27187a61",
@@ -3312,7 +3518,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f205d1bc2.png",
     "preview_hash": "92548d856",
     "cover_hash": "f205d1bc2",
-    "singer": "Rhein Kraft"
+    "singer": "Rhein Kraft",
+    "name_en": "Over a Tiara"
   },
   {
     "id": "ed3f9caa-dc53-48c5-8c23-25f7019e9971",
@@ -3328,7 +3535,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e7ede453f.png",
     "preview_hash": "f3db85741",
     "cover_hash": "e7ede453f",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio, Maruzensky, Oguri Cap, Gold Ship, Vodka, Daiwa Scarlet, Taiki Shuttle, Grass Wonder, Mejiro McQueen, El Condor Pasa, Symboli Rudolf, Air Groove, Mayano Top Gun, Mejiro Ryan, Rice Shower, Agnes Tachyon, Winning Ticket, Sakura Bakushin O, Super Creek, Haru Urara, Matikanefukukitaru, Nice Nature, King Halo"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio, Maruzensky, Oguri Cap, Gold Ship, Vodka, Daiwa Scarlet, Taiki Shuttle, Grass Wonder, Mejiro McQueen, El Condor Pasa, Symboli Rudolf, Air Groove, Mayano Top Gun, Mejiro Ryan, Rice Shower, Agnes Tachyon, Winning Ticket, Sakura Bakushin O, Super Creek, Haru Urara, Matikanefukukitaru, Nice Nature, King Halo",
+    "name_en": "Girls' Legend U"
   },
   {
     "id": "eeb3685c-4874-4794-b839-a0674f9d9675",
@@ -3344,7 +3552,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0091fd3d0.png",
     "preview_hash": "a099169a1",
     "cover_hash": "0091fd3d0",
-    "singer": "Special Week"
+    "singer": "Special Week",
+    "name_en": "My Mark's a Top Favorite ◎"
   },
   {
     "id": "eefc493c-5e64-442a-a236-33f9f05c16cf",
@@ -3360,7 +3569,8 @@ const ALL_SONGS = [
     "cover_file": "covers/32c5da49f.png",
     "preview_hash": "df7566494",
     "cover_hash": "32c5da49f",
-    "singer": "Sakura Bakushin O"
+    "singer": "Sakura Bakushin O",
+    "name_en": "In a Reckless Rush!!"
   },
   {
     "id": "ef287c5b-a72b-40ce-8f2b-3b9b6c9fda62",
@@ -3376,7 +3586,8 @@ const ALL_SONGS = [
     "cover_file": "covers/cde70edb6.png",
     "preview_hash": "b0e1b22c0",
     "cover_hash": "cde70edb6",
-    "singer": "Satono Crown"
+    "singer": "Satono Crown",
+    "name_en": "Confident"
   },
   {
     "id": "f0630389-b7d1-41a7-b3db-46ffbdc08a9e",
@@ -3392,7 +3603,8 @@ const ALL_SONGS = [
     "cover_file": "covers/012673a7a.png",
     "preview_hash": "d93b9c74f",
     "cover_hash": "012673a7a",
-    "singer": "Special Week, Silence Suzuka, Gold Ship, Mejiro McQueen, Narita Brian, Rice Shower, Winning Ticket"
+    "singer": "Special Week, Silence Suzuka, Gold Ship, Mejiro McQueen, Narita Brian, Rice Shower, Winning Ticket",
+    "name_en": "Precious Smiles (Beyond The Future!)"
   },
   {
     "id": "f2291f56-47f7-4f99-8288-96e462a42b80",
@@ -3408,7 +3620,8 @@ const ALL_SONGS = [
     "cover_file": "covers/954745ae1.png",
     "preview_hash": "24f4eafd3",
     "cover_hash": "954745ae1",
-    "singer": "Narita Brian"
+    "singer": "Narita Brian",
+    "name_en": "Vow of the Shadow Roll"
   },
   {
     "id": "f2d3c510-399a-4ab8-84b1-6ca6656119f5",
@@ -3424,7 +3637,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e9fb161ee.png",
     "preview_hash": "7587efda9",
     "cover_hash": "e9fb161ee",
-    "singer": "Super Creek"
+    "singer": "Super Creek",
+    "name_en": "Softly, Slowly"
   },
   {
     "id": "f430a5dd-1590-4fec-b6df-148b438af948",
@@ -3440,7 +3654,8 @@ const ALL_SONGS = [
     "cover_file": "covers/d16600280.png",
     "preview_hash": "b62c07f3a",
     "cover_hash": "d16600280",
-    "singer": "Tokai Teio, Mejiro McQueen, Twin Turbo, Agnes Tachyon, Matikanefukukitaru"
+    "singer": "Tokai Teio, Mejiro McQueen, Twin Turbo, Agnes Tachyon, Matikanefukukitaru",
+    "name_en": "Midnight Epilogue"
   },
   {
     "id": "f4926272-4462-4042-9169-24676e9c7213",
@@ -3456,7 +3671,8 @@ const ALL_SONGS = [
     "cover_file": "covers/dd6d271bd.png",
     "preview_hash": "94e8ac153",
     "cover_hash": "dd6d271bd",
-    "singer": "Special Week, Silence Suzuka, Tokai Teio"
+    "singer": "Special Week, Silence Suzuka, Tokai Teio",
+    "name_en": "Endless Dream!!"
   },
   {
     "id": "f4b375f7-3998-44a4-95b3-cb164d11e316",
@@ -3472,7 +3688,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7abb0dfc1.png",
     "preview_hash": "2bdadb066",
     "cover_hash": "7abb0dfc1",
-    "singer": "Biwa Hayahide"
+    "singer": "Biwa Hayahide",
+    "name_en": "Reins and Bonds"
   },
   {
     "id": "f76a05ec-efd4-40d0-9db3-39f5f66d1305",
@@ -3488,7 +3705,8 @@ const ALL_SONGS = [
     "cover_file": "covers/22e516b92.png",
     "preview_hash": "920c39483",
     "cover_hash": "22e516b92",
-    "singer": "Smart Falcon"
+    "singer": "Smart Falcon",
+    "name_en": "Full Speed Ahead! Umadol Power☆"
   },
   {
     "id": "f784be9c-10f4-448e-97c8-1029e05c5dda",
@@ -3504,7 +3722,8 @@ const ALL_SONGS = [
     "cover_file": "covers/26d628daf.png",
     "preview_hash": "7e0940ff9",
     "cover_hash": "26d628daf",
-    "singer": "Mejiro Ardan"
+    "singer": "Mejiro Ardan",
+    "name_en": "Glass Étoile"
   },
   {
     "id": "fb8c5460-83c5-4bb6-97dd-25fcef91724c",
@@ -3520,7 +3739,8 @@ const ALL_SONGS = [
     "cover_file": "covers/c55d0abc7.png",
     "preview_hash": "38f6481ca",
     "cover_hash": "c55d0abc7",
-    "singer": "Mejiro Ryan, Ines Fujin, Winning Ticket, Tosen Jordan, Biko Pegasus, Ikuno Dictus, Yaeno Muteki, Narita Top Road, Wonder Acute, Duramente"
+    "singer": "Mejiro Ryan, Ines Fujin, Winning Ticket, Tosen Jordan, Biko Pegasus, Ikuno Dictus, Yaeno Muteki, Narita Top Road, Wonder Acute, Duramente",
+    "name_en": "Big Bang! My Soul"
   },
   {
     "id": "fbeb6120-eb32-4d17-aa5d-dfd7fab23871",
@@ -3536,7 +3756,8 @@ const ALL_SONGS = [
     "cover_file": "covers/5c87b5d51.png",
     "preview_hash": "c47d2c012",
     "cover_hash": "5c87b5d51",
-    "singer": "Daitaku Helios, Yamanin Zephyr, Daiichi Ruby, K.S.Miracle"
+    "singer": "Daitaku Helios, Yamanin Zephyr, Daiichi Ruby, K.S.Miracle",
+    "name_en": "Overrunner!"
   },
   {
     "id": "fe5a1651-b71e-443b-85c3-08089c2d9078",
@@ -3552,7 +3773,8 @@ const ALL_SONGS = [
     "cover_file": "covers/bdb24060f.png",
     "preview_hash": "919d6ff81",
     "cover_hash": "bdb24060f",
-    "singer": "Agnes Tachyon"
+    "singer": "Agnes Tachyon",
+    "name_en": "Lightless"
   },
   {
     "id": "fefd5711-c2e2-426e-b1c3-26bbc6531dd0",
@@ -3568,7 +3790,8 @@ const ALL_SONGS = [
     "cover_file": "covers/023ef484d.png",
     "preview_hash": "a3add0404",
     "cover_hash": "023ef484d",
-    "singer": "Admire Vega"
+    "singer": "Admire Vega",
+    "name_en": "Like a Shooting Star"
   },
   {
     "id": "ff35c473-3263-4e91-88b1-d58e5c76c8ff",
@@ -3584,7 +3807,8 @@ const ALL_SONGS = [
     "cover_file": "covers/2511c26e7.png",
     "preview_hash": "f7e09d34f",
     "cover_hash": "2511c26e7",
-    "singer": "Hokko Tarumae"
+    "singer": "Hokko Tarumae",
+    "name_en": "Do Your Best! Shining Straight Ahead"
   },
   {
     "id": "e366eb35-efd7-4791-b774-0cb3d5e90dfa",
@@ -3600,7 +3824,8 @@ const ALL_SONGS = [
     "cover_file": "covers/34c3f7afe.png",
     "preview_hash": "28a77f245",
     "cover_hash": "34c3f7afe",
-    "singer": "Daitaku Helios, Daiichi Ruby"
+    "singer": "Daitaku Helios, Daiichi Ruby",
+    "name_en": "Joyful Jamboree!"
   },
   {
     "id": "6784ab56-f6fe-4cd1-a443-727baf9c246a",
@@ -3616,7 +3841,8 @@ const ALL_SONGS = [
     "cover_file": "covers/e5f80e5f8.png",
     "preview_hash": "95b53c8c3",
     "cover_hash": "e5f80e5f8",
-    "singer": "Hishi Akebono, Curren Chan, Seeking the Pearl"
+    "singer": "Hishi Akebono, Curren Chan, Seeking the Pearl",
+    "name_en": "Lightning Fast"
   },
   {
     "id": "0643d8cd-e88f-4f74-9469-9378f3d739dc",
@@ -3632,7 +3858,8 @@ const ALL_SONGS = [
     "cover_file": "covers/903255d37.png",
     "preview_hash": "ec42d9c61",
     "cover_hash": "903255d37",
-    "singer": "Nakayama Festa, Espoir City, Symboli Kris S, Gentildonna, Almond Eye, Kiseki, Forever Young"
+    "singer": "Nakayama Festa, Espoir City, Symboli Kris S, Gentildonna, Almond Eye, Kiseki, Forever Young",
+    "name_en": "You! Aim! A!!"
   },
   {
     "id": "910b0b56-ee1a-410e-8778-5339e81f0184",
@@ -3648,7 +3875,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6b3de3b0a.png",
     "preview_hash": "6b02273b0",
     "cover_hash": "6b3de3b0a",
-    "singer": "Fine Motion, Meisho Doto, Nice Nature, Narita Top Road, Calstone Light O"
+    "singer": "Fine Motion, Meisho Doto, Nice Nature, Narita Top Road, Calstone Light O",
+    "name_en": "May I Take Your Order?"
   },
   {
     "id": "2481e1b3-3908-48e5-a3d5-30ca52d04f4d",
@@ -3664,7 +3892,8 @@ const ALL_SONGS = [
     "cover_file": "covers/8f9669548.png",
     "preview_hash": "a4055b7d3",
     "cover_hash": "8f9669548",
-    "singer": "K.S.Miracle"
+    "singer": "K.S.Miracle",
+    "name_en": "Soap Bubbles"
   },
   {
     "id": "e6a3f541-278e-4ea9-a94c-ae9d50cd4556",
@@ -3680,7 +3909,8 @@ const ALL_SONGS = [
     "cover_file": "covers/ae81661ca.png",
     "preview_hash": "da377c98e",
     "cover_hash": "ae81661ca",
-    "singer": "Tokai Teio"
+    "singer": "Tokai Teio",
+    "name_en": "Hachimi Song"
   },
   {
     "id": "d3283407-1c82-4647-a1dc-a1bbb2d901d0",
@@ -3696,7 +3926,8 @@ const ALL_SONGS = [
     "cover_file": "covers/cd7bae7be.png",
     "preview_hash": "ad277e390",
     "cover_hash": "cd7bae7be",
-    "singer": "Aston Machan"
+    "singer": "Aston Machan",
+    "name_en": "Aston Machan's Spool Song"
   },
   {
     "id": "908af00e-36f3-4fba-8cf9-9957d38b81e2",
@@ -3712,7 +3943,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0e49c781a.png",
     "preview_hash": "048ed1420",
     "cover_hash": "0e49c781a",
-    "singer": "Gold Ship, Manhattan Cafe, Agnes Tachyon, Dantsu Flame, Buena Vista, Lucky Lilac, Stay Gold, Red Desire"
+    "singer": "Gold Ship, Manhattan Cafe, Agnes Tachyon, Dantsu Flame, Buena Vista, Lucky Lilac, Stay Gold, Red Desire",
+    "name_en": "Bite Big!"
   },
   {
     "id": "9d06519a-467c-485d-ad5f-877a1d9306f1",
@@ -3728,7 +3960,8 @@ const ALL_SONGS = [
     "cover_file": "covers/1bbd49804.png",
     "preview_hash": "ff2f884a9",
     "cover_hash": "1bbd49804",
-    "singer": "Grass Wonder"
+    "singer": "Grass Wonder",
+    "name_en": "Grass Wonder's Tea-Picking Song"
   },
   {
     "id": "f3391313-fbb7-4da7-81f8-34b72e832ee1",
@@ -3744,7 +3977,8 @@ const ALL_SONGS = [
     "cover_file": "covers/5b37675ac.png",
     "preview_hash": "49fab2973",
     "cover_hash": "5b37675ac",
-    "singer": "Gold Ship"
+    "singer": "Gold Ship",
+    "name_en": "Golshi Rap -It's Impossible-"
   },
   {
     "id": "391af25a-46f7-46db-adbd-106772138eee",
@@ -3760,7 +3994,8 @@ const ALL_SONGS = [
     "cover_file": "covers/51a88ea76.png",
     "preview_hash": "293bde3b6",
     "cover_hash": "51a88ea76",
-    "singer": "Gold Ship"
+    "singer": "Gold Ship",
+    "name_en": "Golshin Golshin Golshinshin"
   },
   {
     "id": "19342805-5637-4a76-8e1b-e7504077ed91",
@@ -3776,7 +4011,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f353b9597.png",
     "preview_hash": "1677d78cf",
     "cover_hash": "f353b9597",
-    "singer": "Sakura Chiyono O"
+    "singer": "Sakura Chiyono O",
+    "name_en": "Ask Chiyono O!"
   },
   {
     "id": "aeb2cbb0-2227-42b5-a1d2-0f296a9eb1ac",
@@ -3792,7 +4028,8 @@ const ALL_SONGS = [
     "cover_file": "covers/6e7246b92.png",
     "preview_hash": "8399556a0",
     "cover_hash": "6e7246b92",
-    "singer": "Tokai Teio"
+    "singer": "Tokai Teio",
+    "name_en": "Teio Teio Teiteio"
   },
   {
     "id": "4826727a-d838-4e46-8920-29fe86c9af2f",
@@ -3808,7 +4045,8 @@ const ALL_SONGS = [
     "cover_file": "covers/049b94b58.png",
     "preview_hash": "177c45118",
     "cover_hash": "049b94b58",
-    "singer": "Tokai Teio"
+    "singer": "Tokai Teio",
+    "name_en": "Tokai Teio's Ghosts Aren't Real Song"
   },
   {
     "id": "b2c069d6-ebaf-41cb-9c2d-e3c5570b5eaf",
@@ -3824,7 +4062,8 @@ const ALL_SONGS = [
     "cover_file": "covers/f2561cab2.png",
     "preview_hash": "6ccd4e0cf",
     "cover_hash": "f2561cab2",
-    "singer": "Tokai Teio, Maruzensky, Taiki Shuttle, Grass Wonder, Mejiro Ryan, Nice Nature, Sakura Chiyono O, Tsurumaru Tsuyoshi"
+    "singer": "Tokai Teio, Maruzensky, Taiki Shuttle, Grass Wonder, Mejiro Ryan, Nice Nature, Sakura Chiyono O, Tsurumaru Tsuyoshi",
+    "name_en": "Tracen Exercises"
   },
   {
     "id": "30d83687-9db6-41a0-8b2d-f1ff831ed9d9",
@@ -3840,7 +4079,8 @@ const ALL_SONGS = [
     "cover_file": "covers/dcc8d9b6f.png",
     "preview_hash": "2d224c2be",
     "cover_hash": "dcc8d9b6f",
-    "singer": "Nishino Flower"
+    "singer": "Nishino Flower",
+    "name_en": "Nishino Flower's Lunch Box Song♪"
   },
   {
     "id": "8a26e53e-52bd-4577-bcbf-49676ff722ed",
@@ -3856,7 +4096,8 @@ const ALL_SONGS = [
     "cover_file": "covers/5c76021d0.png",
     "preview_hash": "a0c77055e",
     "cover_hash": "5c76021d0",
-    "singer": "Haru Urara"
+    "singer": "Haru Urara",
+    "name_en": "Haru Urara's If You're Happy and You Know It Song"
   },
   {
     "id": "bf34a587-4ff7-4041-98fd-895fe9f5b227",
@@ -3872,7 +4113,8 @@ const ALL_SONGS = [
     "cover_file": "covers/7d9aa4f54.png",
     "preview_hash": "c7153c0dd",
     "cover_hash": "7d9aa4f54",
-    "singer": "Sakura Bakushin O"
+    "singer": "Sakura Bakushin O",
+    "name_en": "Bakushin Bakushin Bakushinshin"
   },
   {
     "id": "3c5c42ef-c339-487c-b841-157d68851827",
@@ -3888,7 +4130,8 @@ const ALL_SONGS = [
     "cover_file": "covers/0666771a6.png",
     "preview_hash": "4195ca16e",
     "cover_hash": "0666771a6",
-    "singer": "Durandal"
+    "singer": "Durandal",
+    "name_en": "Meteo-Right!"
   },
   {
     "id": "fec1f58b-dc5a-47fa-9acd-07ad3e29642a",
@@ -3904,7 +4147,8 @@ const ALL_SONGS = [
     "cover_file": "covers/bdfac82f4.png",
     "preview_hash": "fbb2cd547",
     "cover_hash": "bdfac82f4",
-    "singer": "Meisho Doto"
+    "singer": "Meisho Doto",
+    "name_en": "Meisho Doto's Pig Racoon Fox Cat Song"
   },
   {
     "id": "2feee4b1-69c2-4cd0-a6e0-10cef07ff947",
@@ -3920,7 +4164,8 @@ const ALL_SONGS = [
     "cover_file": "covers/186842984.png",
     "preview_hash": "32e2ed058",
     "cover_hash": "186842984",
-    "singer": "Rice Shower"
+    "singer": "Rice Shower",
+    "name_en": "Rice Shower's Lunch Box Song♪"
   },
   {
     "id": "dd499751-b542-4d35-ba47-e2edc16ffcb9",
@@ -3936,7 +4181,8 @@ const ALL_SONGS = [
     "cover_file": "covers/29f805534.png",
     "preview_hash": "b461410f5",
     "cover_hash": "29f805534",
-    "singer": "Phalaenopsis"
+    "singer": "Phalaenopsis",
+    "name_en": "Bloom Forth, Phalaenopsis"
   },
   {
     "id": "f9dfaf8e-82a8-4fc9-8e17-a9c9f20e54e5",
@@ -3952,7 +4198,8 @@ const ALL_SONGS = [
     "cover_file": "covers/3fa324c1d.png",
     "preview_hash": "cd12c8e39",
     "cover_hash": "3fa324c1d",
-    "singer": "Special Week, Winning Ticket, Sakura Chiyono O, Verxina, Samson Big, Royce and Royce, Win Variation, Phalaenopsis"
+    "singer": "Special Week, Winning Ticket, Sakura Chiyono O, Verxina, Samson Big, Royce and Royce, Win Variation, Phalaenopsis",
+    "name_en": "Grass Grows~"
   }
 ];
 

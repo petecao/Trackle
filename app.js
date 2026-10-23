@@ -374,6 +374,8 @@
 
       if (i < guesses.length) {
         const g = guesses[i];
+        const hasDistinctEn = g.guess && g.guess.name_en && g.guess.name_en.toLowerCase() !== g.guess.name.toLowerCase();
+        const enTitleHtml = g.guess ? (hasDistinctEn ? `${g.guess.name} <span class="slot-title-en">(${g.guess.name_en})</span>` : g.guess.name) : "";
         if (g.isWin) {
           slotEl.classList.add("slot-correct");
           slotEl.innerHTML = `
@@ -382,7 +384,7 @@
             <div class="slot-info">
               <img src="${g.guess.cover_file}" class="slot-cover-thumb" alt="${g.guess.name}">
               <div class="slot-text-wrap">
-                <div class="slot-title">${g.guess.name} <span class="slot-title-ja">(${g.guess.name_ja})</span></div>
+                <div class="slot-title">${enTitleHtml} <span class="slot-title-ja">(${g.guess.name_ja})</span></div>
                 ${g.guess.singer ? `<div class="slot-singer">🎤 ${g.guess.singer}</div>` : ""}
               </div>
             </div>
@@ -404,7 +406,7 @@
             <div class="slot-info">
               <img src="${g.guess.cover_file}" class="slot-cover-thumb" alt="${g.guess.name}">
               <div class="slot-text-wrap">
-                <div class="slot-title">${g.guess.name} <span class="slot-title-ja">(${g.guess.name_ja})</span></div>
+                <div class="slot-title">${enTitleHtml} <span class="slot-title-ja">(${g.guess.name_ja})</span></div>
                 ${g.guess.singer ? `<div class="slot-singer">🎤 ${g.guess.singer}</div>` : ""}
               </div>
             </div>
@@ -839,6 +841,7 @@
 
         const searchableText = [
           song.name,
+          song.name_en || "",
           song.name_ja,
           song.singer || "",
           ...seriesTags
@@ -866,10 +869,15 @@
             : (song.tags.anime ? '<span class="tag-badge tag-anime">Anime</span>' : ""));
         const soloBadge = `<span class="tag-badge tag-solo">${song.tags.solo ? "Solo" : "Group"}</span>`;
 
+        const hasDistinctEn = song.name_en && song.name_en.toLowerCase() !== song.name.toLowerCase();
+        const enTitleHtml = hasDistinctEn
+          ? `${song.name} <span class="suggestion-en-trans">(${song.name_en})</span>`
+          : song.name;
+
         item.innerHTML = `
           <img src="${song.cover_file}" class="suggestion-thumb" alt="${song.name}" onerror="this.style.display='none'">
           <div style="flex: 1; min-width: 0;">
-            <div class="suggestion-name">${song.name} <span style="font-size: 0.8rem; color: var(--text-muted);">(${song.name_ja})</span></div>
+            <div class="suggestion-name">${enTitleHtml} <span style="font-size: 0.8rem; color: var(--text-muted);">(${song.name_ja})</span></div>
             ${song.singer ? `<div class="suggestion-singer">🎤 ${song.singer}</div>` : ""}
             <div class="suggestion-meta">
               ${seriesBadge}
@@ -926,7 +934,7 @@
         ? window.ALL_COURSES.find(c => c.full_name.toLowerCase() === rawVal || c.short_name.toLowerCase() === rawVal)
         : (currentGameType === "race"
           ? window.ALL_RACES.find(r => r.name.toLowerCase() === rawVal || r.name_ja.toLowerCase() === rawVal)
-          : window.ALL_SONGS.find(s => s.name.toLowerCase() === rawVal || s.name_ja.toLowerCase() === rawVal));
+          : window.ALL_SONGS.find(s => s.name.toLowerCase() === rawVal || (s.name_en && s.name_en.toLowerCase() === rawVal) || s.name_ja.toLowerCase() === rawVal));
       if (exactMatch) {
         selectChoice(exactMatch);
       }
@@ -1186,7 +1194,10 @@
     } else {
       // Song mode reveal
       document.getElementById("reveal-track-badge").src = secretTarget.cover_file;
-      document.getElementById("reveal-course-name").textContent = secretTarget.name;
+      const hasDistinctEn = secretTarget.name_en && secretTarget.name_en.toLowerCase() !== secretTarget.name.toLowerCase();
+      document.getElementById("reveal-course-name").textContent = hasDistinctEn
+        ? `${secretTarget.name} (${secretTarget.name_en})`
+        : secretTarget.name;
       document.getElementById("reveal-track-region").textContent = `${secretTarget.name_ja}${secretTarget.singer ? ` • 🎤 ${secretTarget.singer}` : ""}`;
       const tagsContainer = document.getElementById("reveal-course-tags");
       const tagsHtml = [];
