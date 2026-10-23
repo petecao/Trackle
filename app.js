@@ -300,7 +300,7 @@
     }
     isFullRevealPlaying = false;
     if (songRevealPlayIcon) songRevealPlayIcon.textContent = "▶";
-    if (songRevealPlayText) songRevealPlayText.textContent = "Listen to Full 30s Song";
+    if (songRevealPlayText) songRevealPlayText.textContent = "Listen to 30s Excerpt";
   }
 
   function getPlaybackDuration() {
