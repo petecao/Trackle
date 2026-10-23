@@ -562,6 +562,40 @@
 
     renderBoard();
     updateCounter();
+    updateDailyCountdownTimers();
+  }
+
+  function getTimeUntilReset() {
+    const now = new Date();
+    const nextReset = new Date(Date.UTC(
+      now.getUTCFullYear(),
+      now.getUTCMonth(),
+      now.getUTCDate() + 1,
+      0, 0, 0, 0
+    ));
+    const diff = Math.max(0, nextReset - now);
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    const pad = n => String(n).padStart(2, "0");
+    return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+  }
+
+  function updateDailyCountdownTimers() {
+    const timeStr = getTimeUntilReset();
+    const timerEls = document.querySelectorAll(".daily-reset-timer");
+    timerEls.forEach(el => {
+      el.textContent = timeStr;
+    });
+
+    const headerTimer = document.getElementById("header-daily-timer");
+    if (headerTimer) {
+      if (currentPlayMode === "daily") {
+        headerTimer.style.display = "inline-flex";
+      } else {
+        headerTimer.style.display = "none";
+      }
+    }
   }
 
   function updateCompletedBanner(isWin) {
@@ -1225,6 +1259,7 @@
       externalLink.href = secretTarget.sublink;
     }
 
+    updateDailyCountdownTimers();
     gameOverModal.classList.add("open");
   }
 
@@ -1359,6 +1394,7 @@
       barsContainer.appendChild(row);
     });
 
+    updateDailyCountdownTimers();
     statsModal.classList.add("open");
   }
 
@@ -1539,6 +1575,9 @@
         canvas.height = window.innerHeight;
       }
     });
+
+    setInterval(updateDailyCountdownTimers, 1000);
+    updateDailyCountdownTimers();
   }
 
   if (document.readyState === "loading") {

@@ -69,6 +69,7 @@
       <div class="status-badge" id="game-mode-label">
         <span class="dot"></span>
         <span id="mode-text">Daily Course</span>
+        <span class="daily-countdown-badge" id="header-daily-timer" title="Time until next daily reset (00:00 UTC)">⏳ <span class="daily-reset-timer">--:--:--</span></span>
       </div>
       <div class="status-counter" id="guess-counter-display">
         Guess: <span id="current-guess-num">1</span> of <span>6</span>
@@ -81,7 +82,10 @@
       <div id="daily-completed-notice" class="daily-completed-notice" style="display: none;">
         <div class="completed-msg">
           <span class="completed-icon" id="completed-icon">🏆</span>
-          <span id="completed-text">You solved today's daily puzzle!</span>
+          <div>
+            <div id="completed-text">You solved today's daily puzzle!</div>
+            <div class="completed-timer-sub">Next daily puzzle in <span class="daily-reset-timer highlight-timer">--:--:--</span></div>
+          </div>
         </div>
         <div class="completed-actions">
           <button type="button" class="action-btn btn-primary" id="btn-view-daily-result">📋 View Result Card</button>
@@ -227,6 +231,14 @@
         </button>
       </div>
 
+      <!-- Next Daily Countdown -->
+      <div class="next-puzzle-section" id="game-over-countdown-section">
+        <div class="next-puzzle-box">
+          <div class="next-puzzle-label">Next Daily Puzzle In</div>
+          <div class="next-puzzle-timer daily-reset-timer">--:--:--</div>
+        </div>
+      </div>
+
       <!-- Actions -->
       <div class="modal-actions">
         <button type="button" class="action-btn btn-primary" id="btn-share-result">
@@ -339,6 +351,14 @@
         <h4>Guess Distribution</h4>
         <div id="guess-distribution-bars">
           <!-- Injected dynamically -->
+        </div>
+      </div>
+
+      <!-- Next Daily Countdown in Stats -->
+      <div class="next-puzzle-section" style="margin-top: 1.5rem; margin-bottom: 0;">
+        <div class="next-puzzle-box">
+          <div class="next-puzzle-label">Next Daily Puzzle In</div>
+          <div class="next-puzzle-timer daily-reset-timer">--:--:--</div>
         </div>
       </div>
     </div>
