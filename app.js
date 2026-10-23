@@ -92,6 +92,7 @@
   
   const btnGameCourse = document.getElementById("btn-game-course");
   const btnGameRace = document.getElementById("btn-game-race");
+  const btnGameSong = document.getElementById("btn-game-song");
   const btnModeDaily = document.getElementById("btn-mode-daily");
   const btnModePractice = document.getElementById("btn-mode-practice");
   
@@ -103,6 +104,36 @@
   const gameOverModal = document.getElementById("game-over-modal");
   const btnShareResult = document.getElementById("btn-share-result");
   const btnPlayAgain = document.getElementById("btn-play-again");
+
+  // Song Guesser Elements
+  const songHeardleBoard = document.getElementById("song-heardle-board");
+  const songActions = document.getElementById("song-actions");
+  const btnSongSkip = document.getElementById("btn-song-skip");
+  const btnSongGiveUp = document.getElementById("btn-song-giveup");
+
+  const btnPlaySlice = document.getElementById("btn-play-slice");
+  const playIcon = document.getElementById("play-icon");
+  const playLabel = document.getElementById("play-label");
+  const timelineUnlockedFill = document.getElementById("timeline-unlocked-fill");
+  const timelinePlayheadFill = document.getElementById("timeline-playhead-fill");
+  const currentPlayTime = document.getElementById("current-play-time");
+  const maxUnlockedTime = document.getElementById("max-unlocked-time");
+  const heardleSlotsContainer = document.getElementById("heardle-slots");
+
+  const coursePreviewSection = document.getElementById("course-preview-section");
+  const songRevealSection = document.getElementById("song-reveal-section");
+  const btnSongRevealPlay = document.getElementById("btn-song-reveal-play");
+  const songRevealPlayIcon = document.getElementById("song-reveal-play-icon");
+  const songRevealPlayText = document.getElementById("song-reveal-play-text");
+
+  // Song Audio State
+  const SONG_TIERS = [0.1, 0.5, 2.0, 8.0, 15.0];
+  let currentUnlockedTier = 0; // 0..4
+  let songAudio = null;
+  let isSongAudioPlaying = false;
+  let songAudioAnimTimer = null;
+  let fullRevealAudio = null;
+  let isFullRevealPlaying = false;
 
   const SOUND_KEY = "trackle_sound_v1";
   const LAST_GAME_TYPE_KEY = "trackle_last_game_type_v1";
@@ -134,7 +165,9 @@
     if (currentPlayMode !== "daily" || !secretTarget) return;
     const todayStr = new Date().toISOString().slice(0, 10);
     const guessedIdentifiers = guesses.map(g => {
-      return currentGameType === "course" ? g.guess.id : g.guess.name;
+      if (currentGameType === "course") return g.guess.id;
+      if (currentGameType === "race") return g.guess.name;
+      return g.isSkip ? "__SKIP__" : (g.guess ? g.guess.id : "__SKIP__");
     });
     const state = {
       date: todayStr,
@@ -174,22 +207,37 @@
     btnSound.textContent = soundEnabled ? "🔊" : "🔇";
   }
 
-  // Switch between Course Guesser and Race Guesser
+  // Switch between Course, Race, and Song Guesser
   function switchGameType(type) {
     currentGameType = type;
     localStorage.setItem(LAST_GAME_TYPE_KEY, type);
+    stopSongAudio();
+    stopFullRevealAudio();
+
+    btnGameCourse.classList.toggle("active", type === "course");
+    btnGameRace.classList.toggle("active", type === "race");
+    if (btnGameSong) btnGameSong.classList.toggle("active", type === "song");
+
     if (type === "course") {
-      btnGameCourse.classList.add("active");
-      btnGameRace.classList.remove("active");
       document.querySelector(".logo-text .subtitle").textContent = "Track & Distance Course Guesser";
       trackInput.placeholder = "Search course (e.g. 'Niigata 2000 Outer', 'Hanshin 3200', 'Tokyo 2400')...";
+      guessesTable.style.display = "table";
+      if (songHeardleBoard) songHeardleBoard.style.display = "none";
+      if (songActions) songActions.style.display = "none";
       setupTableHeadersForCourse();
-    } else {
-      btnGameRace.classList.add("active");
-      btnGameCourse.classList.remove("active");
+    } else if (type === "race") {
       document.querySelector(".logo-text .subtitle").textContent = "Uma Musume Race Name Guesser";
       trackInput.placeholder = "Search race (e.g. 'Arima Kinen', 'Japan Cup', 'Derby', 'February Stakes')...";
+      guessesTable.style.display = "table";
+      if (songHeardleBoard) songHeardleBoard.style.display = "none";
+      if (songActions) songActions.style.display = "none";
       setupTableHeadersForRace();
+    } else {
+      document.querySelector(".logo-text .subtitle").textContent = "Uma Musume Song Guesser (Heardle)";
+      trackInput.placeholder = "Search song title in English or Japanese (e.g. 'Umapyoi', 'GIRLS\\' LEGEND U', 'うまぴょい')...";
+      guessesTable.style.display = "none";
+      if (songHeardleBoard) songHeardleBoard.style.display = "flex";
+      if (songActions) songActions.style.display = "flex";
     }
     startNewGame(currentPlayMode);
   }
@@ -228,15 +276,204 @@
     `;
   }
 
+  // --- Song Guesser Audio Helpers ---
+  function stopSongAudio() {
+    if (songAudio) {
+      songAudio.pause();
+      songAudio.currentTime = 0;
+    }
+    isSongAudioPlaying = false;
+    if (songAudioAnimTimer) {
+      cancelAnimationFrame(songAudioAnimTimer);
+      songAudioAnimTimer = null;
+    }
+    if (btnPlaySlice) btnPlaySlice.classList.remove("playing");
+    if (playIcon) playIcon.textContent = "▶";
+    if (timelinePlayheadFill) timelinePlayheadFill.style.width = "0%";
+    if (currentPlayTime) currentPlayTime.textContent = "0.0s";
+  }
+
+  function stopFullRevealAudio() {
+    if (fullRevealAudio) {
+      fullRevealAudio.pause();
+      fullRevealAudio.currentTime = 0;
+    }
+    isFullRevealPlaying = false;
+    if (songRevealPlayIcon) songRevealPlayIcon.textContent = "▶";
+    if (songRevealPlayText) songRevealPlayText.textContent = "Listen to Full 30s Song";
+  }
+
+  function getPlaybackDuration() {
+    return SONG_TIERS[Math.min(currentUnlockedTier, SONG_TIERS.length - 1)];
+  }
+
+  function playSongSnippet() {
+    if (!secretTarget || !secretTarget.audio_file) return;
+
+    if (isSongAudioPlaying) {
+      stopSongAudio();
+      return;
+    }
+
+    stopFullRevealAudio();
+
+    if (!songAudio || songAudio.src !== new URL(secretTarget.audio_file, window.location.href).href) {
+      songAudio = new Audio(secretTarget.audio_file);
+    }
+
+    const duration = getPlaybackDuration();
+    songAudio.currentTime = 0;
+    isSongAudioPlaying = true;
+    if (btnPlaySlice) btnPlaySlice.classList.add("playing");
+    if (playIcon) playIcon.textContent = "⏸";
+
+    const startTime = performance.now();
+
+    function updatePlayhead() {
+      if (!isSongAudioPlaying) return;
+      const elapsed = (performance.now() - startTime) / 1000;
+      if (currentPlayTime) currentPlayTime.textContent = `${elapsed.toFixed(1)}s`;
+      
+      const pct = Math.min(100, (elapsed / 15.0) * 100);
+      if (timelinePlayheadFill) timelinePlayheadFill.style.width = `${pct}%`;
+
+      if (elapsed >= duration) {
+        stopSongAudio();
+        return;
+      }
+      songAudioAnimTimer = requestAnimationFrame(updatePlayhead);
+    }
+
+    songAudio.play().then(() => {
+      songAudioAnimTimer = requestAnimationFrame(updatePlayhead);
+    }).catch(e => {
+      console.warn("Audio playback error", e);
+      stopSongAudio();
+    });
+  }
+
+  function updateSongTimelineUI() {
+    if (currentGameType !== "song") return;
+    const unlockedDuration = SONG_TIERS[currentUnlockedTier];
+    const unlockedPct = Math.min(100, (unlockedDuration / 15.0) * 100);
+    if (timelineUnlockedFill) timelineUnlockedFill.style.width = `${unlockedPct}%`;
+    if (maxUnlockedTime) maxUnlockedTime.textContent = `Unlocked: ${unlockedDuration}s`;
+    
+    const playDuration = getPlaybackDuration();
+    if (playLabel) playLabel.textContent = `Play (${playDuration}s)`;
+  }
+
+  function renderHeardleSlots() {
+    if (!heardleSlotsContainer) return;
+    heardleSlotsContainer.innerHTML = "";
+
+    for (let i = 0; i < MAX_GUESSES; i++) {
+      const slotEl = document.createElement("div");
+      slotEl.className = "heardle-slot";
+      const tierDuration = SONG_TIERS[Math.min(i, SONG_TIERS.length - 1)];
+
+      if (i < guesses.length) {
+        const g = guesses[i];
+        if (g.isWin) {
+          slotEl.classList.add("slot-correct");
+          slotEl.innerHTML = `
+            <div class="slot-icon-box" style="background: rgba(16,185,129,0.25); color: #34d399;">🟩</div>
+            <div class="slot-tier-tag">${tierDuration}s</div>
+            <div class="slot-info">
+              <img src="${g.guess.cover_file}" class="slot-cover-thumb" alt="${g.guess.name}">
+              <div class="slot-text-wrap">
+                <div class="slot-title">${g.guess.name} <span class="slot-title-ja">(${g.guess.name_ja})</span></div>
+                ${g.guess.singer ? `<div class="slot-singer">🎤 ${g.guess.singer}</div>` : ""}
+              </div>
+            </div>
+          `;
+        } else if (g.isSkip) {
+          slotEl.classList.add("slot-skipped");
+          slotEl.innerHTML = `
+            <div class="slot-icon-box" style="background: rgba(100,116,139,0.25); color: #94a3b8;">⏩</div>
+            <div class="slot-tier-tag">${tierDuration}s</div>
+            <div class="slot-info">
+              <span style="color: var(--text-muted); font-style: italic;">Skipped attempt</span>
+            </div>
+          `;
+        } else {
+          slotEl.classList.add("slot-wrong");
+          slotEl.innerHTML = `
+            <div class="slot-icon-box" style="background: rgba(239,68,68,0.25); color: #f87171;">🟥</div>
+            <div class="slot-tier-tag">${tierDuration}s</div>
+            <div class="slot-info">
+              <img src="${g.guess.cover_file}" class="slot-cover-thumb" alt="${g.guess.name}">
+              <div class="slot-text-wrap">
+                <div class="slot-title">${g.guess.name} <span class="slot-title-ja">(${g.guess.name_ja})</span></div>
+                ${g.guess.singer ? `<div class="slot-singer">🎤 ${g.guess.singer}</div>` : ""}
+              </div>
+            </div>
+          `;
+        }
+      } else if (i === guesses.length && !isGameOver) {
+        slotEl.classList.add("slot-current");
+        slotEl.innerHTML = `
+          <div class="slot-icon-box" style="background: rgba(56,189,248,0.2); color: #38bdf8;">⚪</div>
+          <div class="slot-tier-tag">${tierDuration}s</div>
+          <div class="slot-info">
+            <span style="color: #38bdf8; font-weight: 600;">Current Attempt #${i + 1} (${tierDuration}s)</span>
+          </div>
+        `;
+      } else {
+        slotEl.innerHTML = `
+          <div class="slot-icon-box" style="background: rgba(255,255,255,0.05); color: var(--text-muted);">—</div>
+          <div class="slot-tier-tag">${tierDuration}s</div>
+          <div class="slot-info">
+            <span style="color: var(--text-muted);">Attempt #${i + 1}</span>
+          </div>
+        `;
+      }
+
+      heardleSlotsContainer.appendChild(slotEl);
+    }
+  }
+
+  function toggleFullRevealAudio() {
+    if (!secretTarget || !secretTarget.audio_file) return;
+    if (isFullRevealPlaying) {
+      stopFullRevealAudio();
+      return;
+    }
+
+    stopSongAudio();
+    if (!fullRevealAudio || fullRevealAudio.src !== new URL(secretTarget.audio_file, window.location.href).href) {
+      fullRevealAudio = new Audio(secretTarget.audio_file);
+      fullRevealAudio.addEventListener("ended", () => {
+        stopFullRevealAudio();
+      });
+    }
+
+    fullRevealAudio.currentTime = 0;
+    isFullRevealPlaying = true;
+    if (songRevealPlayIcon) songRevealPlayIcon.textContent = "⏸";
+    if (songRevealPlayText) songRevealPlayText.textContent = "Pause Song Preview";
+
+    fullRevealAudio.play().catch(e => {
+      console.warn("Full audio play error", e);
+      stopFullRevealAudio();
+    });
+  }
+
   // Start a round
   function startNewGame(playMode) {
     currentPlayMode = playMode;
     localStorage.setItem(LAST_PLAY_MODE_KEY, playMode);
     guesses = [];
     isGameOver = false;
+    currentUnlockedTier = 0;
+    stopSongAudio();
+    stopFullRevealAudio();
+
     trackInput.value = "";
     trackInput.disabled = false;
     submitBtn.disabled = true;
+    if (btnSongSkip) btnSongSkip.disabled = false;
+    if (btnSongGiveUp) btnSongGiveUp.disabled = false;
     closeAllModals();
 
     const dailyNotice = document.getElementById("daily-completed-notice");
@@ -252,23 +489,37 @@
       if (currentGameType === "course") {
         secretTarget = window.getDailyCourse(todayStr);
         modeText.textContent = `Daily Course (${todayStr})`;
-      } else {
+      } else if (currentGameType === "race") {
         secretTarget = window.getDailyRace(todayStr);
         modeText.textContent = `Daily Race (${todayStr})`;
+      } else {
+        secretTarget = window.getDailySong(todayStr);
+        modeText.textContent = `Daily Song (${todayStr})`;
       }
 
       // Check if there is an existing saved daily session for today
       const savedState = getDailyState(currentGameType, todayStr);
       if (savedState && Array.isArray(savedState.guessedIdentifiers) && savedState.guessedIdentifiers.length > 0) {
         savedState.guessedIdentifiers.forEach(idVal => {
-          const choice = currentGameType === "course"
-            ? window.ALL_COURSES.find(c => c.id === idVal)
-            : window.ALL_RACES.find(r => r.name === idVal);
-          if (choice) {
-            const evaluation = currentGameType === "course"
-              ? window.evaluateCourseGuess(choice, secretTarget)
-              : window.evaluateRaceGuess(choice, secretTarget);
-            guesses.push(evaluation);
+          if (currentGameType === "course") {
+            const choice = window.ALL_COURSES.find(c => c.id === idVal);
+            if (choice) guesses.push(window.evaluateCourseGuess(choice, secretTarget));
+          } else if (currentGameType === "race") {
+            const choice = window.ALL_RACES.find(r => r.name === idVal);
+            if (choice) guesses.push(window.evaluateRaceGuess(choice, secretTarget));
+          } else {
+            // Song mode
+            if (idVal === "__SKIP__") {
+              guesses.push({ isWin: false, isSkip: true, guess: null, tier: SONG_TIERS[currentUnlockedTier] });
+              currentUnlockedTier = Math.min(currentUnlockedTier + 1, SONG_TIERS.length - 1);
+            } else {
+              const choice = window.ALL_SONGS.find(s => s.id === idVal);
+              if (choice) {
+                const isWin = (choice.id === secretTarget.id);
+                guesses.push({ isWin: isWin, isSkip: false, guess: choice, tier: SONG_TIERS[currentUnlockedTier] });
+                if (!isWin) currentUnlockedTier = Math.min(currentUnlockedTier + 1, SONG_TIERS.length - 1);
+              }
+            }
           }
         });
 
@@ -279,6 +530,8 @@
           isGameOver = true;
           trackInput.disabled = true;
           submitBtn.disabled = true;
+          if (btnSongSkip) btnSongSkip.disabled = true;
+          if (btnSongGiveUp) btnSongGiveUp.disabled = true;
           renderBoard();
           updateCounter();
           updateCompletedBanner(hasWin);
@@ -294,11 +547,14 @@
         const idx = Math.floor(Math.random() * window.ALL_COURSES.length);
         secretTarget = window.ALL_COURSES[idx];
         modeText.textContent = `Course Practice (Round #${roundNum})`;
-      } else {
-        // In practice mode, pick from all unique races
+      } else if (currentGameType === "race") {
         const idx = Math.floor(Math.random() * window.ALL_RACES.length);
         secretTarget = window.ALL_RACES[idx];
         modeText.textContent = `Race Practice (Round #${roundNum})`;
+      } else {
+        const idx = Math.floor(Math.random() * window.ALL_SONGS.length);
+        secretTarget = window.ALL_SONGS[idx];
+        modeText.textContent = `Song Practice (Round #${roundNum})`;
       }
     }
 
@@ -330,6 +586,12 @@
 
   // Render guess rows & empty placeholders
   function renderBoard() {
+    if (currentGameType === "song") {
+      updateSongTimelineUI();
+      renderHeardleSlots();
+      return;
+    }
+
     guessesTbody.innerHTML = "";
     const colCount = 9;
 
@@ -508,7 +770,7 @@
         item.addEventListener("click", () => selectChoice(course));
         suggestionsList.appendChild(item);
       });
-    } else {
+    } else if (currentGameType === "race") {
       // Race mode autocomplete
       const guessedNames = new Set(guesses.map(g => g.guess.name));
       const matches = window.ALL_RACES.filter(race => {
@@ -563,6 +825,62 @@
         item.addEventListener("click", () => selectChoice(race));
         suggestionsList.appendChild(item);
       });
+    } else {
+      // Song mode autocomplete
+      const guessedIds = new Set(guesses.map(g => g.guess ? g.guess.id : null).filter(Boolean));
+      const matches = window.ALL_SONGS.filter(song => {
+        if (guessedIds.has(song.id)) return false;
+        const seriesTags = [];
+        if (song.tags.winningLive) seriesTags.push("winning live");
+        if (song.tags.startingGate) seriesTags.push("starting gate");
+        if (song.tags.anime) seriesTags.push("anime");
+        if (song.tags.solo) seriesTags.push("solo");
+        else seriesTags.push("group");
+
+        const searchableText = [
+          song.name,
+          song.name_ja,
+          song.singer || "",
+          ...seriesTags
+        ].join(" ").toLowerCase();
+        return tokens.every(tok => searchableText.includes(tok));
+      });
+
+      if (matches.length === 0) {
+        suggestionsList.classList.remove("open");
+        submitBtn.disabled = true;
+        return;
+      }
+
+      submitBtn.disabled = false;
+
+      matches.slice(0, 15).forEach(song => {
+        const item = document.createElement("div");
+        item.className = "suggestion-item";
+        item.dataset.id = song.id;
+
+        const seriesBadge = song.tags.winningLive
+          ? '<span class="tag-badge tag-wl">Winning Live</span>'
+          : (song.tags.startingGate
+            ? '<span class="tag-badge tag-sg">Starting Gate</span>'
+            : (song.tags.anime ? '<span class="tag-badge tag-anime">Anime</span>' : ""));
+        const soloBadge = `<span class="tag-badge tag-solo">${song.tags.solo ? "Solo" : "Group"}</span>`;
+
+        item.innerHTML = `
+          <img src="${song.cover_file}" class="suggestion-thumb" alt="${song.name}" onerror="this.style.display='none'">
+          <div style="flex: 1; min-width: 0;">
+            <div class="suggestion-name">${song.name} <span style="font-size: 0.8rem; color: var(--text-muted);">(${song.name_ja})</span></div>
+            ${song.singer ? `<div class="suggestion-singer">🎤 ${song.singer}</div>` : ""}
+            <div class="suggestion-meta">
+              ${seriesBadge}
+              ${soloBadge}
+            </div>
+          </div>
+        `;
+
+        item.addEventListener("click", () => selectChoice(song));
+        suggestionsList.appendChild(item);
+      });
     }
 
     suggestionsList.classList.add("open");
@@ -582,7 +900,9 @@
       const idVal = items[selectedSuggestionIndex].dataset.id;
       const choice = currentGameType === "course"
         ? window.ALL_COURSES.find(c => c.id === parseInt(idVal))
-        : window.ALL_RACES.find(r => r.name === idVal);
+        : (currentGameType === "race"
+          ? window.ALL_RACES.find(r => r.name === idVal)
+          : window.ALL_SONGS.find(s => s.id === idVal));
       if (choice) {
         selectChoice(choice);
         return;
@@ -592,7 +912,9 @@
       const idVal = items[0].dataset.id;
       const choice = currentGameType === "course"
         ? window.ALL_COURSES.find(c => c.id === parseInt(idVal))
-        : window.ALL_RACES.find(r => r.name === idVal);
+        : (currentGameType === "race"
+          ? window.ALL_RACES.find(r => r.name === idVal)
+          : window.ALL_SONGS.find(s => s.id === idVal));
       if (choice) {
         selectChoice(choice);
         return;
@@ -602,7 +924,9 @@
     if (rawVal) {
       const exactMatch = currentGameType === "course"
         ? window.ALL_COURSES.find(c => c.full_name.toLowerCase() === rawVal || c.short_name.toLowerCase() === rawVal)
-        : window.ALL_RACES.find(r => r.name.toLowerCase() === rawVal || r.name_ja.toLowerCase() === rawVal);
+        : (currentGameType === "race"
+          ? window.ALL_RACES.find(r => r.name.toLowerCase() === rawVal || r.name_ja.toLowerCase() === rawVal)
+          : window.ALL_SONGS.find(s => s.name.toLowerCase() === rawVal || s.name_ja.toLowerCase() === rawVal));
       if (exactMatch) {
         selectChoice(exactMatch);
       }
@@ -645,6 +969,71 @@
   // Submit guess
   function submitGuess(choice) {
     if (isGameOver || !choice) return;
+
+    if (currentGameType === "song") {
+      let evaluation = null;
+      if (choice === "__SKIP__") {
+        evaluation = {
+          isWin: false,
+          isSkip: true,
+          guess: null,
+          tier: SONG_TIERS[currentUnlockedTier]
+        };
+      } else {
+        const isWin = (choice.id === secretTarget.id);
+        evaluation = {
+          isWin: isWin,
+          isSkip: false,
+          guess: choice,
+          tier: SONG_TIERS[currentUnlockedTier]
+        };
+      }
+
+      guesses.push(evaluation);
+      if (!evaluation.isWin) {
+        currentUnlockedTier = Math.min(currentUnlockedTier + 1, SONG_TIERS.length - 1);
+      }
+      updateSongTimelineUI();
+      renderHeardleSlots();
+      trackInput.value = "";
+      submitBtn.disabled = true;
+      updateCounter();
+
+      const isWin = evaluation.isWin;
+      const isLoss = guesses.length >= MAX_GUESSES && !isWin;
+
+      if (isWin) playSound("win");
+      else if (isLoss) playSound("loss");
+      else playSound("flip");
+
+      if (isWin || isLoss) {
+        isGameOver = true;
+        trackInput.disabled = true;
+        if (btnSongSkip) btnSongSkip.disabled = true;
+        if (btnSongGiveUp) btnSongGiveUp.disabled = true;
+
+        if (currentPlayMode === "daily") {
+          saveCurrentDailyState();
+        }
+
+        setTimeout(() => {
+          try {
+            recordGameOverStats(isWin);
+          } catch (e) {
+            console.warn("Could not record stats", e);
+          }
+          showGameOverModal(isWin);
+          if (currentPlayMode === "daily") {
+            updateCompletedBanner(isWin);
+          }
+        }, 500);
+      } else {
+        if (currentPlayMode === "daily") {
+          saveCurrentDailyState();
+        }
+      }
+      return;
+    }
 
     const evaluation = currentGameType === "course"
       ? window.evaluateCourseGuess(choice, secretTarget)
@@ -748,6 +1137,7 @@
     document.getElementById("reveal-track-badge").src = secretTarget.icon;
     
     if (currentGameType === "course") {
+      document.getElementById("reveal-track-badge").src = secretTarget.icon;
       document.getElementById("reveal-course-name").textContent = secretTarget.full_name;
       document.getElementById("reveal-track-region").textContent = `${secretTarget.track_name} Racetrack (${secretTarget.region})・${secretTarget.league}`;
       const tagsContainer = document.getElementById("reveal-course-tags");
@@ -766,8 +1156,11 @@
       } else {
         racesContainer.innerHTML = "";
       }
-    } else {
+      if (coursePreviewSection) coursePreviewSection.style.display = "block";
+      if (songRevealSection) songRevealSection.style.display = "none";
+    } else if (currentGameType === "race") {
       // Race mode reveal
+      document.getElementById("reveal-track-badge").src = secretTarget.icon;
       const gradeTagClass = secretTarget.grade === "G1" ? "tag-g1" : (secretTarget.grade === "G2" ? "tag-g2" : (secretTarget.grade === "G3" ? "tag-g3" : "tag-op"));
       document.getElementById("reveal-course-name").textContent = `${secretTarget.name} (${secretTarget.name_ja})`;
       document.getElementById("reveal-track-region").textContent = `${secretTarget.track_name} Racetrack (${secretTarget.region})・${secretTarget.turn}`;
@@ -788,12 +1181,38 @@
       } else {
         racesContainer.innerHTML = "";
       }
+      if (coursePreviewSection) coursePreviewSection.style.display = "block";
+      if (songRevealSection) songRevealSection.style.display = "none";
+    } else {
+      // Song mode reveal
+      document.getElementById("reveal-track-badge").src = secretTarget.cover_file;
+      document.getElementById("reveal-course-name").textContent = secretTarget.name;
+      document.getElementById("reveal-track-region").textContent = `${secretTarget.name_ja}${secretTarget.singer ? ` • 🎤 ${secretTarget.singer}` : ""}`;
+      const tagsContainer = document.getElementById("reveal-course-tags");
+      const tagsHtml = [];
+      if (secretTarget.tags.winningLive) tagsHtml.push('<span class="tag-badge tag-wl">Winning Live</span>');
+      if (secretTarget.tags.startingGate) tagsHtml.push('<span class="tag-badge tag-sg">Starting Gate</span>');
+      if (secretTarget.tags.anime) tagsHtml.push('<span class="tag-badge tag-anime">Anime</span>');
+      tagsHtml.push(`<span class="tag-badge tag-solo">${secretTarget.tags.solo ? "Solo Song" : "Group Song"}</span>`);
+      tagsContainer.innerHTML = tagsHtml.join("");
+
+      const racesContainer = document.getElementById("reveal-course-races");
+      if (secretTarget.singer) {
+        racesContainer.innerHTML = `<div class="reveal-song-singer"><strong>Vocalist(s):</strong> 🎤 ${secretTarget.singer}</div>`;
+      } else {
+        racesContainer.innerHTML = "";
+      }
+
+      if (coursePreviewSection) coursePreviewSection.style.display = "none";
+      if (songRevealSection) songRevealSection.style.display = "block";
     }
 
-    const courseImg = document.getElementById("preview-course-img");
-    courseImg.src = secretTarget.diagram_img;
-    const externalLink = document.getElementById("gametora-external-link");
-    externalLink.href = secretTarget.sublink;
+    if (currentGameType !== "song") {
+      const courseImg = document.getElementById("preview-course-img");
+      courseImg.src = secretTarget.diagram_img;
+      const externalLink = document.getElementById("gametora-external-link");
+      externalLink.href = secretTarget.sublink;
+    }
 
     gameOverModal.classList.add("open");
   }
@@ -801,40 +1220,54 @@
   // Copy result for sharing
   function copyShareResult() {
     const todayStr = new Date().toISOString().slice(0, 10);
-    const gameLabel = currentGameType === "course" ? "Course Guesser" : "Race Guesser";
+    const gameLabel = currentGameType === "course" ? "Course Guesser" : (currentGameType === "race" ? "Race Guesser" : "Song Guesser");
     const modeHeader = currentPlayMode === "daily" ? `Trackle: ${gameLabel} (Daily ${todayStr})` : `Trackle: ${gameLabel} (Practice)`;
     const scoreStr = isGameOver && guesses[guesses.length - 1].isWin ? `${guesses.length}/${MAX_GUESSES}` : `X/${MAX_GUESSES}`;
 
     let emojiBoard = `${modeHeader} ${scoreStr}\n\n`;
 
-    guesses.forEach(g => {
-      const res = g.results;
-      let rowEmojis = [];
-      if (currentGameType === "course") {
-        rowEmojis = [
-          emojiForStatus(res.track.status),
-          res.distance.arrow || emojiForStatus(res.distance.status),
-          emojiForStatus(res.distance_type.status),
-          emojiForStatus(res.terrain.status),
-          emojiForStatus(res.direction.status),
-          emojiForStatus(res.late_race.status),
-          res.corners.arrow || emojiForStatus(res.corners.status),
-          res.straight.arrow || emojiForStatus(res.straight.status)
-        ];
-      } else {
-        rowEmojis = [
-          res.grade.arrow || emojiForStatus(res.grade.status),
-          emojiForStatus(res.track.status),
-          res.distance.arrow || emojiForStatus(res.distance.status),
-          emojiForStatus(res.distance_type.status),
-          emojiForStatus(res.terrain.status),
-          res.turn.arrow || emojiForStatus(res.turn.status),
-          emojiForStatus(res.late_race.status),
-          res.fans.arrow || emojiForStatus(res.fans.status)
-        ];
+    if (currentGameType === "song") {
+      const emojiRow = [];
+      for (let i = 0; i < MAX_GUESSES; i++) {
+        if (i < guesses.length) {
+          if (guesses[i].isWin) emojiRow.push("🟩");
+          else if (guesses[i].isSkip) emojiRow.push("⬛");
+          else emojiRow.push("🟥");
+        } else {
+          emojiRow.push("⬜");
+        }
       }
-      emojiBoard += rowEmojis.join("") + "\n";
-    });
+      emojiBoard += emojiRow.join("") + "\n";
+    } else {
+      guesses.forEach(g => {
+        const res = g.results;
+        let rowEmojis = [];
+        if (currentGameType === "course") {
+          rowEmojis = [
+            emojiForStatus(res.track.status),
+            res.distance.arrow || emojiForStatus(res.distance.status),
+            emojiForStatus(res.distance_type.status),
+            emojiForStatus(res.terrain.status),
+            emojiForStatus(res.direction.status),
+            emojiForStatus(res.late_race.status),
+            res.corners.arrow || emojiForStatus(res.corners.status),
+            res.straight.arrow || emojiForStatus(res.straight.status)
+          ];
+        } else {
+          rowEmojis = [
+            res.grade.arrow || emojiForStatus(res.grade.status),
+            emojiForStatus(res.track.status),
+            res.distance.arrow || emojiForStatus(res.distance.status),
+            emojiForStatus(res.distance_type.status),
+            emojiForStatus(res.terrain.status),
+            res.turn.arrow || emojiForStatus(res.turn.status),
+            emojiForStatus(res.late_race.status),
+            res.fans.arrow || emojiForStatus(res.fans.status)
+          ];
+        }
+        emojiBoard += rowEmojis.join("") + "\n";
+      });
+    }
 
     const playUrl = window.location.origin.includes("localhost") 
       ? "https://petecao.github.io/Trackle/" 
@@ -919,6 +1352,7 @@
   }
 
   function closeAllModals() {
+    stopFullRevealAudio();
     helpModal.classList.remove("open");
     statsModal.classList.remove("open");
     gameOverModal.classList.remove("open");
@@ -1005,7 +1439,7 @@
       });
     }
 
-    // Game type buttons (Course vs Race)
+    // Game type buttons (Course vs Race vs Song)
     btnGameCourse.addEventListener("click", () => {
       if (currentGameType !== "course") switchGameType("course");
     });
@@ -1013,6 +1447,47 @@
     btnGameRace.addEventListener("click", () => {
       if (currentGameType !== "race") switchGameType("race");
     });
+
+    if (btnGameSong) {
+      btnGameSong.addEventListener("click", () => {
+        if (currentGameType !== "song") switchGameType("song");
+      });
+    }
+
+    // Song Player and Actions
+    if (btnPlaySlice) {
+      btnPlaySlice.addEventListener("click", playSongSnippet);
+    }
+
+    if (btnSongSkip) {
+      btnSongSkip.addEventListener("click", () => {
+        submitGuess("__SKIP__");
+      });
+    }
+
+    if (btnSongGiveUp) {
+      btnSongGiveUp.addEventListener("click", () => {
+        if (isGameOver || currentGameType !== "song") return;
+        while (guesses.length < MAX_GUESSES) {
+          guesses.push({ isWin: false, isSkip: true, guess: null, tier: SONG_TIERS[Math.min(currentUnlockedTier, SONG_TIERS.length - 1)] });
+          currentUnlockedTier = Math.min(currentUnlockedTier + 1, SONG_TIERS.length - 1);
+        }
+        isGameOver = true;
+        trackInput.disabled = true;
+        if (btnSongSkip) btnSongSkip.disabled = true;
+        if (btnSongGiveUp) btnSongGiveUp.disabled = true;
+        updateSongTimelineUI();
+        renderHeardleSlots();
+        updateCounter();
+        if (currentPlayMode === "daily") saveCurrentDailyState();
+        playSound("loss");
+        showGameOverModal(false);
+      });
+    }
+
+    if (btnSongRevealPlay) {
+      btnSongRevealPlay.addEventListener("click", toggleFullRevealAudio);
+    }
 
     btnModeDaily.addEventListener("click", () => {
       if (currentPlayMode !== "daily") startNewGame("daily");
