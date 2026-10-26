@@ -10143,10 +10143,18 @@ function evaluateRaceGuess(guess, target) {
   };
 }
 
-// Daily race deterministic selector (picks from graded G1, G2, G3 races with avalanche mixing)
+// Daily race deterministic selector (picks from graded G1, G2, G3 races with legacy preservation)
 function getDailyRace(dateString) {
   if (!dateString) dateString = new Date().toISOString().slice(0, 10);
   const gradedPool = ALL_RACES.filter(r => r.grade_num <= 3); // G1, G2, G3
+  if (dateString <= "2026-10-26") {
+    let hash = 0;
+    for (let i = 0; i < dateString.length; i++) {
+      hash = (hash * 41 + dateString.charCodeAt(i)) & 0x7fffffff;
+    }
+    const index = hash % gradedPool.length;
+    return gradedPool[index];
+  }
   let h = 0x811c9dc5 ^ 0x28374655;
   for (let i = 0; i < dateString.length; i++) {
     h ^= dateString.charCodeAt(i);
