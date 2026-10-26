@@ -3925,13 +3925,20 @@ function evaluateCourseGuess(guess, target) {
   };
 }
 
-// Daily course deterministic selector
+// Daily course deterministic selector (FNV-1a + Murmur3 bit-mixer)
 function getDailyCourse(dateString) {
-  let hash = 0;
+  if (!dateString) dateString = new Date().toISOString().slice(0, 10);
+  let h = 0x811c9dc5 ^ 0x19283746;
   for (let i = 0; i < dateString.length; i++) {
-    hash = (hash * 37 + dateString.charCodeAt(i)) & 0x7fffffff;
+    h ^= dateString.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
   }
-  const index = hash % ALL_COURSES.length;
+  h ^= h >>> 16;
+  h = Math.imul(h, 0x85ebca6b);
+  h ^= h >>> 13;
+  h = Math.imul(h, 0xc2b2ae35);
+  h ^= h >>> 16;
+  const index = (h >>> 0) % ALL_COURSES.length;
   return ALL_COURSES[index];
 }
 

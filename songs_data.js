@@ -4205,14 +4205,20 @@ const ALL_SONGS = [
 
 const SONG_TIERS = [0.1, 0.5, 2.0, 8.0, 15.0];
 
-// Deterministic daily song selector
+// Deterministic daily song selector (FNV-1a + Murmur3 bit-mixer)
 function getDailySong(dateString) {
   if (!dateString) dateString = new Date().toISOString().slice(0, 10);
-  let hash = 0;
+  let h = 0x811c9dc5 ^ 0x37465564;
   for (let i = 0; i < dateString.length; i++) {
-    hash = (hash * 47 + dateString.charCodeAt(i)) & 0x7fffffff;
+    h ^= dateString.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
   }
-  const index = hash % ALL_SONGS.length;
+  h ^= h >>> 16;
+  h = Math.imul(h, 0x85ebca6b);
+  h ^= h >>> 13;
+  h = Math.imul(h, 0xc2b2ae35);
+  h ^= h >>> 16;
+  const index = (h >>> 0) % ALL_SONGS.length;
   return ALL_SONGS[index];
 }
 
