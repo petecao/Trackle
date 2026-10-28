@@ -29,7 +29,7 @@ An interactive Wordle-style daily guessing game and comprehensive racetrack asse
   - **Late Race**: Exact acceleration phase start.
 
 ### 3. Song Guesser ("Heardle")
-- Progressive audio unlock tiers (**0.1s → 0.5s → 2.0s → 8.0s → 15.0s**) across 247 official *Uma Musume* songs.
+- Progressive audio unlock tiers (**0.1s → 0.5s → 2.0s → 8.0s → 15.0s**) across 249 official *Uma Musume* songs.
 - Searchable by song title (English or Japanese) and character/artist vocalists (e.g. *Silence Suzuka*, *Oguri Cap*, *Mayano Top Gun*).
 - Complete album artwork reveal and full audio playback upon round completion.
 
@@ -56,8 +56,8 @@ Trackle/
 ├── courses_data.js      # 138 official course datasets with late-race spurt points
 ├── races_data.js        # 304 official in-game races mapped to career calendar turns
 ├── tracks_data.js       # 17 track metadata definitions
-├── songs_data.js        # 247 song catalog with metadata, singer mapping, and daily selector
-├── audio/               # 247 clipped 30s song preview clips
+├── songs_data.js        # 249 song catalog with metadata, singer mapping, and daily selector
+├── audio/               # 249 clipped 30s song preview clips
 ├── covers/              # 223 album jacket cover images
 ├── icons/               # 512x512 full badges and 128x128 thumbnails for 17 tracks
 ├── ui_icons/            # Course markers (spurt start, slope up/down, corners, straights, direction arrows)

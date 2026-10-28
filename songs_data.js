@@ -1,4 +1,4 @@
-// Uma Musume Complete Discography Song Catalog (247 Songs)
+// Uma Musume Complete Discography Song Catalog (249 Songs)
 // Song previews and covers sourced from https://snep.pw/uma/songsorter and official CD releases
 // Metadata and character vocalists sourced from Umamusume Wiki (https://umamusu.wiki)
 const ALL_SONGS = [
@@ -3841,7 +3841,7 @@ const ALL_SONGS = [
     "cover_file": "covers/e5f80e5f8.png",
     "preview_hash": "95b53c8c3",
     "cover_hash": "e5f80e5f8",
-    "singer": "Hishi Akebono, Curren Chan, Seeking the Pearl",
+    "singer": "Hishi Akebono, Curren Chan, Seeking the Pearl, Nishino Flower, Bamboo Memory, Believe, Calstone Light O, Durandal",
     "name_en": "Lightning Fast"
   },
   {
@@ -4130,7 +4130,7 @@ const ALL_SONGS = [
     "cover_file": "covers/0666771a6.png",
     "preview_hash": "4195ca16e",
     "cover_hash": "0666771a6",
-    "singer": "Durandal",
+    "singer": "Fine Motion, Dantsu Flame, Believe, Rhein Kraft, Calstone Light O, Durandal",
     "name_en": "Meteo-Right!"
   },
   {
@@ -4200,6 +4200,40 @@ const ALL_SONGS = [
     "cover_hash": "3fa324c1d",
     "singer": "Special Week, Winning Ticket, Sakura Chiyono O, Verxina, Samson Big, Royce and Royce, Win Variation, Phalaenopsis",
     "name_en": "Touchin' turf lollll"
+  },
+  {
+    "id": "e837cb10-e7f6-444a-9b19-c6e755da4b67",
+    "name": "YURUYURU SAMBA",
+    "name_ja": "ゆるゆるSAMBA",
+    "tags": {
+      "solo": false,
+      "anime": true,
+      "winningLive": false,
+      "startingGate": false
+    },
+    "audio_file": "audio/8298cf603.mp3",
+    "cover_file": "covers/a800d2ff8.png",
+    "preview_hash": "8298cf603",
+    "cover_hash": "a800d2ff8",
+    "singer": "Silence Suzuka, Inari One, Shinko Windy, Bamboo Memory, Biko Pegasus, Mejiro Dober, Mejiro Bright, Stay Gold",
+    "name_en": "YURUYURU SAMBA"
+  },
+  {
+    "id": "3b29c92e-3367-4228-a40c-d3fe85eec591",
+    "name": "Ryouran Enbu",
+    "name_ja": "繚乱縁舞",
+    "tags": {
+      "solo": false,
+      "anime": false,
+      "winningLive": true,
+      "startingGate": false
+    },
+    "audio_file": "audio/42b51026c.mp3",
+    "cover_file": "covers/384791854.png",
+    "preview_hash": "42b51026c",
+    "cover_hash": "384791854",
+    "singer": "Tokai Teio, Daiwa Scarlet, Symboli Rudolf, Tamamo Cross, Mayano Top Gun, Yukino Bijin, Inari One, Kawakami Princess, Gold City, No Reason, Blast Onepiece",
+    "name_en": "A Dazzling Dance of Bonds"
   }
 ];
 
@@ -4213,7 +4247,7 @@ function getDailySong(dateString) {
     for (let i = 0; i < dateString.length; i++) {
       hash = (hash * 47 + dateString.charCodeAt(i)) & 0x7fffffff;
     }
-    const index = hash % ALL_SONGS.length;
+    const index = hash % 247;
     return ALL_SONGS[index];
   }
   let h = 0x811c9dc5 ^ 0x37465564;
@@ -4226,6 +4260,10 @@ function getDailySong(dateString) {
   h ^= h >>> 13;
   h = Math.imul(h, 0xc2b2ae35);
   h ^= h >>> 16;
+  if (dateString <= "2026-10-28") {
+    const index = (h >>> 0) % 247;
+    return ALL_SONGS[index];
+  }
   const index = (h >>> 0) % ALL_SONGS.length;
   return ALL_SONGS[index];
 }
