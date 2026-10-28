@@ -4199,7 +4199,7 @@ const ALL_SONGS = [
     "preview_hash": "cd12c8e39",
     "cover_hash": "3fa324c1d",
     "singer": "Special Week, Winning Ticket, Sakura Chiyono O, Verxina, Samson Big, Royce and Royce, Win Variation, Phalaenopsis",
-    "name_en": "Grass Grows~"
+    "name_en": "Touchin' turf lollll"
   }
 ];
 
